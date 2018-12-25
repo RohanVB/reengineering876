@@ -1,0 +1,87 @@
+Running pep8...
+Test_Files/7.py:1:1: E265 block comment should start with '# '
+Test_Files/7.py:7:80: E501 line too long (83 > 79 characters)
+Test_Files/7.py:9:80: E501 line too long (101 > 79 characters)
+Test_Files/7.py:9:93: E231 missing whitespace after ','
+Test_Files/7.py:10:1: E265 block comment should start with '# '
+Test_Files/7.py:12:25: E231 missing whitespace after ','
+Test_Files/7.py:13:12: E211 whitespace before '['
+Test_Files/7.py:14:8: E231 missing whitespace after ','
+Test_Files/7.py:14:15: E231 missing whitespace after ','
+Test_Files/7.py:14:23: E231 missing whitespace after ','
+Test_Files/7.py:14:51: E231 missing whitespace after ','
+Test_Files/7.py:14:53: E231 missing whitespace after ','
+Test_Files/7.py:14:71: E262 inline comment should start with '# '
+Test_Files/7.py:14:80: E501 line too long (98 > 79 characters)
+Test_Files/7.py:17:8: E225 missing whitespace around operator
+Test_Files/7.py:18:7: E225 missing whitespace around operator
+Test_Files/7.py:21:22: E231 missing whitespace after ','
+Test_Files/7.py:23:1: E265 block comment should start with '# '
+Test_Files/7.py:25:30: E231 missing whitespace after ','
+Test_Files/7.py:26:35: E231 missing whitespace after ','
+Test_Files/7.py:27:28: E231 missing whitespace after ','
+Running pylinter...
+************* Module Grad School.Coursework.Software Re-Engineering.Project.Source_code.statikos.Test_Files.7
+C:  9, 0: Line too long (101/100) (line-too-long)
+C:  9, 0: Exactly one space required after comma
+dataset = pd.read_csv("/Users/zhoumanqing/documents/pycharm/identification/featurelabel.csv",sep=',')
+                                                                                            ^ (bad-whitespace)
+C: 12, 0: Exactly one space required after comma
+X = dataset.drop('label',axis=1)
+                        ^ (bad-whitespace)
+C: 13, 0: No space allowed before bracket
+y = dataset ['label']
+            ^ (bad-whitespace)
+C: 14, 0: Exactly one space required after comma
+X_train,X_test,y_train,y_test = train_test_split(X,y,test_size=0.2)   #training = 0.8/testing =0.2
+       ^ (bad-whitespace)
+C: 14, 0: Exactly one space required after comma
+X_train,X_test,y_train,y_test = train_test_split(X,y,test_size=0.2)   #training = 0.8/testing =0.2
+              ^ (bad-whitespace)
+C: 14, 0: Exactly one space required after comma
+X_train,X_test,y_train,y_test = train_test_split(X,y,test_size=0.2)   #training = 0.8/testing =0.2
+                      ^ (bad-whitespace)
+C: 14, 0: Exactly one space required after comma
+X_train,X_test,y_train,y_test = train_test_split(X,y,test_size=0.2)   #training = 0.8/testing =0.2
+                                                  ^ (bad-whitespace)
+C: 14, 0: Exactly one space required after comma
+X_train,X_test,y_train,y_test = train_test_split(X,y,test_size=0.2)   #training = 0.8/testing =0.2
+                                                    ^ (bad-whitespace)
+C: 17, 0: Exactly one space required around assignment
+X_train=scaler.transform(X_train)
+       ^ (bad-whitespace)
+C: 18, 0: Exactly one space required around assignment
+X_test=scaler.transform(X_test)
+      ^ (bad-whitespace)
+C: 21, 0: Exactly one space required after comma
+classifer.fit(X_train,y_train)
+                     ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+print(confusion_matrix(y_test,y_pred))
+                             ^ (bad-whitespace)
+C: 26, 0: Exactly one space required after comma
+print(classification_report(y_test,y_pred))
+                                  ^ (bad-whitespace)
+C: 27, 0: Exactly one space required after comma
+print(accuracy_score(y_test,y_pred))
+                           ^ (bad-whitespace)
+C:  1, 0: Module name "7" doesn't conform to snake_case naming style (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Constant name "dataset" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 13, 0: Constant name "y" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 14, 0: Constant name "X_train" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 14, 8: Constant name "X_test" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 14,15: Constant name "y_train" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 14,23: Constant name "y_test" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 15, 0: Constant name "scaler" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 17, 0: Constant name "X_train" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 18, 0: Constant name "X_test" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 20, 0: Constant name "classifer" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 24, 0: Constant name "y_pred" doesn't conform to UPPER_CASE naming style (invalid-name)
+W:  2, 0: Unused numpy imported as np (unused-import)
+W:  4, 0: Unused import itertools (unused-import)
+C:  4, 0: standard import "import itertools" should be placed before "import numpy as np" (wrong-import-order)
+
+------------------------------------
+Your code has been rated at -4.76/10
+

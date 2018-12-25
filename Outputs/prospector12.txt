@@ -1,0 +1,154 @@
+Messages
+========
+
+Test_Files/12.py
+  Line: 1
+    pylint: invalid-name / Module name "12" doesn't conform to snake_case naming style
+    pylint: missing-docstring / Missing module docstring
+  Line: 3
+    pylint: unused-import / Unused preprocessing imported from sklearn as prepro
+  Line: 5
+    pylint: no-name-in-module / No name 'scatter_matrix' in module 'pandas.tools.plotting'
+    pylint: ungrouped-imports / Imports from package pandas are not grouped
+    pylint: unused-import / Unused scatter_matrix imported from pandas.tools.plotting
+  Line: 6
+    pylint: unused-import / Unused matplotlib.pyplot imported as plt
+  Line: 7
+    pylint: ungrouped-imports / Imports from package sklearn are not grouped
+    pylint: unused-import / Unused model_selection imported from sklearn
+  Line: 9
+    pylint: unused-import / Unused classification_report imported from sklearn.metrics
+  Line: 10
+    pylint: unused-import / Unused confusion_matrix imported from sklearn.metrics
+  Line: 11
+    pylint: unused-import / Unused accuracy_score imported from sklearn.metrics
+  Line: 12
+    pylint: unused-import / Unused roc_curve imported from sklearn.metrics
+  Line: 13
+    pylint: unused-import / Unused LogisticRegression imported from sklearn.linear_model
+  Line: 14
+    pylint: unused-import / Unused DecisionTreeClassifier imported from sklearn.tree
+  Line: 15
+    pylint: unused-import / Unused KNeighborsClassifier imported from sklearn.neighbors
+  Line: 16
+    pylint: unused-import / Unused LinearDiscriminantAnalysis imported from sklearn.discriminant_analysis
+  Line: 17
+    pylint: unused-import / Unused GaussianNB imported from sklearn.naive_bayes
+  Line: 18
+    pylint: unused-import / Unused SVC imported from sklearn.svm
+  Line: 21
+    pylint: missing-docstring / Missing class docstring
+  Line: 29
+    pep8: N802 / function name should be lowercase (col 9)
+    pylint: invalid-name / Method name "readDateSet" doesn't conform to snake_case naming style (col 4)
+    pylint: missing-docstring / Missing method docstring (col 4)
+  Line: 30
+    pylint: invalid-name / Attribute name "nonfallerOrg" doesn't conform to snake_case naming style (col 8)
+  Line: 31
+    pylint: invalid-name / Attribute name "fallerOrg" doesn't conform to snake_case naming style (col 8)
+  Line: 33
+    pep8: N802 / function name should be lowercase (col 9)
+    pylint: invalid-name / Method name "connetDataset" doesn't conform to snake_case naming style (col 4)
+    pylint: missing-docstring / Missing method docstring (col 4)
+  Line: 34
+    pylint: invalid-name / Attribute name "completeDataset" doesn't conform to snake_case naming style (col 8)
+  Line: 41
+    pylint: pointless-string-statement / String statement has no effect
+  Line: 43
+    pep8: N802 / function name should be lowercase (col 9)
+    pylint: invalid-name / Method name "preprocessFaller" doesn't conform to snake_case naming style (col 4)
+    pylint: missing-docstring / Missing method docstring (col 4)
+  Line: 52
+    pep8: N802 / function name should be lowercase (col 9)
+    pylint: invalid-name / Method name "preprocessNonFaller" doesn't conform to snake_case naming style (col 4)
+    pylint: missing-docstring / Missing method docstring (col 4)
+  Line: 61
+    pep8: N802 / function name should be lowercase (col 9)
+    pep8: N803 / argument name should be lowercase (col 9)
+    pylint: no-self-use / Method could be a function (col 4)
+    pylint: invalid-name / Method name "replaceNanWithMean" doesn't conform to snake_case naming style (col 4)
+    pylint: missing-docstring / Missing method docstring (col 4)
+  Line: 76
+    pylint: pointless-string-statement / String statement has no effect
+  Line: 78
+    pep8: N802 / function name should be lowercase (col 9)
+    pep8: N803 / argument name should be lowercase (col 9)
+    pylint: no-self-use / Method could be a function (col 4)
+    pylint: useless-return / Useless return at end of function or method (col 4)
+    pylint: invalid-name / Method name "VerigyUncheckedNan" doesn't conform to snake_case naming style (col 4)
+    pylint: missing-docstring / Missing method docstring (col 4)
+  Line: 82
+    pylint: invalid-name / Variable name "v" doesn't conform to snake_case naming style (col 16)
+  Line: 83
+    pylint: unidiomatic-typecheck / Using type() instead of isinstance() for a typecheck. (col 32)
+  Line: 88
+    pep8: N802 / function name should be lowercase (col 9)
+    pep8: N803 / argument name should be lowercase (col 9)
+    pylint: no-self-use / Method could be a function (col 4)
+    pylint: invalid-name / Method name "countMissingData" doesn't conform to snake_case naming style (col 4)
+    pylint: missing-docstring / Missing method docstring (col 4)
+  Line: 89
+    pep8: N806 / variable in function should be lowercase (col 9)
+    pylint: invalid-name / Variable name "countMatrix" doesn't conform to snake_case naming style (col 8)
+  Line: 91
+    pylint: undefined-variable / Undefined variable 'fallOrg' (col 19)
+  Line: 93
+    pylint: superfluous-parens / Unnecessary parens after 'while' keyword
+    pylint: undefined-variable / Undefined variable 'fallOrg' (col 27)
+  Line: 96
+    pylint: undefined-variable / Undefined variable 'fallOrg' (col 22)
+  Line: 98
+    pylint: unidiomatic-typecheck / Using type() instead of isinstance() for a typecheck. (col 19)
+    pylint: unidiomatic-typecheck / Using type() instead of isinstance() for a typecheck. (col 46)
+    pylint: unidiomatic-typecheck / Using type() instead of isinstance() for a typecheck. (col 71)
+    pylint: unidiomatic-typecheck / Using type() instead of isinstance() for a typecheck. (col 91)
+    pylint: line-too-long / Line too long (110/100)
+  Line: 107
+    pep8: N802 / function name should be lowercase (col 9)
+    pep8: N803 / argument name should be lowercase (col 9)
+    pylint: no-self-use / Method could be a function (col 4)
+    pylint: useless-return / Useless return at end of function or method (col 4)
+    pylint: invalid-name / Method name "imputeMissingDataWithMean" doesn't conform to snake_case naming style (col 4)
+    pylint: missing-docstring / Missing method docstring (col 4)
+  Line: 108
+    pep8: N806 / variable in function should be lowercase (col 9)
+    pylint: unused-variable / Unused variable 'zeroIndex' (col 8)
+    pylint: invalid-name / Variable name "zeroIndex" doesn't conform to snake_case naming style (col 8)
+  Line: 110
+    pylint: invalid-name / Variable name "v" doesn't conform to snake_case naming style (col 12)
+  Line: 112
+    pyflakes: F821 / undefined name 'i' (col 21)
+  Line: 113
+    pyflakes: F821 / undefined name 'i' (col 17)
+    pyflakes: F841 / local variable 'i' is assigned to but never used (col 13)
+  Line: 116
+    pep8: N802 / function name should be lowercase (col 9)
+    pep8: N803 / argument name should be lowercase (col 9)
+    pylint: invalid-name / Method name "PCAFeatureExtraction" doesn't conform to snake_case naming style (col 4)
+    pylint: missing-docstring / Missing method docstring (col 4)
+  Line: 118
+    pep8: N806 / variable in function should be lowercase (col 9)
+    pylint: invalid-name / Variable name "X" doesn't conform to snake_case naming style (col 8)
+  Line: 121
+    pylint: invalid-name / Attribute name "PCADataset" doesn't conform to snake_case naming style (col 8)
+  Line: 128
+    pylint: missing-docstring / Missing function docstring
+  Line: 135
+    pep8: W391 / blank line at end of file (col 1)
+    pylint: trailing-newlines / Trailing newlines
+
+
+
+Check Information
+=================
+         Started: 2018-12-21 10:35:05.165202
+        Finished: 2018-12-21 10:35:11.406157
+      Time Taken: 6.24 seconds
+       Formatter: grouped
+        Profiles: default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings
+      Strictness: None
+  Libraries Used: 
+       Tools Run: dodgy, mccabe, pep8, profile-validator, pyflakes, pylint
+  Messages Found: 89
+ External Config: pep8: Configuration found at /Users/rohan/Documents/Grad School/Coursework/Software Re-Engineering/Project/Source_code/statikos/setup.cfg, pylint: /Users/rohan/Documents/Grad School/Coursework/Software Re-Engineering/Project/Source_code/statikos/pylintrc
+

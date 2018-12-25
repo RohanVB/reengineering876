@@ -1,0 +1,28 @@
+Running pep8...
+Test_Files/8.py:2:1: E402 module level import not at top of file
+Test_Files/8.py:3:1: E402 module level import not at top of file
+Test_Files/8.py:6:6: E225 missing whitespace around operator
+Test_Files/8.py:8:34: E231 missing whitespace after ','
+Test_Files/8.py:8:47: E231 missing whitespace after ','
+Test_Files/8.py:8:60: E231 missing whitespace after ','
+Test_Files/8.py:8:72: E231 missing whitespace after ','
+Test_Files/8.py:8:80: E501 line too long (132 > 79 characters)
+Test_Files/8.py:8:84: E231 missing whitespace after ','
+Test_Files/8.py:8:96: E231 missing whitespace after ','
+Test_Files/8.py:8:108: E231 missing whitespace after ','
+Test_Files/8.py:8:120: E231 missing whitespace after ','
+Test_Files/8.py:9:8: E261 at least two spaces before inline comment
+Test_Files/8.py:9:9: E262 inline comment should start with '# '
+Test_Files/8.py:10:41: E231 missing whitespace after ','
+Test_Files/8.py:13:28: E225 missing whitespace around operator
+Test_Files/8.py:14:31: E225 missing whitespace around operator
+Test_Files/8.py:15:32: E225 missing whitespace around operator
+Test_Files/8.py:16:32: E225 missing whitespace around operator
+Test_Files/8.py:17:32: E225 missing whitespace around operator
+Test_Files/8.py:18:32: E225 missing whitespace around operator
+Test_Files/8.py:19:6: E211 whitespace before '('
+Test_Files/8.py:21:80: E501 line too long (96 > 79 characters)
+Test_Files/8.py:21:88: E231 missing whitespace after ','
+Running pylinter...
+************* Module Grad School.Coursework.Software Re-Engineering.Project.Source_code.statikos.Test_Files.8
+E:  1, 0: invalid syntax (<string>, line 1) (syntax-error)

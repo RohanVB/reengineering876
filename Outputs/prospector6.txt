@@ -1,0 +1,113 @@
+Messages
+========
+
+Test_Files/6.py
+  Line: 1
+    pylint: unused-import / Unused numpy imported as np
+    pylint: invalid-name / Module name "6" doesn't conform to snake_case naming style
+    pylint: missing-docstring / Missing module docstring
+  Line: 4
+    pylint: unused-import / Unused adfuller imported from statsmodels.tsa.stattools
+  Line: 6
+    pep8: E265 / block comment should start with '# ' (col 1)
+  Line: 7
+    pylint: invalid-name / Constant name "cwd2" doesn't conform to UPPER_CASE naming style
+  Line: 8
+    pylint: invalid-name / Constant name "dataFrame" doesn't conform to UPPER_CASE naming style
+  Line: 9
+    pep8: E265 / block comment should start with '# ' (col 1)
+  Line: 11
+    pep8: E231 / missing whitespace after ',' (col 40)
+  Line: 15
+    pylint: invalid-name / Constant name "rolmean" doesn't conform to UPPER_CASE naming style
+  Line: 16
+    pep8: E221 / multiple spaces before operator (col 7)
+    pylint: bad-whitespace / Exactly one space required before assignment
+rolstd  = dataFrame.rolling(3000).std()
+        ^ (col 8)
+    pylint: invalid-name / Constant name "rolstd" doesn't conform to UPPER_CASE naming style
+  Line: 17
+    pep8: E221 / multiple spaces before operator (col 7)
+    pylint: bad-whitespace / Exactly one space required before assignment
+rolvar  = dataFrame.rolling(3000).var()
+        ^ (col 8)
+    pylint: invalid-name / Constant name "rolvar" doesn't conform to UPPER_CASE naming style
+  Line: 18
+    pep8: E265 / block comment should start with '# ' (col 1)
+  Line: 22
+    pep8: E265 / block comment should start with '# ' (col 1)
+  Line: 23
+    pep8: E265 / block comment should start with '# ' (col 1)
+  Line: 24
+    pep8: E265 / block comment should start with '# ' (col 1)
+  Line: 26
+    pep8: E265 / block comment should start with '# ' (col 1)
+  Line: 31
+    pylint: invalid-name / Constant name "a" doesn't conform to UPPER_CASE naming style
+  Line: 32
+    pylint: invalid-name / Constant name "b" doesn't conform to UPPER_CASE naming style
+  Line: 33
+    pylint: invalid-name / Constant name "c" doesn't conform to UPPER_CASE naming style
+  Line: 34
+    pep8: E265 / block comment should start with '# ' (col 1)
+  Line: 35
+    pep8: E231 / missing whitespace after ',' (col 22)
+    pylint: invalid-name / Constant name "result" doesn't conform to UPPER_CASE naming style
+  Line: 36
+    pep8: E231 / missing whitespace after ',' (col 21)
+  Line: 38
+    pep8: E211 / whitespace before '(' (col 6)
+    pylint: bad-whitespace / No space allowed before bracket
+print (result.head(10))
+      ^ (col 6)
+  Line: 41
+    pep8: E265 / block comment should start with '# ' (col 1)
+  Line: 42
+    pep8: E265 / block comment should start with '# ' (col 1)
+  Line: 43
+    pep8: E231 / missing whitespace after ',' (col 24)
+    pylint: invalid-name / Constant name "mean" doesn't conform to UPPER_CASE naming style
+  Line: 44
+    pep8: E221 / multiple spaces before operator (col 4)
+    pep8: E231 / missing whitespace after ',' (col 23)
+    pylint: invalid-name / Constant name "std" doesn't conform to UPPER_CASE naming style
+  Line: 45
+    pep8: E265 / block comment should start with '# ' (col 1)
+  Line: 46
+    pep8: E265 / block comment should start with '# ' (col 1)
+  Line: 47
+    pep8: E265 / block comment should start with '# ' (col 1)
+  Line: 48
+    pep8: E265 / block comment should start with '# ' (col 1)
+  Line: 49
+    pep8: E265 / block comment should start with '# ' (col 1)
+  Line: 50
+    pep8: E265 / block comment should start with '# ' (col 1)
+  Line: 51
+    pep8: E265 / block comment should start with '# ' (col 1)
+  Line: 52
+    pep8: E265 / block comment should start with '# ' (col 1)
+  Line: 53
+    pep8: E265 / block comment should start with '# ' (col 1)
+  Line: 54
+    pep8: E265 / block comment should start with '# ' (col 1)
+  Line: 55
+    pep8: E265 / block comment should start with '# ' (col 1)
+  Line: 60
+    pep8: E265 / block comment should start with '# ' (col 1)
+
+
+
+Check Information
+=================
+         Started: 2018-12-21 10:33:22.760894
+        Finished: 2018-12-21 10:33:37.105121
+      Time Taken: 14.34 seconds
+       Formatter: grouped
+        Profiles: default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings
+      Strictness: None
+  Libraries Used: 
+       Tools Run: dodgy, mccabe, pep8, profile-validator, pyflakes, pylint
+  Messages Found: 49
+ External Config: pep8: Configuration found at /Users/rohan/Documents/Grad School/Coursework/Software Re-Engineering/Project/Source_code/statikos/setup.cfg, pylint: /Users/rohan/Documents/Grad School/Coursework/Software Re-Engineering/Project/Source_code/statikos/pylintrc
+

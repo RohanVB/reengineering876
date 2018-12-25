@@ -1,0 +1,304 @@
+Messages
+========
+
+Test_Files/3.py
+  Line: 1
+    pylint: invalid-name / Module name "3" doesn't conform to snake_case naming style
+    pylint: missing-docstring / Missing module docstring
+  Line: 2
+    pylint: wrong-import-order / standard import "import os" should be placed before "import matplotlib.pyplot as plt"
+  Line: 19
+    pylint: wrong-import-order / standard import "from statistics import mean" should be placed before "import matplotlib.pyplot as plt"
+  Line: 20
+    pylint: wrong-import-order / standard import "from statistics import median" should be placed before "import matplotlib.pyplot as plt"
+  Line: 25
+    pep8: N802 / function name should be lowercase (col 5)
+    pep8: N803 / argument name should be lowercase (col 5)
+    pep8: E302 / expected 2 blank lines, found 1 (col 1)
+    pylint: invalid-name / Function name "lowPassFilter" doesn't conform to snake_case naming style
+    pylint: missing-docstring / Missing function docstring
+  Line: 27
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "X" doesn't conform to snake_case naming style (col 4)
+  Line: 28
+    pep8: E231 / missing whitespace after ',' (col 27)
+    pylint: invalid-name / Variable name "b" doesn't conform to snake_case naming style (col 4)
+  Line: 29
+    pep8: E231 / missing whitespace after ',' (col 38)
+  Line: 37
+    pep8: N803 / argument name should be lowercase (col 5)
+    pylint: invalid-name / Argument name "X_input" doesn't conform to snake_case naming style
+    pylint: missing-docstring / Missing function docstring
+  Line: 39
+    pylint: unused-variable / Unused variable 'np_scaled' (col 4)
+  Line: 40
+    pep8: E231 / missing whitespace after ',' (col 27)
+    pep8: E251 / unexpected spaces around keyword / parameter equals (col 41)
+  Line: 41
+    pep8: N806 / variable in function should be lowercase (col 5)
+  Line: 44
+    pep8: N803 / argument name should be lowercase (col 5)
+    pep8: E302 / expected 2 blank lines, found 1 (col 1)
+    pylint: invalid-name / Argument name "X_input" doesn't conform to snake_case naming style
+    pylint: missing-docstring / Missing function docstring
+  Line: 47
+    pylint: unused-variable / Unused variable 'np_scaled' (col 4)
+  Line: 52
+    pep8: N802 / function name should be lowercase (col 5)
+    pep8: N803 / argument name should be lowercase (col 5)
+    pylint: invalid-name / Function name "featureSelection" doesn't conform to snake_case naming style
+    pylint: missing-docstring / Missing function docstring
+  Line: 55
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pep8: E231 / missing whitespace after ',' (col 16)
+    pylint: invalid-name / Variable name "X" doesn't conform to snake_case naming style (col 4)
+  Line: 56
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "Y" doesn't conform to snake_case naming style (col 4)
+  Line: 57
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "X" doesn't conform to snake_case naming style (col 4)
+  Line: 59
+    pep8: E231 / missing whitespace after ',' (col 16)
+  Line: 66
+    pep8: E225 / missing whitespace around operator (col 25)
+  Line: 70
+    pep8: N802 / function name should be lowercase (col 5)
+    pep8: E231 / missing whitespace after ',' (col 35)
+    pylint: invalid-name / Function name "RunRandomForestClassifier" doesn't conform to snake_case naming style
+    pylint: missing-docstring / Missing function docstring
+  Line: 72
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "X" doesn't conform to snake_case naming style (col 4)
+  Line: 73
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "Y" doesn't conform to snake_case naming style (col 4)
+  Line: 74
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "X" doesn't conform to snake_case naming style (col 4)
+  Line: 75
+    pylint: invalid-name / Variable name "X_train" doesn't conform to snake_case naming style (col 4)
+  Line: 76
+    pep8: E231 / missing whitespace after ',' (col 52)
+    pep8: E251 / unexpected spaces around keyword / parameter equals (col 46)
+  Line: 77
+    pep8: E231 / missing whitespace after ',' (col 20)
+  Line: 87
+    pep8: N802 / function name should be lowercase (col 5)
+    pep8: E302 / expected 2 blank lines, found 1 (col 1)
+    pep8: E231 / missing whitespace after ',' (col 33)
+    pylint: invalid-name / Function name "RunKNeighborsClassifier" doesn't conform to snake_case naming style
+    pylint: missing-docstring / Missing function docstring
+  Line: 89
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "X" doesn't conform to snake_case naming style (col 4)
+  Line: 90
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "Y" doesn't conform to snake_case naming style (col 4)
+  Line: 91
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "X" doesn't conform to snake_case naming style (col 4)
+  Line: 92
+    pylint: invalid-name / Variable name "X_train" doesn't conform to snake_case naming style (col 4)
+  Line: 93
+    pep8: E251 / unexpected spaces around keyword / parameter equals (col 43)
+  Line: 94
+    pep8: E231 / missing whitespace after ',' (col 20)
+  Line: 103
+    pep8: N802 / function name should be lowercase (col 5)
+    pep8: E302 / expected 2 blank lines, found 1 (col 1)
+    pylint: invalid-name / Function name "RunSVMClassifier" doesn't conform to snake_case naming style
+    pylint: missing-docstring / Missing function docstring
+  Line: 105
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "X" doesn't conform to snake_case naming style (col 4)
+  Line: 106
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "X" doesn't conform to snake_case naming style (col 4)
+  Line: 107
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "Y" doesn't conform to snake_case naming style (col 4)
+  Line: 108
+    pylint: invalid-name / Variable name "X_train" doesn't conform to snake_case naming style (col 4)
+  Line: 120
+    pep8: N802 / function name should be lowercase (col 5)
+    pep8: E302 / expected 2 blank lines, found 1 (col 1)
+    pylint: invalid-name / Function name "RunNaiveBayes" doesn't conform to snake_case naming style
+    pylint: missing-docstring / Missing function docstring
+  Line: 122
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "X" doesn't conform to snake_case naming style (col 4)
+  Line: 123
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "X" doesn't conform to snake_case naming style (col 4)
+  Line: 125
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "Y" doesn't conform to snake_case naming style (col 4)
+  Line: 128
+    pylint: invalid-name / Variable name "X_train" doesn't conform to snake_case naming style (col 4)
+  Line: 141
+    pep8: N802 / function name should be lowercase (col 5)
+    pylint: too-many-locals / Too many local variables (17/15)
+    pylint: invalid-name / Function name "plotRoc" doesn't conform to snake_case naming style
+    pylint: missing-docstring / Missing function docstring
+  Line: 142
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "X" doesn't conform to snake_case naming style (col 4)
+  Line: 143
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "X" doesn't conform to snake_case naming style (col 4)
+  Line: 144
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "Y" doesn't conform to snake_case naming style (col 4)
+  Line: 145
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pep8: E231 / missing whitespace after ',' (col 25)
+    pep8: E251 / unexpected spaces around keyword / parameter equals (col 33)
+    pylint: invalid-name / Variable name "Y" doesn't conform to snake_case naming style (col 4)
+  Line: 147
+    pylint: invalid-name / Variable name "X_train" doesn't conform to snake_case naming style (col 4)
+  Line: 148
+    pep8: E251 / unexpected spaces around keyword / parameter equals (col 70)
+  Line: 157
+    pylint: invalid-name / Variable name "lw" doesn't conform to snake_case naming style (col 4)
+  Line: 177
+    pep8: N802 / function name should be lowercase (col 5)
+    pep8: N803 / argument name should be lowercase (col 5)
+    pep8: E302 / expected 2 blank lines, found 1 (col 1)
+    pylint: invalid-name / Function name "featureExtraction" doesn't conform to snake_case naming style
+    pylint: missing-docstring / Missing function docstring
+  Line: 179
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "X" doesn't conform to snake_case naming style (col 4)
+  Line: 180
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "Y" doesn't conform to snake_case naming style (col 4)
+  Line: 182
+    pep8: E231 / missing whitespace after ',' (col 21)
+  Line: 183
+    pep8: N806 / variable in function should be lowercase (col 9)
+    pylint: invalid-name / Variable name "X_mean" doesn't conform to snake_case naming style (col 8)
+  Line: 184
+    pep8: N806 / variable in function should be lowercase (col 9)
+    pylint: invalid-name / Variable name "X_median" doesn't conform to snake_case naming style (col 8)
+  Line: 185
+    pep8: N806 / variable in function should be lowercase (col 9)
+    pylint: invalid-name / Variable name "X_minimum" doesn't conform to snake_case naming style (col 8)
+  Line: 186
+    pep8: N806 / variable in function should be lowercase (col 9)
+    pylint: invalid-name / Variable name "X_maximum" doesn't conform to snake_case naming style (col 8)
+  Line: 187
+    pep8: N806 / variable in function should be lowercase (col 9)
+    pylint: invalid-name / Variable name "X_skew" doesn't conform to snake_case naming style (col 8)
+  Line: 188
+    pep8: N806 / variable in function should be lowercase (col 9)
+    pylint: invalid-name / Variable name "X_kurt" doesn't conform to snake_case naming style (col 8)
+  Line: 189
+    pep8: N806 / variable in function should be lowercase (col 9)
+    pylint: invalid-name / Variable name "X_q1" doesn't conform to snake_case naming style (col 8)
+  Line: 190
+    pep8: N806 / variable in function should be lowercase (col 9)
+    pylint: invalid-name / Variable name "X_q3" doesn't conform to snake_case naming style (col 8)
+  Line: 191
+    pep8: E231 / missing whitespace after ',' (col 30)
+  Line: 192
+    pylint: line-too-long / Line too long (122/100)
+    pep8: E231 / missing whitespace after ',' (col 56)
+    pylint: invalid-name / Variable name "df" doesn't conform to snake_case naming style (col 4)
+  Line: 195
+    pep8: N802 / function name should be lowercase (col 5)
+    pep8: N803 / argument name should be lowercase (col 5)
+    pep8: E302 / expected 2 blank lines, found 1 (col 1)
+    pylint: invalid-name / Function name "combineClass" doesn't conform to snake_case naming style
+    pylint: missing-docstring / Missing function docstring
+  Line: 197
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "Y" doesn't conform to snake_case naming style (col 4)
+  Line: 198
+    pylint: consider-using-enumerate / Consider using enumerate instead of iterating with range and len (col 4)
+    pep8: E231 / missing whitespace after ',' (col 25)
+  Line: 207
+    pep8: N803 / argument name should be lowercase (col 5)
+    pep8: E302 / expected 2 blank lines, found 1 (col 1)
+    pylint: too-many-locals / Too many local variables (23/15)
+    pylint: invalid-name / Argument name "dataFrame" doesn't conform to snake_case naming style
+    pylint: missing-docstring / Missing function docstring
+  Line: 208
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "X" doesn't conform to snake_case naming style (col 4)
+  Line: 209
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "Y" doesn't conform to snake_case naming style (col 4)
+  Line: 210
+    pylint: invalid-name / Variable name "X_train" doesn't conform to snake_case naming style (col 4)
+  Line: 211
+    pep8: E251 / unexpected spaces around keyword / parameter equals (col 43)
+  Line: 212
+    pep8: E231 / missing whitespace after ',' (col 20)
+  Line: 221
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pep8: E231 / missing whitespace after ',' (col 25)
+    pep8: E251 / unexpected spaces around keyword / parameter equals (col 33)
+    pylint: invalid-name / Variable name "Y" doesn't conform to snake_case naming style (col 4)
+  Line: 223
+    pylint: invalid-name / Variable name "X_train" doesn't conform to snake_case naming style (col 4)
+  Line: 224
+    pep8: E251 / unexpected spaces around keyword / parameter equals (col 70)
+  Line: 233
+    pylint: invalid-name / Variable name "lw" doesn't conform to snake_case naming style (col 4)
+  Line: 251
+    pep8: E303 / too many blank lines (3) (col 1)
+    pylint: missing-docstring / Missing function docstring
+  Line: 253
+    pep8: W605 / invalid escape sequence '\d' (col 6)
+    pep8: W605 / invalid escape sequence '\d' (col 11)
+    pylint: anomalous-backslash-in-string / Anomalous backslash in string: '\d'. String constant might be missing an r prefix.
+    pylint: anomalous-backslash-in-string / Anomalous backslash in string: '\d'. String constant might be missing an r prefix.
+  Line: 254
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "dataFrame" doesn't conform to snake_case naming style (col 4)
+  Line: 255
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "dataFrame" doesn't conform to snake_case naming style (col 4)
+  Line: 259
+    pep8: E265 / block comment should start with '# ' (col 5)
+  Line: 260
+    pep8: E265 / block comment should start with '# ' (col 5)
+  Line: 261
+    pep8: E265 / block comment should start with '# ' (col 5)
+  Line: 263
+    pep8: E265 / block comment should start with '# ' (col 5)
+  Line: 264
+    pylint: unused-variable / Unused variable 'selected_features' (col 4)
+  Line: 265
+    pep8: E265 / block comment should start with '# ' (col 5)
+  Line: 267
+    pep8: E265 / block comment should start with '# ' (col 5)
+  Line: 268
+    pep8: E265 / block comment should start with '# ' (col 5)
+  Line: 269
+    pep8: E265 / block comment should start with '# ' (col 5)
+  Line: 270
+    pep8: E265 / block comment should start with '# ' (col 5)
+  Line: 271
+    pep8: E265 / block comment should start with '# ' (col 5)
+  Line: 272
+    pep8: E265 / block comment should start with '# ' (col 5)
+  Line: 276
+    pep8: W292 / no newline at end of file (col 11)
+
+
+
+Check Information
+=================
+         Started: 2018-12-21 10:32:21.127118
+        Finished: 2018-12-21 10:32:29.419126
+      Time Taken: 8.29 seconds
+       Formatter: grouped
+        Profiles: default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings
+      Strictness: None
+  Libraries Used: 
+       Tools Run: dodgy, mccabe, pep8, profile-validator, pyflakes, pylint
+  Messages Found: 188
+ External Config: pep8: Configuration found at /Users/rohan/Documents/Grad School/Coursework/Software Re-Engineering/Project/Source_code/statikos/setup.cfg, pylint: /Users/rohan/Documents/Grad School/Coursework/Software Re-Engineering/Project/Source_code/statikos/pylintrc
+

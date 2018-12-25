@@ -1,0 +1,393 @@
+Messages
+========
+
+Test_Files/1.py
+  Line: 1
+    pylint: invalid-name / Module name "1" doesn't conform to snake_case naming style
+  Line: 11
+    pylint: import-error / Unable to import 'SimpleITK'
+  Line: 12
+    pylint: wrong-import-order / third party import "import skimage as sk" should be placed before "import SimpleITK as sitk"
+  Line: 13
+    pylint: wrong-import-order / third party import "import numpy as np" should be placed before "import SimpleITK as sitk"
+    pep8: W291 / trailing whitespace (col 19)
+  Line: 14
+    pylint: wrong-import-order / standard import "import csv" should be placed before "import pandas as pd"
+  Line: 15
+    pylint: wrong-import-order / standard import "import os" should be placed before "import pandas as pd"
+    pep8: W291 / trailing whitespace (col 10)
+  Line: 17
+    pep8: E302 / expected 2 blank lines, found 1 (col 1)
+  Line: 19
+    pep8: W291 / trailing whitespace (col 89)
+  Line: 23
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 26
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 28
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 32
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 33
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 34
+    pep8: E303 / too many blank lines (2) (col 5)
+    pylint: line-too-long / Line too long (104/100)
+  Line: 35
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 38
+    pep8: E251 / unexpected spaces around keyword / parameter equals (col 56)
+  Line: 39
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 41
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 43
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 46
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 48
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 49
+    pep8: E202 / whitespace before ')' (col 79)
+    pep8: E251 / unexpected spaces around keyword / parameter equals (col 52)
+  Line: 50
+    pep8: E202 / whitespace before ')' (col 95)
+    pep8: E251 / unexpected spaces around keyword / parameter equals (col 68)
+  Line: 51
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 52
+    pep8: E265 / block comment should start with '# ' (col 9)
+  Line: 54
+    pep8: N803 / argument name should be lowercase (col 5)
+    pep8: E302 / expected 2 blank lines, found 1 (col 1)
+    pylint: too-many-locals / Too many local variables (17/15)
+    pylint: invalid-name / Argument name "newSpacing" doesn't conform to snake_case naming style
+  Line: 60
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "originalDirectory" doesn't conform to snake_case naming style (col 4)
+  Line: 62
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 64
+    pep8: E261 / at least two spaces before inline comment (col 52)
+    pep8: E262 / inline comment should start with '# ' (col 53)
+  Line: 66
+    pep8: N806 / variable in function should be lowercase (col 13)
+    pylint: invalid-name / Variable name "filePath" doesn't conform to snake_case naming style (col 12)
+  Line: 67
+    pep8: N806 / variable in function should be lowercase (col 13)
+    pylint: invalid-name / Variable name "fileName" doesn't conform to snake_case naming style (col 12)
+  Line: 68
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 69
+    pep8: N806 / variable in function should be lowercase (col 13)
+    pylint: invalid-name / Variable name "inputImage" doesn't conform to snake_case naming style (col 12)
+  Line: 70
+    pep8: N806 / variable in function should be lowercase (col 13)
+    pylint: invalid-name / Variable name "oldSpacing" doesn't conform to snake_case naming style (col 12)
+  Line: 71
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 72
+    pep8: N806 / variable in function should be lowercase (col 13)
+    pylint: invalid-name / Variable name "castImageFilter" doesn't conform to snake_case naming style (col 12)
+  Line: 73
+    pep8: N806 / variable in function should be lowercase (col 13)
+    pylint: invalid-name / Variable name "inputImage" doesn't conform to snake_case naming style (col 12)
+  Line: 74
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 75
+    pep8: N806 / variable in function should be lowercase (col 13)
+    pylint: invalid-name / Variable name "oldSize" doesn't conform to snake_case naming style (col 12)
+  Line: 76
+    pep8: N806 / variable in function should be lowercase (col 13)
+    pep8: E225 / missing whitespace around operator (col 23)
+    pylint: invalid-name / Variable name "oldSpacing" doesn't conform to snake_case naming style (col 12)
+  Line: 77
+    pep8: N806 / variable in function should be lowercase (col 13)
+    pep8: E226 / missing whitespace around arithmetic operator (col 37)
+    pep8: E225 / missing whitespace around operator (col 51)
+    pylint: invalid-name / Variable name "newWidth" doesn't conform to snake_case naming style (col 12)
+  Line: 78
+    pep8: N806 / variable in function should be lowercase (col 13)
+    pylint: invalid-name / Variable name "newHeight" doesn't conform to snake_case naming style (col 12)
+  Line: 79
+    pep8: N806 / variable in function should be lowercase (col 13)
+    pylint: invalid-name / Variable name "newDepth" doesn't conform to snake_case naming style (col 12)
+  Line: 80
+    pep8: N806 / variable in function should be lowercase (col 13)
+    pylint: invalid-name / Variable name "newSize" doesn't conform to snake_case naming style (col 12)
+  Line: 81
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 82
+    pylint: redefined-builtin / Redefining built-in 'filter' (col 12)
+  Line: 83
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 90
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 91
+    pep8: N806 / variable in function should be lowercase (col 13)
+    pylint: invalid-name / Variable name "outImage" doesn't conform to snake_case naming style (col 12)
+  Line: 92
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 94
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 95
+    pep8: N806 / variable in function should be lowercase (col 13)
+    pylint: line-too-long / Line too long (108/100)
+    pylint: invalid-name / Variable name "outDirectory" doesn't conform to snake_case naming style (col 12)
+  Line: 96
+    pep8: N806 / variable in function should be lowercase (col 13)
+    pylint: invalid-name / Variable name "outDirectory" doesn't conform to snake_case naming style (col 12)
+  Line: 97
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 99
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 101
+    pep8: W291 / trailing whitespace (col 42)
+  Line: 102
+    pep8: W291 / trailing whitespace (col 116)
+  Line: 103
+    pylint: pointless-string-statement / String statement has no effect
+  Line: 104
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 105
+    pep8: N802 / function name should be lowercase (col 5)
+    pep8: N803 / argument name should be lowercase (col 5)
+    pep8: E302 / expected 2 blank lines, found 1 (col 1)
+    pylint: invalid-name / Function name "readCSV" doesn't conform to snake_case naming style
+  Line: 107
+    pep8: W291 / trailing whitespace (col 77)
+  Line: 111
+    pylint: invalid-name / Variable name "f" doesn't conform to snake_case naming style (col 32)
+  Line: 112
+    pep8: N806 / variable in function should be lowercase (col 9)
+    pylint: invalid-name / Variable name "csvReader" doesn't conform to snake_case naming style (col 8)
+  Line: 115
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 118
+    pep8: N802 / function name should be lowercase (col 5)
+    pep8: N803 / argument name should be lowercase (col 5)
+    pep8: E302 / expected 2 blank lines, found 1 (col 1)
+    pylint: invalid-name / Function name "cropImage" doesn't conform to snake_case naming style
+  Line: 123
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 124
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pep8: E231 / missing whitespace after ',' (col 44)
+    pylint: invalid-name / Variable name "worldCoord" doesn't conform to snake_case naming style (col 4)
+  Line: 125
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 126
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "voxelWidth" doesn't conform to snake_case naming style (col 4)
+  Line: 127
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 128
+    pylint: invalid-name / Variable name "x" doesn't conform to snake_case naming style (col 4)
+  Line: 129
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 130
+    pylint: invalid-name / Variable name "x" doesn't conform to snake_case naming style (col 4)
+  Line: 131
+    pylint: invalid-name / Variable name "y" doesn't conform to snake_case naming style (col 4)
+  Line: 132
+    pylint: invalid-name / Variable name "z" doesn't conform to snake_case naming style (col 4)
+  Line: 133
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 134
+    pylint: line-too-long / Line too long (144/100)
+  Line: 135
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 136
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "numpyImage" doesn't conform to snake_case naming style (col 4)
+  Line: 137
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 138
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "maxHU" doesn't conform to snake_case naming style (col 4)
+  Line: 139
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "minHU" doesn't conform to snake_case naming style (col 4)
+  Line: 140
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "normalizedImage" doesn't conform to snake_case naming style (col 4)
+  Line: 141
+    pep8: E225 / missing whitespace around operator (col 31)
+  Line: 142
+    pep8: E225 / missing whitespace around operator (col 31)
+  Line: 143
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 146
+    pep8: N802 / function name should be lowercase (col 5)
+    pep8: N803 / argument name should be lowercase (col 5)
+    pep8: E302 / expected 2 blank lines, found 1 (col 1)
+    pylint: too-many-locals / Too many local variables (17/15)
+    pep8: W291 / trailing whitespace (col 41)
+    pylint: invalid-name / Function name "createArray" doesn't conform to snake_case naming style
+  Line: 150
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 151
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "originalDirectory" doesn't conform to snake_case naming style (col 4)
+  Line: 153
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 154
+    pep8: W291 / trailing whitespace (col 44)
+  Line: 156
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 157
+    pylint: too-many-nested-blocks / Too many nested blocks (6/5) (col 4)
+  Line: 159
+    pep8: N806 / variable in function should be lowercase (col 13)
+    pylint: invalid-name / Variable name "filePath" doesn't conform to snake_case naming style (col 12)
+  Line: 160
+    pep8: N806 / variable in function should be lowercase (col 13)
+    pylint: invalid-name / Variable name "fileName" doesn't conform to snake_case naming style (col 12)
+  Line: 161
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 163
+    pep8: N806 / variable in function should be lowercase (col 17)
+    pylint: invalid-name / Variable name "sitkImage" doesn't conform to snake_case naming style (col 16)
+  Line: 164
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 167
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 168
+    pep8: N806 / variable in function should be lowercase (col 25)
+    pylint: invalid-name / Variable name "normalizedImage" doesn't conform to snake_case naming style (col 24)
+  Line: 169
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 170
+    pep8: E251 / unexpected spaces around keyword / parameter equals (col 85)
+  Line: 171
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 174
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 177
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 179
+    pep8: E231 / missing whitespace after ',' (col 82)
+    pep8: E251 / unexpected spaces around keyword / parameter equals (col 67)
+  Line: 180
+    pep8: E251 / unexpected spaces around keyword / parameter equals (col 82)
+  Line: 182
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 183
+    pep8: E231 / missing whitespace after ',' (col 83)
+    pep8: E251 / unexpected spaces around keyword / parameter equals (col 68)
+  Line: 184
+    pep8: E251 / unexpected spaces around keyword / parameter equals (col 83)
+  Line: 186
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 187
+    pep8: E231 / missing whitespace after ',' (col 83)
+    pep8: E251 / unexpected spaces around keyword / parameter equals (col 68)
+  Line: 188
+    pep8: E251 / unexpected spaces around keyword / parameter equals (col 83)
+  Line: 190
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 192
+    pep8: E251 / unexpected spaces around keyword / parameter equals (col 83)
+  Line: 194
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 196
+    pep8: E251 / unexpected spaces around keyword / parameter equals (col 83)
+  Line: 198
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 200
+    pep8: E231 / missing whitespace after ',' (col 82)
+    pep8: E251 / unexpected spaces around keyword / parameter equals (col 67)
+  Line: 201
+    pep8: E251 / unexpected spaces around keyword / parameter equals (col 82)
+  Line: 203
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 204
+    pep8: E231 / missing whitespace after ',' (col 83)
+    pep8: E251 / unexpected spaces around keyword / parameter equals (col 68)
+  Line: 205
+    pep8: E251 / unexpected spaces around keyword / parameter equals (col 83)
+  Line: 207
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 208
+    pep8: E261 / at least two spaces before inline comment (col 47)
+    pep8: E262 / inline comment should start with '# ' (col 48)
+  Line: 210
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 213
+    pep8: E302 / expected 2 blank lines, found 1 (col 1)
+  Line: 218
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 221
+    pep8: E302 / expected 2 blank lines, found 1 (col 1)
+  Line: 223
+    pep8: W291 / trailing whitespace (col 81)
+  Line: 227
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "newSpacing" doesn't conform to snake_case naming style (col 4)
+  Line: 229
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 230
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pep8: E261 / at least two spaces before inline comment (col 79)
+    pep8: E262 / inline comment should start with '# ' (col 80)
+    pylint: line-too-long / Line too long (102/100)
+    pylint: invalid-name / Variable name "csvPath" doesn't conform to snake_case naming style (col 4)
+  Line: 231
+    pep8: E261 / at least two spaces before inline comment (col 80)
+    pep8: E262 / inline comment should start with '# ' (col 81)
+    pylint: line-too-long / Line too long (105/100)
+  Line: 232
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 233
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "candidateLines" doesn't conform to snake_case naming style (col 4)
+  Line: 235
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 236
+    pep8: E261 / at least two spaces before inline comment (col 69)
+    pep8: E262 / inline comment should start with '# ' (col 70)
+  Line: 237
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 238
+    pep8: E261 / at least two spaces before inline comment (col 47)
+    pep8: E262 / inline comment should start with '# ' (col 48)
+  Line: 239
+    pep8: E261 / at least two spaces before inline comment (col 81)
+    pep8: E262 / inline comment should start with '# ' (col 82)
+    pylint: line-too-long / Line too long (102/100)
+  Line: 240
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 241
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 242
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 243
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 244
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 245
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 246
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 247
+    pep8: W293 / blank line contains whitespace (col 1)
+  Line: 248
+    pep8: W391 / blank line at end of file (col 1)
+    pep8: E303 / too many blank lines (8) (col 1)
+    pep8: W293 / blank line contains whitespace (col 1)
+
+
+
+Check Information
+=================
+         Started: 2018-12-21 10:31:41.808042
+        Finished: 2018-12-21 10:31:43.458681
+      Time Taken: 1.65 seconds
+       Formatter: grouped
+        Profiles: default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings
+      Strictness: None
+  Libraries Used: 
+       Tools Run: dodgy, mccabe, pep8, profile-validator, pyflakes, pylint
+  Messages Found: 223
+ External Config: pep8: Configuration found at /Users/rohan/Documents/Grad School/Coursework/Software Re-Engineering/Project/Source_code/statikos/setup.cfg, pylint: /Users/rohan/Documents/Grad School/Coursework/Software Re-Engineering/Project/Source_code/statikos/pylintrc
+

@@ -1,0 +1,51 @@
+Messages
+========
+
+Test_Files/8.py
+  Line: 1
+    pylint: syntax-error / invalid syntax (<unknown>, line 1)
+  Line: 2
+    pep8: E402 / module level import not at top of file (col 1)
+  Line: 3
+    pep8: E402 / module level import not at top of file (col 1)
+  Line: 6
+    pep8: E225 / missing whitespace around operator (col 6)
+  Line: 8
+    pep8: E231 / missing whitespace after ',' (col 34)
+  Line: 9
+    pep8: E261 / at least two spaces before inline comment (col 8)
+    pep8: E262 / inline comment should start with '# ' (col 9)
+  Line: 10
+    pep8: E231 / missing whitespace after ',' (col 41)
+  Line: 13
+    pep8: E225 / missing whitespace around operator (col 28)
+  Line: 14
+    pep8: E225 / missing whitespace around operator (col 31)
+  Line: 15
+    pep8: E225 / missing whitespace around operator (col 32)
+  Line: 16
+    pep8: E225 / missing whitespace around operator (col 32)
+  Line: 17
+    pep8: E225 / missing whitespace around operator (col 32)
+  Line: 18
+    pep8: E225 / missing whitespace around operator (col 32)
+  Line: 19
+    pep8: E211 / whitespace before '(' (col 6)
+  Line: 21
+    pep8: E231 / missing whitespace after ',' (col 88)
+
+
+
+Check Information
+=================
+         Started: 2018-12-21 10:34:10.482980
+        Finished: 2018-12-21 10:34:10.600809
+      Time Taken: 0.12 seconds
+       Formatter: grouped
+        Profiles: default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings
+      Strictness: None
+  Libraries Used: 
+       Tools Run: dodgy, mccabe, pep8, profile-validator, pyflakes, pylint
+  Messages Found: 16
+ External Config: pep8: Configuration found at /Users/rohan/Documents/Grad School/Coursework/Software Re-Engineering/Project/Source_code/statikos/setup.cfg, pylint: /Users/rohan/Documents/Grad School/Coursework/Software Re-Engineering/Project/Source_code/statikos/pylintrc
+

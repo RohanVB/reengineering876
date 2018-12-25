@@ -1,0 +1,326 @@
+Running pep8...
+Test_Files/3.py:25:1: E302 expected 2 blank lines, found 1
+Test_Files/3.py:28:27: E231 missing whitespace after ','
+Test_Files/3.py:29:38: E231 missing whitespace after ','
+Test_Files/3.py:29:40: E231 missing whitespace after ','
+Test_Files/3.py:40:27: E231 missing whitespace after ','
+Test_Files/3.py:40:41: E251 unexpected spaces around keyword / parameter equals
+Test_Files/3.py:40:46: E231 missing whitespace after ','
+Test_Files/3.py:44:1: E302 expected 2 blank lines, found 1
+Test_Files/3.py:55:16: E231 missing whitespace after ','
+Test_Files/3.py:59:16: E231 missing whitespace after ','
+Test_Files/3.py:66:25: E225 missing whitespace around operator
+Test_Files/3.py:70:35: E231 missing whitespace after ','
+Test_Files/3.py:76:46: E251 unexpected spaces around keyword / parameter equals
+Test_Files/3.py:76:48: E251 unexpected spaces around keyword / parameter equals
+Test_Files/3.py:76:52: E231 missing whitespace after ','
+Test_Files/3.py:76:62: E251 unexpected spaces around keyword / parameter equals
+Test_Files/3.py:77:20: E231 missing whitespace after ','
+Test_Files/3.py:87:1: E302 expected 2 blank lines, found 1
+Test_Files/3.py:87:33: E231 missing whitespace after ','
+Test_Files/3.py:93:43: E251 unexpected spaces around keyword / parameter equals
+Test_Files/3.py:93:45: E251 unexpected spaces around keyword / parameter equals
+Test_Files/3.py:94:20: E231 missing whitespace after ','
+Test_Files/3.py:103:1: E302 expected 2 blank lines, found 1
+Test_Files/3.py:120:1: E302 expected 2 blank lines, found 1
+Test_Files/3.py:145:25: E231 missing whitespace after ','
+Test_Files/3.py:145:33: E251 unexpected spaces around keyword / parameter equals
+Test_Files/3.py:145:37: E231 missing whitespace after ','
+Test_Files/3.py:145:39: E231 missing whitespace after ','
+Test_Files/3.py:145:41: E231 missing whitespace after ','
+Test_Files/3.py:145:43: E231 missing whitespace after ','
+Test_Files/3.py:148:70: E251 unexpected spaces around keyword / parameter equals
+Test_Files/3.py:148:72: E251 unexpected spaces around keyword / parameter equals
+Test_Files/3.py:177:1: E302 expected 2 blank lines, found 1
+Test_Files/3.py:182:21: E231 missing whitespace after ','
+Test_Files/3.py:191:30: E231 missing whitespace after ','
+Test_Files/3.py:191:39: E231 missing whitespace after ','
+Test_Files/3.py:191:49: E231 missing whitespace after ','
+Test_Files/3.py:191:59: E231 missing whitespace after ','
+Test_Files/3.py:191:66: E231 missing whitespace after ','
+Test_Files/3.py:191:73: E231 missing whitespace after ','
+Test_Files/3.py:191:78: E231 missing whitespace after ','
+Test_Files/3.py:191:80: E501 line too long (89 > 79 characters)
+Test_Files/3.py:191:83: E231 missing whitespace after ','
+Test_Files/3.py:192:56: E231 missing whitespace after ','
+Test_Files/3.py:192:66: E231 missing whitespace after ','
+Test_Files/3.py:192:76: E231 missing whitespace after ','
+Test_Files/3.py:192:80: E501 line too long (122 > 79 characters)
+Test_Files/3.py:192:83: E231 missing whitespace after ','
+Test_Files/3.py:192:94: E231 missing whitespace after ','
+Test_Files/3.py:192:99: E231 missing whitespace after ','
+Test_Files/3.py:192:104: E231 missing whitespace after ','
+Test_Files/3.py:195:1: E302 expected 2 blank lines, found 1
+Test_Files/3.py:198:25: E231 missing whitespace after ','
+Test_Files/3.py:207:1: E302 expected 2 blank lines, found 1
+Test_Files/3.py:211:43: E251 unexpected spaces around keyword / parameter equals
+Test_Files/3.py:211:45: E251 unexpected spaces around keyword / parameter equals
+Test_Files/3.py:212:20: E231 missing whitespace after ','
+Test_Files/3.py:221:25: E231 missing whitespace after ','
+Test_Files/3.py:221:33: E251 unexpected spaces around keyword / parameter equals
+Test_Files/3.py:221:37: E231 missing whitespace after ','
+Test_Files/3.py:221:39: E231 missing whitespace after ','
+Test_Files/3.py:224:70: E251 unexpected spaces around keyword / parameter equals
+Test_Files/3.py:224:72: E251 unexpected spaces around keyword / parameter equals
+Test_Files/3.py:251:1: E303 too many blank lines (3)
+Test_Files/3.py:259:5: E265 block comment should start with '# '
+Test_Files/3.py:260:5: E265 block comment should start with '# '
+Test_Files/3.py:261:5: E265 block comment should start with '# '
+Test_Files/3.py:263:5: E265 block comment should start with '# '
+Test_Files/3.py:265:5: E265 block comment should start with '# '
+Test_Files/3.py:267:5: E265 block comment should start with '# '
+Test_Files/3.py:268:5: E265 block comment should start with '# '
+Test_Files/3.py:269:5: E265 block comment should start with '# '
+Test_Files/3.py:270:5: E265 block comment should start with '# '
+Test_Files/3.py:271:5: E265 block comment should start with '# '
+Test_Files/3.py:272:5: E265 block comment should start with '# '
+Test_Files/3.py:276:11: W292 no newline at end of file
+Running pylinter...
+************* Module Grad School.Coursework.Software Re-Engineering.Project.Source_code.statikos.Test_Files.3
+C: 28, 0: Exactly one space required after comma
+    b, a = signal.butter(3,0.01, 'highpass')
+                          ^ (bad-whitespace)
+C: 29, 0: Exactly one space required after comma
+    output_signal = signal.filtfilt(b,a,X[0])
+                                     ^ (bad-whitespace)
+C: 29, 0: Exactly one space required after comma
+    output_signal = signal.filtfilt(b,a,X[0])
+                                       ^ (bad-whitespace)
+C: 40, 0: Exactly one space required after comma
+    MinMaxScaler(copy=True,feature_range =(-1,1))
+                          ^ (bad-whitespace)
+C: 40, 0: No space allowed before keyword argument assignment
+    MinMaxScaler(copy=True,feature_range =(-1,1))
+                                         ^ (bad-whitespace)
+C: 40, 0: Exactly one space required after comma
+    MinMaxScaler(copy=True,feature_range =(-1,1))
+                                             ^ (bad-whitespace)
+C: 55, 0: Exactly one space required after comma
+    X = array[:,0:8]
+               ^ (bad-whitespace)
+C: 59, 0: Exactly one space required after comma
+    model.fit(X,Y)
+               ^ (bad-whitespace)
+C: 66, 0: Exactly one space required after assignment
+        feature_index +=1
+                      ^^ (bad-whitespace)
+C: 70, 0: Exactly one space required after comma
+def RunRandomForestClassifier(data,selected_features):
+                                  ^ (bad-whitespace)
+C: 76, 0: No space allowed around keyword argument assignment
+    clf = RandomForestClassifier(n_estimators = 600,max_depth =20)
+                                              ^ (bad-whitespace)
+C: 76, 0: Exactly one space required after comma
+    clf = RandomForestClassifier(n_estimators = 600,max_depth =20)
+                                                   ^ (bad-whitespace)
+C: 76, 0: No space allowed before keyword argument assignment
+    clf = RandomForestClassifier(n_estimators = 600,max_depth =20)
+                                                              ^ (bad-whitespace)
+C: 77, 0: Exactly one space required after comma
+    clf.fit(X_train,y_train)
+                   ^ (bad-whitespace)
+C: 87, 0: Exactly one space required after comma
+def RunKNeighborsClassifier(data,selected_features):
+                                ^ (bad-whitespace)
+C: 93, 0: No space allowed around keyword argument assignment
+    clf = KNeighborsClassifier(n_neighbors = 10)
+                                           ^ (bad-whitespace)
+C: 94, 0: Exactly one space required after comma
+    clf.fit(X_train,y_train)
+                   ^ (bad-whitespace)
+C:145, 0: Exactly one space required after comma
+    Y = label_binarize(Y,classes =[1,2,3,4,5])
+                        ^ (bad-whitespace)
+C:145, 0: No space allowed before keyword argument assignment
+    Y = label_binarize(Y,classes =[1,2,3,4,5])
+                                 ^ (bad-whitespace)
+C:145, 0: Exactly one space required after comma
+    Y = label_binarize(Y,classes =[1,2,3,4,5])
+                                    ^ (bad-whitespace)
+C:145, 0: Exactly one space required after comma
+    Y = label_binarize(Y,classes =[1,2,3,4,5])
+                                      ^ (bad-whitespace)
+C:145, 0: Exactly one space required after comma
+    Y = label_binarize(Y,classes =[1,2,3,4,5])
+                                        ^ (bad-whitespace)
+C:145, 0: Exactly one space required after comma
+    Y = label_binarize(Y,classes =[1,2,3,4,5])
+                                          ^ (bad-whitespace)
+C:148, 0: No space allowed around keyword argument assignment
+    classifier = OneVsRestClassifier(KNeighborsClassifier(n_neighbors = 10))
+                                                                      ^ (bad-whitespace)
+C:182, 0: Exactly one space required after comma
+    for i in range(0,len(array)):
+                    ^ (bad-whitespace)
+C:191, 0: Exactly one space required after comma
+        buffer.append([X_mean,X_median,X_minimum,X_maximum,X_skew,X_kurt,X_q1,X_q3,Y[i]])
+                             ^ (bad-whitespace)
+C:191, 0: Exactly one space required after comma
+        buffer.append([X_mean,X_median,X_minimum,X_maximum,X_skew,X_kurt,X_q1,X_q3,Y[i]])
+                                      ^ (bad-whitespace)
+C:191, 0: Exactly one space required after comma
+        buffer.append([X_mean,X_median,X_minimum,X_maximum,X_skew,X_kurt,X_q1,X_q3,Y[i]])
+                                                ^ (bad-whitespace)
+C:191, 0: Exactly one space required after comma
+        buffer.append([X_mean,X_median,X_minimum,X_maximum,X_skew,X_kurt,X_q1,X_q3,Y[i]])
+                                                          ^ (bad-whitespace)
+C:191, 0: Exactly one space required after comma
+        buffer.append([X_mean,X_median,X_minimum,X_maximum,X_skew,X_kurt,X_q1,X_q3,Y[i]])
+                                                                 ^ (bad-whitespace)
+C:191, 0: Exactly one space required after comma
+        buffer.append([X_mean,X_median,X_minimum,X_maximum,X_skew,X_kurt,X_q1,X_q3,Y[i]])
+                                                                        ^ (bad-whitespace)
+C:191, 0: Exactly one space required after comma
+        buffer.append([X_mean,X_median,X_minimum,X_maximum,X_skew,X_kurt,X_q1,X_q3,Y[i]])
+                                                                             ^ (bad-whitespace)
+C:191, 0: Exactly one space required after comma
+        buffer.append([X_mean,X_median,X_minimum,X_maximum,X_skew,X_kurt,X_q1,X_q3,Y[i]])
+                                                                                  ^ (bad-whitespace)
+C:192, 0: Line too long (122/100) (line-too-long)
+C:192, 0: Exactly one space required after comma
+    df = pd.DataFrame(buffer, columns=['Mean', 'Median','Minimum','Maximum','Skew','Kurtosis','Q1','Q3','y'], dtype=float)
+                                                       ^ (bad-whitespace)
+C:192, 0: Exactly one space required after comma
+    df = pd.DataFrame(buffer, columns=['Mean', 'Median','Minimum','Maximum','Skew','Kurtosis','Q1','Q3','y'], dtype=float)
+                                                                 ^ (bad-whitespace)
+C:192, 0: Exactly one space required after comma
+    df = pd.DataFrame(buffer, columns=['Mean', 'Median','Minimum','Maximum','Skew','Kurtosis','Q1','Q3','y'], dtype=float)
+                                                                           ^ (bad-whitespace)
+C:192, 0: Exactly one space required after comma
+    df = pd.DataFrame(buffer, columns=['Mean', 'Median','Minimum','Maximum','Skew','Kurtosis','Q1','Q3','y'], dtype=float)
+                                                                                  ^ (bad-whitespace)
+C:192, 0: Exactly one space required after comma
+    df = pd.DataFrame(buffer, columns=['Mean', 'Median','Minimum','Maximum','Skew','Kurtosis','Q1','Q3','y'], dtype=float)
+                                                                                             ^ (bad-whitespace)
+C:192, 0: Exactly one space required after comma
+    df = pd.DataFrame(buffer, columns=['Mean', 'Median','Minimum','Maximum','Skew','Kurtosis','Q1','Q3','y'], dtype=float)
+                                                                                                  ^ (bad-whitespace)
+C:192, 0: Exactly one space required after comma
+    df = pd.DataFrame(buffer, columns=['Mean', 'Median','Minimum','Maximum','Skew','Kurtosis','Q1','Q3','y'], dtype=float)
+                                                                                                       ^ (bad-whitespace)
+C:198, 0: Exactly one space required after comma
+    for index in range(0,len(Y)):
+                        ^ (bad-whitespace)
+C:211, 0: No space allowed around keyword argument assignment
+    clf = KNeighborsClassifier(n_neighbors = 17)
+                                           ^ (bad-whitespace)
+C:212, 0: Exactly one space required after comma
+    clf.fit(X_train,y_train)
+                   ^ (bad-whitespace)
+C:221, 0: Exactly one space required after comma
+    Y = label_binarize(Y,classes =[1,2,3])
+                        ^ (bad-whitespace)
+C:221, 0: No space allowed before keyword argument assignment
+    Y = label_binarize(Y,classes =[1,2,3])
+                                 ^ (bad-whitespace)
+C:221, 0: Exactly one space required after comma
+    Y = label_binarize(Y,classes =[1,2,3])
+                                    ^ (bad-whitespace)
+C:221, 0: Exactly one space required after comma
+    Y = label_binarize(Y,classes =[1,2,3])
+                                      ^ (bad-whitespace)
+C:224, 0: No space allowed around keyword argument assignment
+    classifier = OneVsRestClassifier(KNeighborsClassifier(n_neighbors = 12))
+                                                                      ^ (bad-whitespace)
+C:276, 0: Final newline missing (missing-final-newline)
+W:253, 0: Anomalous backslash in string: '\d'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:253, 0: Anomalous backslash in string: '\d'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+C:  1, 0: Module name "3" doesn't conform to snake_case naming style (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 25, 0: Function name "lowPassFilter" doesn't conform to snake_case naming style (invalid-name)
+C: 25, 0: Argument name "dataFrame" doesn't conform to snake_case naming style (invalid-name)
+C: 25, 0: Missing function docstring (missing-docstring)
+C: 27, 4: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+C: 28, 4: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C: 28, 7: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+C: 37, 0: Argument name "X_input" doesn't conform to snake_case naming style (invalid-name)
+C: 37, 0: Missing function docstring (missing-docstring)
+W: 39, 4: Unused variable 'np_scaled' (unused-variable)
+C: 44, 0: Argument name "X_input" doesn't conform to snake_case naming style (invalid-name)
+C: 44, 0: Missing function docstring (missing-docstring)
+W: 47, 4: Unused variable 'np_scaled' (unused-variable)
+C: 52, 0: Function name "featureSelection" doesn't conform to snake_case naming style (invalid-name)
+C: 52, 0: Argument name "dataFrame" doesn't conform to snake_case naming style (invalid-name)
+C: 52, 0: Missing function docstring (missing-docstring)
+C: 55, 4: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+C: 56, 4: Variable name "Y" doesn't conform to snake_case naming style (invalid-name)
+C: 57, 4: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+C: 70, 0: Function name "RunRandomForestClassifier" doesn't conform to snake_case naming style (invalid-name)
+C: 70, 0: Missing function docstring (missing-docstring)
+C: 72, 4: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+C: 73, 4: Variable name "Y" doesn't conform to snake_case naming style (invalid-name)
+C: 74, 4: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+C: 75, 4: Variable name "X_train" doesn't conform to snake_case naming style (invalid-name)
+C: 75,13: Variable name "X_test" doesn't conform to snake_case naming style (invalid-name)
+C: 87, 0: Function name "RunKNeighborsClassifier" doesn't conform to snake_case naming style (invalid-name)
+C: 87, 0: Missing function docstring (missing-docstring)
+C: 89, 4: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+C: 90, 4: Variable name "Y" doesn't conform to snake_case naming style (invalid-name)
+C: 91, 4: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+C: 92, 4: Variable name "X_train" doesn't conform to snake_case naming style (invalid-name)
+C: 92,13: Variable name "X_test" doesn't conform to snake_case naming style (invalid-name)
+C:103, 0: Function name "RunSVMClassifier" doesn't conform to snake_case naming style (invalid-name)
+C:103, 0: Missing function docstring (missing-docstring)
+C:105, 4: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+C:106, 4: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+C:107, 4: Variable name "Y" doesn't conform to snake_case naming style (invalid-name)
+C:108, 4: Variable name "X_train" doesn't conform to snake_case naming style (invalid-name)
+C:108,13: Variable name "X_test" doesn't conform to snake_case naming style (invalid-name)
+C:120, 0: Function name "RunNaiveBayes" doesn't conform to snake_case naming style (invalid-name)
+C:120, 0: Missing function docstring (missing-docstring)
+C:122, 4: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+C:123, 4: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+C:125, 4: Variable name "Y" doesn't conform to snake_case naming style (invalid-name)
+C:128, 4: Variable name "X_train" doesn't conform to snake_case naming style (invalid-name)
+C:128,13: Variable name "X_test" doesn't conform to snake_case naming style (invalid-name)
+C:141, 0: Function name "plotRoc" doesn't conform to snake_case naming style (invalid-name)
+C:141, 0: Missing function docstring (missing-docstring)
+R:141, 0: Too many local variables (17/15) (too-many-locals)
+C:142, 4: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+C:143, 4: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+C:144, 4: Variable name "Y" doesn't conform to snake_case naming style (invalid-name)
+C:145, 4: Variable name "Y" doesn't conform to snake_case naming style (invalid-name)
+C:147, 4: Variable name "X_train" doesn't conform to snake_case naming style (invalid-name)
+C:147,13: Variable name "X_test" doesn't conform to snake_case naming style (invalid-name)
+C:157, 4: Variable name "lw" doesn't conform to snake_case naming style (invalid-name)
+C:177, 0: Function name "featureExtraction" doesn't conform to snake_case naming style (invalid-name)
+C:177, 0: Argument name "dataFrame" doesn't conform to snake_case naming style (invalid-name)
+C:177, 0: Missing function docstring (missing-docstring)
+C:179, 4: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+C:180, 4: Variable name "Y" doesn't conform to snake_case naming style (invalid-name)
+C:183, 8: Variable name "X_mean" doesn't conform to snake_case naming style (invalid-name)
+C:184, 8: Variable name "X_median" doesn't conform to snake_case naming style (invalid-name)
+C:185, 8: Variable name "X_minimum" doesn't conform to snake_case naming style (invalid-name)
+C:186, 8: Variable name "X_maximum" doesn't conform to snake_case naming style (invalid-name)
+C:187, 8: Variable name "X_skew" doesn't conform to snake_case naming style (invalid-name)
+C:188, 8: Variable name "X_kurt" doesn't conform to snake_case naming style (invalid-name)
+C:189, 8: Variable name "X_q1" doesn't conform to snake_case naming style (invalid-name)
+C:190, 8: Variable name "X_q3" doesn't conform to snake_case naming style (invalid-name)
+C:192, 4: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+C:195, 0: Function name "combineClass" doesn't conform to snake_case naming style (invalid-name)
+C:195, 0: Argument name "dataFrame" doesn't conform to snake_case naming style (invalid-name)
+C:195, 0: Missing function docstring (missing-docstring)
+C:197, 4: Variable name "Y" doesn't conform to snake_case naming style (invalid-name)
+C:198, 4: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C:207, 0: Argument name "dataFrame" doesn't conform to snake_case naming style (invalid-name)
+C:207, 0: Missing function docstring (missing-docstring)
+R:207, 0: Too many local variables (23/15) (too-many-locals)
+C:208, 4: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+C:209, 4: Variable name "Y" doesn't conform to snake_case naming style (invalid-name)
+C:210, 4: Variable name "X_train" doesn't conform to snake_case naming style (invalid-name)
+C:210,13: Variable name "X_test" doesn't conform to snake_case naming style (invalid-name)
+C:221, 4: Variable name "Y" doesn't conform to snake_case naming style (invalid-name)
+C:223, 4: Variable name "X_train" doesn't conform to snake_case naming style (invalid-name)
+C:223,13: Variable name "X_test" doesn't conform to snake_case naming style (invalid-name)
+C:233, 4: Variable name "lw" doesn't conform to snake_case naming style (invalid-name)
+C:251, 0: Missing function docstring (missing-docstring)
+C:254, 4: Variable name "dataFrame" doesn't conform to snake_case naming style (invalid-name)
+C:255, 4: Variable name "dataFrame" doesn't conform to snake_case naming style (invalid-name)
+W:264, 4: Unused variable 'selected_features' (unused-variable)
+C:  2, 0: standard import "import os" should be placed before "import matplotlib.pyplot as plt" (wrong-import-order)
+C: 19, 0: standard import "from statistics import mean" should be placed before "import matplotlib.pyplot as plt" (wrong-import-order)
+C: 20, 0: standard import "from statistics import median" should be placed before "import matplotlib.pyplot as plt" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 3.55/10
+

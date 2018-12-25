@@ -1,0 +1,112 @@
+Running pep8...
+Test_Files/6.py:6:1: E265 block comment should start with '# '
+Test_Files/6.py:8:80: E501 line too long (84 > 79 characters)
+Test_Files/6.py:9:1: E265 block comment should start with '# '
+Test_Files/6.py:11:40: E231 missing whitespace after ','
+Test_Files/6.py:11:48: E231 missing whitespace after ','
+Test_Files/6.py:11:57: E231 missing whitespace after ','
+Test_Files/6.py:16:7: E221 multiple spaces before operator
+Test_Files/6.py:17:7: E221 multiple spaces before operator
+Test_Files/6.py:18:1: E265 block comment should start with '# '
+Test_Files/6.py:18:80: E501 line too long (87 > 79 characters)
+Test_Files/6.py:22:1: E265 block comment should start with '# '
+Test_Files/6.py:23:1: E265 block comment should start with '# '
+Test_Files/6.py:24:1: E265 block comment should start with '# '
+Test_Files/6.py:26:1: E265 block comment should start with '# '
+Test_Files/6.py:31:80: E501 line too long (80 > 79 characters)
+Test_Files/6.py:34:1: E265 block comment should start with '# '
+Test_Files/6.py:35:22: E231 missing whitespace after ','
+Test_Files/6.py:35:24: E231 missing whitespace after ','
+Test_Files/6.py:35:27: E231 missing whitespace after ','
+Test_Files/6.py:36:21: E231 missing whitespace after ','
+Test_Files/6.py:36:28: E231 missing whitespace after ','
+Test_Files/6.py:38:6: E211 whitespace before '('
+Test_Files/6.py:41:1: E265 block comment should start with '# '
+Test_Files/6.py:42:1: E265 block comment should start with '# '
+Test_Files/6.py:43:24: E231 missing whitespace after ','
+Test_Files/6.py:43:36: E231 missing whitespace after ','
+Test_Files/6.py:44:4: E221 multiple spaces before operator
+Test_Files/6.py:44:23: E231 missing whitespace after ','
+Test_Files/6.py:44:37: E231 missing whitespace after ','
+Test_Files/6.py:45:1: E265 block comment should start with '# '
+Test_Files/6.py:46:1: E265 block comment should start with '# '
+Test_Files/6.py:47:1: E265 block comment should start with '# '
+Test_Files/6.py:48:1: E265 block comment should start with '# '
+Test_Files/6.py:49:1: E265 block comment should start with '# '
+Test_Files/6.py:50:1: E265 block comment should start with '# '
+Test_Files/6.py:51:1: E265 block comment should start with '# '
+Test_Files/6.py:52:1: E265 block comment should start with '# '
+Test_Files/6.py:53:1: E265 block comment should start with '# '
+Test_Files/6.py:54:1: E265 block comment should start with '# '
+Test_Files/6.py:55:1: E265 block comment should start with '# '
+Test_Files/6.py:60:1: E265 block comment should start with '# '
+Test_Files/6.py:60:80: E501 line too long (80 > 79 characters)
+Running pylinter...
+************* Module Grad School.Coursework.Software Re-Engineering.Project.Source_code.statikos.Test_Files.6
+C: 11, 0: Exactly one space required after comma
+dataFrame.reset_index().plot(y=['acc-x','acc-y','acc-z'],x='time')
+                                       ^ (bad-whitespace)
+C: 11, 0: Exactly one space required after comma
+dataFrame.reset_index().plot(y=['acc-x','acc-y','acc-z'],x='time')
+                                               ^ (bad-whitespace)
+C: 11, 0: Exactly one space required after comma
+dataFrame.reset_index().plot(y=['acc-x','acc-y','acc-z'],x='time')
+                                                        ^ (bad-whitespace)
+C: 16, 0: Exactly one space required before assignment
+rolstd  = dataFrame.rolling(3000).std()
+        ^ (bad-whitespace)
+C: 17, 0: Exactly one space required before assignment
+rolvar  = dataFrame.rolling(3000).var()
+        ^ (bad-whitespace)
+C: 35, 0: Exactly one space required after comma
+result = pd.concat([a,b,c],axis=1)
+                     ^ (bad-whitespace)
+C: 35, 0: Exactly one space required after comma
+result = pd.concat([a,b,c],axis=1)
+                       ^ (bad-whitespace)
+C: 35, 0: Exactly one space required after comma
+result = pd.concat([a,b,c],axis=1)
+                          ^ (bad-whitespace)
+C: 36, 0: Exactly one space required after comma
+result.drop(['time'],axis=1,inplace=True)
+                    ^ (bad-whitespace)
+C: 36, 0: Exactly one space required after comma
+result.drop(['time'],axis=1,inplace=True)
+                           ^ (bad-whitespace)
+C: 38, 0: No space allowed before bracket
+print (result.head(10))
+      ^ (bad-whitespace)
+C: 43, 0: Exactly one space required after comma
+mean = plt.plot(rolmean,color='red',label='rolling mean')
+                       ^ (bad-whitespace)
+C: 43, 0: Exactly one space required after comma
+mean = plt.plot(rolmean,color='red',label='rolling mean')
+                                   ^ (bad-whitespace)
+C: 44, 0: Exactly one space required before assignment
+std  = plt.plot(rolstd,color='black',label='rolling std')
+     ^ (bad-whitespace)
+C: 44, 0: Exactly one space required after comma
+std  = plt.plot(rolstd,color='black',label='rolling std')
+                      ^ (bad-whitespace)
+C: 44, 0: Exactly one space required after comma
+std  = plt.plot(rolstd,color='black',label='rolling std')
+                                    ^ (bad-whitespace)
+C:  1, 0: Module name "6" doesn't conform to snake_case naming style (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Constant name "cwd2" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:  8, 0: Constant name "dataFrame" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 15, 0: Constant name "rolmean" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 16, 0: Constant name "rolstd" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 17, 0: Constant name "rolvar" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 31, 0: Constant name "a" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 32, 0: Constant name "b" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 33, 0: Constant name "c" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 35, 0: Constant name "result" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 43, 0: Constant name "mean" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 44, 0: Constant name "std" doesn't conform to UPPER_CASE naming style (invalid-name)
+W:  1, 0: Unused numpy imported as np (unused-import)
+W:  4, 0: Unused adfuller imported from statsmodels.tsa.stattools (unused-import)
+
+------------------------------------
+Your code has been rated at -0.33/10
+

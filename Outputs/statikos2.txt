@@ -1,0 +1,239 @@
+Running pep8...
+Test_Files/2.py:22:1: E302 expected 2 blank lines, found 1
+Test_Files/2.py:22:33: E231 missing whitespace after ','
+Test_Files/2.py:24:25: E231 missing whitespace after ','
+Test_Files/2.py:28:1: E302 expected 2 blank lines, found 1
+Test_Files/2.py:29:80: E501 line too long (135 > 79 characters)
+Test_Files/2.py:30:10: E128 continuation line under-indented for visual indent
+Test_Files/2.py:30:80: E501 line too long (125 > 79 characters)
+Test_Files/2.py:31:10: E128 continuation line under-indented for visual indent
+Test_Files/2.py:31:80: E501 line too long (87 > 79 characters)
+Test_Files/2.py:42:80: E501 line too long (92 > 79 characters)
+Test_Files/2.py:52:1: E302 expected 2 blank lines, found 1
+Test_Files/2.py:53:80: E501 line too long (135 > 79 characters)
+Test_Files/2.py:54:10: E128 continuation line under-indented for visual indent
+Test_Files/2.py:54:80: E501 line too long (125 > 79 characters)
+Test_Files/2.py:55:10: E128 continuation line under-indented for visual indent
+Test_Files/2.py:55:80: E501 line too long (87 > 79 characters)
+Test_Files/2.py:63:1: E302 expected 2 blank lines, found 1
+Test_Files/2.py:64:80: E501 line too long (135 > 79 characters)
+Test_Files/2.py:65:10: E128 continuation line under-indented for visual indent
+Test_Files/2.py:65:80: E501 line too long (125 > 79 characters)
+Test_Files/2.py:66:10: E128 continuation line under-indented for visual indent
+Test_Files/2.py:66:80: E501 line too long (87 > 79 characters)
+Test_Files/2.py:69:15: E201 whitespace after '('
+Test_Files/2.py:69:23: E251 unexpected spaces around keyword / parameter equals
+Test_Files/2.py:77:80: E501 line too long (92 > 79 characters)
+Test_Files/2.py:86:1: E302 expected 2 blank lines, found 0
+Test_Files/2.py:87:80: E501 line too long (135 > 79 characters)
+Test_Files/2.py:88:10: E128 continuation line under-indented for visual indent
+Test_Files/2.py:88:80: E501 line too long (125 > 79 characters)
+Test_Files/2.py:89:10: E128 continuation line under-indented for visual indent
+Test_Files/2.py:89:80: E501 line too long (87 > 79 characters)
+Test_Files/2.py:95:80: E501 line too long (82 > 79 characters)
+Test_Files/2.py:100:80: E501 line too long (92 > 79 characters)
+Test_Files/2.py:109:1: E302 expected 2 blank lines, found 0
+Test_Files/2.py:109:45: E231 missing whitespace after ','
+Test_Files/2.py:112:16: E225 missing whitespace around operator
+Test_Files/2.py:115:16: E225 missing whitespace around operator
+Test_Files/2.py:118:16: E225 missing whitespace around operator
+Test_Files/2.py:121:16: E225 missing whitespace around operator
+Test_Files/2.py:124:16: E225 missing whitespace around operator
+Test_Files/2.py:127:16: E225 missing whitespace around operator
+Test_Files/2.py:130:16: E225 missing whitespace around operator
+Test_Files/2.py:133:16: E225 missing whitespace around operator
+Test_Files/2.py:138:21: E231 missing whitespace after ','
+Test_Files/2.py:138:28: E231 missing whitespace after ','
+Test_Files/2.py:141:46: E225 missing whitespace around operator
+Test_Files/2.py:171:54: E231 missing whitespace after ','
+Test_Files/2.py:171:80: E501 line too long (214 > 79 characters)
+Test_Files/2.py:172:80: E501 line too long (215 > 79 characters)
+Test_Files/2.py:173:80: E501 line too long (168 > 79 characters)
+Test_Files/2.py:177:1: E302 expected 2 blank lines, found 1
+Test_Files/2.py:182:1: E302 expected 2 blank lines, found 1
+Test_Files/2.py:187:1: E302 expected 2 blank lines, found 1
+Test_Files/2.py:192:1: E302 expected 2 blank lines, found 1
+Test_Files/2.py:199:1: E302 expected 2 blank lines, found 1
+Test_Files/2.py:203:53: E231 missing whitespace after ','
+Test_Files/2.py:203:62: E231 missing whitespace after ','
+Test_Files/2.py:203:74: E231 missing whitespace after ','
+Test_Files/2.py:203:80: E501 line too long (87 > 79 characters)
+Test_Files/2.py:204:80: E501 line too long (87 > 79 characters)
+Test_Files/2.py:209:67: E231 missing whitespace after ','
+Test_Files/2.py:214:18: E225 missing whitespace around operator
+Test_Files/2.py:215:2: E114 indentation is not a multiple of four (comment)
+Test_Files/2.py:216:80: E501 line too long (82 > 79 characters)
+Test_Files/2.py:218:51: E231 missing whitespace after ','
+Running pylinter...
+************* Module Grad School.Coursework.Software Re-Engineering.Project.Source_code.statikos.Test_Files.2
+C: 22, 0: Exactly one space required after comma
+def combineDataframes(dataFrame1,dataFrame2):
+                                ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+    frames = [dataFrame1,dataFrame2]
+                        ^ (bad-whitespace)
+C: 29, 0: Line too long (135/100) (line-too-long)
+C: 30, 0: Wrong continued indentation (add 10 spaces).
+         'Ch4 mean', 'Ch4 median', 'Ch4 stdev', 'Ch5 mean', 'Ch5 median', 'Ch5 stdev', 'Ch6 mean', 'Ch6 median', 'Ch6 stdev',
+         ^         | (bad-continuation)
+C: 30, 0: Line too long (125/100) (line-too-long)
+C: 31, 0: Wrong continued indentation (add 10 spaces).
+         'Ch7 mean', 'Ch7 median', 'Ch7 stdev', 'Ch8 mean', 'Ch8 median', 'Ch8 stdev']]
+         ^         | (bad-continuation)
+C: 53, 0: Line too long (135/100) (line-too-long)
+C: 54, 0: Wrong continued indentation (add 10 spaces).
+         'Ch4 mean', 'Ch4 median', 'Ch4 stdev', 'Ch5 mean', 'Ch5 median', 'Ch5 stdev', 'Ch6 mean', 'Ch6 median', 'Ch6 stdev',
+         ^         | (bad-continuation)
+C: 54, 0: Line too long (125/100) (line-too-long)
+C: 55, 0: Wrong continued indentation (add 10 spaces).
+         'Ch7 mean', 'Ch7 median', 'Ch7 stdev', 'Ch8 mean', 'Ch8 median', 'Ch8 stdev']]
+         ^         | (bad-continuation)
+C: 64, 0: Line too long (135/100) (line-too-long)
+C: 65, 0: Wrong continued indentation (add 10 spaces).
+         'Ch4 mean', 'Ch4 median', 'Ch4 stdev', 'Ch5 mean', 'Ch5 median', 'Ch5 stdev', 'Ch6 mean', 'Ch6 median', 'Ch6 stdev',
+         ^         | (bad-continuation)
+C: 65, 0: Line too long (125/100) (line-too-long)
+C: 66, 0: Wrong continued indentation (add 10 spaces).
+         'Ch7 mean', 'Ch7 median', 'Ch7 stdev', 'Ch8 mean', 'Ch8 median', 'Ch8 stdev']]
+         ^         | (bad-continuation)
+C: 69, 0: No space allowed after bracket
+    svm = SVC( kernel= 'poly', gamma='scale')
+             ^ (bad-whitespace)
+C: 69, 0: No space allowed after keyword argument assignment
+    svm = SVC( kernel= 'poly', gamma='scale')
+                     ^ (bad-whitespace)
+C: 87, 0: Line too long (135/100) (line-too-long)
+C: 88, 0: Wrong continued indentation (add 10 spaces).
+         'Ch4 mean', 'Ch4 median', 'Ch4 stdev', 'Ch5 mean', 'Ch5 median', 'Ch5 stdev', 'Ch6 mean', 'Ch6 median', 'Ch6 stdev',
+         ^         | (bad-continuation)
+C: 88, 0: Line too long (125/100) (line-too-long)
+C: 89, 0: Wrong continued indentation (add 10 spaces).
+         'Ch7 mean', 'Ch7 median', 'Ch7 stdev', 'Ch8 mean', 'Ch8 median', 'Ch8 stdev']]
+         ^         | (bad-continuation)
+C:109, 0: Exactly one space required after comma
+def rollingWindowFeatureExtraction(dataFrame,action_type):
+                                            ^ (bad-whitespace)
+C:112, 0: Exactly one space required after assignment
+    ch1median =[]
+              ^ (bad-whitespace)
+C:115, 0: Exactly one space required after assignment
+    ch2median =[]
+              ^ (bad-whitespace)
+C:118, 0: Exactly one space required after assignment
+    ch3median =[]
+              ^ (bad-whitespace)
+C:121, 0: Exactly one space required after assignment
+    ch4median =[]
+              ^ (bad-whitespace)
+C:124, 0: Exactly one space required after assignment
+    ch5median =[]
+              ^ (bad-whitespace)
+C:127, 0: Exactly one space required after assignment
+    ch6median =[]
+              ^ (bad-whitespace)
+C:130, 0: Exactly one space required after assignment
+    ch7median =[]
+              ^ (bad-whitespace)
+C:133, 0: Exactly one space required after assignment
+    ch8median =[]
+              ^ (bad-whitespace)
+C:138, 0: Exactly one space required after comma
+    for i in range(0,180000,90):
+                    ^ (bad-whitespace)
+C:138, 0: Exactly one space required after comma
+    for i in range(0,180000,90):
+                           ^ (bad-whitespace)
+C:171, 0: Line too long (214/100) (line-too-long)
+C:171, 0: Exactly one space required after comma
+    d = {'Ch1 mean': ch1mean, 'Ch1 median': ch1median,'Ch1 stdev': ch1stdev, 'Ch2 mean': ch2mean, 'Ch2 median': ch2median, 'Ch2 stdev': ch2stdev, 'Ch3 mean': ch3mean, 'Ch3 median': ch3median, 'Ch3 stdev': ch3stdev,
+                                                     ^ (bad-whitespace)
+C:172, 0: Line too long (215/100) (line-too-long)
+C:173, 0: Line too long (168/100) (line-too-long)
+C:185, 0: Unnecessary parens after 'return' keyword (superfluous-parens)
+C:190, 0: Unnecessary parens after 'return' keyword (superfluous-parens)
+C:203, 0: Exactly one space required after comma
+    dataFrame_agg0 = pd.read_csv(filename_aggressive,sep='\t',header=None,nrows=180000)
+                                                    ^ (bad-whitespace)
+C:203, 0: Exactly one space required after comma
+    dataFrame_agg0 = pd.read_csv(filename_aggressive,sep='\t',header=None,nrows=180000)
+                                                             ^ (bad-whitespace)
+C:203, 0: Exactly one space required after comma
+    dataFrame_agg0 = pd.read_csv(filename_aggressive,sep='\t',header=None,nrows=180000)
+                                                                         ^ (bad-whitespace)
+C:209, 0: Exactly one space required after comma
+    dataFrame_agg1 = rollingWindowFeatureExtraction(dataFrame_agg0,action_type)
+                                                                  ^ (bad-whitespace)
+C:214, 0: Exactly one space required after assignment
+    action_type =0
+                ^ (bad-whitespace)
+C:218, 0: Exactly one space required after comma
+    Combined_df = combineDataframes(dataFrame_agg1,dataFrame_norm1)
+                                                  ^ (bad-whitespace)
+C:  1, 0: Module name "2" doesn't conform to snake_case naming style (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 22, 0: Function name "combineDataframes" doesn't conform to snake_case naming style (invalid-name)
+C: 22, 0: Argument name "dataFrame1" doesn't conform to snake_case naming style (invalid-name)
+C: 22, 0: Argument name "dataFrame2" doesn't conform to snake_case naming style (invalid-name)
+C: 22, 0: Missing function docstring (missing-docstring)
+C: 28, 0: Function name "naiveBayes" doesn't conform to snake_case naming style (invalid-name)
+C: 28, 0: Argument name "dataFrame" doesn't conform to snake_case naming style (invalid-name)
+C: 28, 0: Missing function docstring (missing-docstring)
+C: 29, 4: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+C: 32, 4: Variable name "Y" doesn't conform to snake_case naming style (invalid-name)
+C: 33, 4: Variable name "X_train" doesn't conform to snake_case naming style (invalid-name)
+C: 33,13: Variable name "X_test" doesn't conform to snake_case naming style (invalid-name)
+W: 38,14: Unused variable 'thresholds' (unused-variable)
+C: 52, 0: Argument name "dataFrame" doesn't conform to snake_case naming style (invalid-name)
+C: 52, 0: Missing function docstring (missing-docstring)
+C: 53, 4: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+C: 56, 4: Variable name "Y" doesn't conform to snake_case naming style (invalid-name)
+C: 57, 4: Variable name "X_train" doesn't conform to snake_case naming style (invalid-name)
+C: 57,13: Variable name "X_test" doesn't conform to snake_case naming style (invalid-name)
+C: 63, 0: Argument name "dataFrame" doesn't conform to snake_case naming style (invalid-name)
+C: 63, 0: Missing function docstring (missing-docstring)
+C: 64, 4: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+C: 67, 4: Variable name "Y" doesn't conform to snake_case naming style (invalid-name)
+C: 68, 4: Variable name "X_train" doesn't conform to snake_case naming style (invalid-name)
+C: 68,13: Variable name "X_test" doesn't conform to snake_case naming style (invalid-name)
+W: 73,14: Unused variable 'thresholds' (unused-variable)
+C: 86, 0: Argument name "dataFrame" doesn't conform to snake_case naming style (invalid-name)
+C: 86, 0: Missing function docstring (missing-docstring)
+C: 87, 4: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+C: 90, 4: Variable name "Y" doesn't conform to snake_case naming style (invalid-name)
+C: 91, 4: Variable name "X_train" doesn't conform to snake_case naming style (invalid-name)
+C: 91,13: Variable name "X_test" doesn't conform to snake_case naming style (invalid-name)
+W: 96,14: Unused variable 'thresholds' (unused-variable)
+C:109, 0: Function name "rollingWindowFeatureExtraction" doesn't conform to snake_case naming style (invalid-name)
+C:109, 0: Argument name "dataFrame" doesn't conform to snake_case naming style (invalid-name)
+C:109, 0: Missing function docstring (missing-docstring)
+R:109, 0: Too many local variables (30/15) (too-many-locals)
+C:136, 4: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:171, 4: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+R:109, 0: Too many statements (55/50) (too-many-statements)
+C:177, 0: Argument name "DataFrame" doesn't conform to snake_case naming style (invalid-name)
+C:177, 0: Missing function docstring (missing-docstring)
+C:179, 4: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:182, 0: Argument name "DataFrame" doesn't conform to snake_case naming style (invalid-name)
+C:182, 0: Missing function docstring (missing-docstring)
+C:184, 4: Variable name "X_test_maxabs" doesn't conform to snake_case naming style (invalid-name)
+C:187, 0: Argument name "DataFrame" doesn't conform to snake_case naming style (invalid-name)
+C:187, 0: Missing function docstring (missing-docstring)
+C:189, 4: Variable name "X_test_z" doesn't conform to snake_case naming style (invalid-name)
+C:192, 0: Argument name "DataFrame" doesn't conform to snake_case naming style (invalid-name)
+C:192, 0: Missing function docstring (missing-docstring)
+C:199, 0: Missing function docstring (missing-docstring)
+C:203, 4: Variable name "dataFrame_agg0" doesn't conform to snake_case naming style (invalid-name)
+C:204, 4: Variable name "dataFrame_norm0" doesn't conform to snake_case naming style (invalid-name)
+C:209, 4: Variable name "dataFrame_agg1" doesn't conform to snake_case naming style (invalid-name)
+C:216, 4: Variable name "dataFrame_norm1" doesn't conform to snake_case naming style (invalid-name)
+C:218, 4: Variable name "Combined_df" doesn't conform to snake_case naming style (invalid-name)
+W: 10, 0: Unused precision_recall_fscore_support imported from sklearn.metrics as score (unused-import)
+W: 18, 0: Unused load_digits imported from sklearn.datasets (unused-import)
+C:  2, 0: standard import "import os" should be placed before "import matplotlib.pyplot as plt" (wrong-import-order)
+C:  5, 0: standard import "from statistics import mean" should be placed before "import matplotlib.pyplot as plt" (wrong-import-order)
+C:  6, 0: standard import "from statistics import median" should be placed before "import matplotlib.pyplot as plt" (wrong-import-order)
+C:  7, 0: standard import "from statistics import stdev" should be placed before "import matplotlib.pyplot as plt" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 4.15/10
+

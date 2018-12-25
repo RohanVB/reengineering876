@@ -1,0 +1,189 @@
+Messages
+========
+
+Test_Files/14.py
+  Line: 1
+    pylint: invalid-name / Module name "14" doesn't conform to snake_case naming style
+    pylint: missing-docstring / Missing module docstring
+  Line: 5
+    pylint: import-error / Unable to import 'tsfresh'
+    pylint: unused-import / Unused extract_features imported from tsfresh
+  Line: 6
+    pylint: import-error / Unable to import 'tsfresh.feature_extraction.settings'
+    pylint: unused-import / Unused ComprehensiveFCParameters imported from tsfresh.feature_extraction.settings
+    pylint: line-too-long / Line too long (116/100)
+    pep8: E231 / missing whitespace after ',' (col 95)
+  Line: 7
+    pylint: ungrouped-imports / Imports from package sklearn are not grouped
+    pylint: wrong-import-order / third party import "from sklearn import model_selection" should be placed before "from tsfresh import extract_features, extract_relevant_features, select_features"
+  Line: 8
+    pylint: wrong-import-order / third party import "from sklearn.decomposition import PCA" should be placed before "from tsfresh import extract_features, extract_relevant_features, select_features"
+    pylint: unused-import / Unused PCA imported from sklearn.decomposition
+  Line: 11
+    pylint: wrong-import-order / third party import "from sklearn.metrics import classification_report" should be placed before "from tsfresh import extract_features, extract_relevant_features, select_features"
+    pylint: unused-import / Unused classification_report imported from sklearn.metrics
+  Line: 12
+    pylint: wrong-import-order / third party import "from sklearn.metrics import confusion_matrix" should be placed before "from tsfresh import extract_features, extract_relevant_features, select_features"
+    pylint: unused-import / Unused confusion_matrix imported from sklearn.metrics
+  Line: 13
+    pylint: wrong-import-order / third party import "from sklearn.metrics import accuracy_score" should be placed before "from tsfresh import extract_features, extract_relevant_features, select_features"
+    pylint: unused-import / Unused accuracy_score imported from sklearn.metrics
+  Line: 14
+    pylint: wrong-import-order / third party import "from sklearn.linear_model import LogisticRegression" should be placed before "from tsfresh import extract_features, extract_relevant_features, select_features"
+  Line: 15
+    pylint: wrong-import-order / third party import "from sklearn.tree import DecisionTreeClassifier" should be placed before "from tsfresh import extract_features, extract_relevant_features, select_features"
+    pylint: unused-import / Unused DecisionTreeClassifier imported from sklearn.tree
+  Line: 16
+    pylint: wrong-import-order / third party import "from sklearn.neighbors import KNeighborsClassifier" should be placed before "from tsfresh import extract_features, extract_relevant_features, select_features"
+  Line: 17
+    pylint: wrong-import-order / third party import "from sklearn.discriminant_analysis import LinearDiscriminantAnalysis" should be placed before "from tsfresh import extract_features, extract_relevant_features, select_features"
+    pylint: unused-import / Unused LinearDiscriminantAnalysis imported from sklearn.discriminant_analysis
+  Line: 18
+    pylint: wrong-import-order / third party import "from sklearn.naive_bayes import GaussianNB" should be placed before "from tsfresh import extract_features, extract_relevant_features, select_features"
+  Line: 19
+    pylint: wrong-import-order / third party import "from sklearn.svm import SVC" should be placed before "from tsfresh import extract_features, extract_relevant_features, select_features"
+  Line: 23
+    pep8: E303 / too many blank lines (3) (col 1)
+    pylint: too-many-instance-attributes / Too many instance attributes (15/7)
+    pylint: missing-docstring / Missing class docstring
+  Line: 29
+    pep8: E303 / too many blank lines (2) (col 5)
+  Line: 33
+    pep8: E265 / block comment should start with '# ' (col 5)
+  Line: 50
+    pep8: E303 / too many blank lines (2) (col 5)
+  Line: 67
+    pep8: N802 / function name should be lowercase (col 9)
+    pylint: too-many-locals / Too many local variables (36/15) (col 4)
+    pylint: too-many-statements / Too many statements (62/50) (col 4)
+    pylint: invalid-name / Method name "initVars" doesn't conform to snake_case naming style (col 4)
+    pylint: missing-docstring / Missing method docstring (col 4)
+  Line: 73
+    pylint: unused-variable / Unused variable 'index' (col 12)
+  Line: 99
+    pep8: E261 / at least two spaces before inline comment (col 18)
+    pep8: E262 / inline comment should start with '# ' (col 19)
+  Line: 100
+    pylint: invalid-name / Variable name "f" doesn't conform to snake_case naming style (col 36)
+  Line: 106
+    pep8: E261 / at least two spaces before inline comment (col 50)
+    pep8: E262 / inline comment should start with '# ' (col 51)
+  Line: 109
+    pep8: E261 / at least two spaces before inline comment (col 67)
+    pep8: E262 / inline comment should start with '# ' (col 68)
+  Line: 110
+    pep8: E261 / at least two spaces before inline comment (col 74)
+    pep8: E262 / inline comment should start with '# ' (col 75)
+  Line: 112
+    pep8: E261 / at least two spaces before inline comment (col 78)
+    pep8: E262 / inline comment should start with '# ' (col 79)
+  Line: 143
+    pylint: line-too-long / Line too long (123/100)
+    pep8: E231 / missing whitespace after ':' (col 45)
+  Line: 144
+    pep8: E127 / continuation line over-indented for visual indent (col 45)
+    pylint: bad-continuation / Wrong continued indentation (remove 17 spaces).
+                                            'app_acc': [app_acc_gain, app_acc_base], 'yaw_v':[yaw_v_gain, yaw_v_base],
+                           |                ^
+    pylint: line-too-long / Line too long (118/100)
+    pep8: E231 / missing whitespace after ':' (col 93)
+  Line: 145
+    pylint: bad-continuation / Wrong continued indentation (remove 17 spaces).
+                                            'pitch_v':[pitch_v_gain,pitch_v_base], 'roll_v': [roll_v_gain,roll_v_base]}
+                           |                ^
+    pylint: line-too-long / Line too long (119/100)
+    pep8: E231 / missing whitespace after ':' (col 54)
+  Line: 150
+    pep8: E231 / missing whitespace after ',' (col 39)
+  Line: 156
+    pep8: N802 / function name should be lowercase (col 9)
+    pylint: useless-return / Useless return at end of function or method (col 4)
+    pylint: invalid-name / Method name "rearrageVars" doesn't conform to snake_case naming style (col 4)
+    pylint: missing-docstring / Missing method docstring (col 4)
+  Line: 158
+    pep8: E261 / at least two spaces before inline comment (col 83)
+    pep8: E262 / inline comment should start with '# ' (col 84)
+    pylint: line-too-long / Line too long (101/100)
+  Line: 159
+    pep8: E225 / missing whitespace around operator (col 38)
+  Line: 163
+    pep8: E225 / missing whitespace around operator (col 38)
+  Line: 174
+    pep8: E226 / missing whitespace around arithmetic operator (col 49)
+    pep8: E226 / missing whitespace around arithmetic operator (col 52)
+    pep8: E221 / multiple spaces before operator (col 20)
+    pylint: bad-whitespace / Exactly one space required before assignment
+            self.id  = self.id + np.array([index+1]*length).tolist()
+                     ^ (col 21)
+    pylint: invalid-name / Attribute name "id" doesn't conform to snake_case naming style (col 12)
+  Line: 176
+    pep8: E231 / missing whitespace after ',' (col 49)
+  Line: 185
+    pep8: E303 / too many blank lines (2) (col 9)
+  Line: 189
+    pylint: line-too-long / Line too long (109/100)
+  Line: 196
+    pylint: line-too-long / Line too long (103/100)
+  Line: 204
+    pep8: N806 / variable in function should be lowercase (col 13)
+    pylint: invalid-name / Variable name "newI" doesn't conform to snake_case naming style (col 12)
+  Line: 219
+    pep8: N802 / function name should be lowercase (col 9)
+    pylint: useless-return / Useless return at end of function or method (col 4)
+    pylint: invalid-name / Method name "generateDataFrame" doesn't conform to snake_case naming style (col 4)
+    pylint: missing-docstring / Missing method docstring (col 4)
+  Line: 220
+    pylint: line-too-long / Line too long (178/100)
+    pep8: E231 / missing whitespace after ':' (col 20)
+  Line: 221
+    pep8: E221 / multiple spaces before operator (col 23)
+    pylint: bad-whitespace / Exactly one space required before assignment
+        self.dataFrame  = pd.DataFrame(dic)
+                        ^ (col 24)
+    pylint: invalid-name / Attribute name "dataFrame" doesn't conform to snake_case naming style (col 8)
+  Line: 224
+    pylint: missing-docstring / Missing method docstring (col 4)
+  Line: 225
+    pylint: invalid-name / Attribute name "X" doesn't conform to snake_case naming style (col 8)
+  Line: 226
+    pylint: invalid-name / Attribute name "X_filtered" doesn't conform to snake_case naming style (col 8)
+  Line: 228
+    pylint: missing-docstring / Missing method docstring (col 4)
+  Line: 231
+    pep8: E231 / missing whitespace after ',' (col 22)
+  Line: 232
+    pylint: line-too-long / Line too long (150/100)
+    pylint: invalid-name / Attribute name "X_train" doesn't conform to snake_case naming style (col 8)
+  Line: 233
+    pep8: E128 / continuation line under-indented for visual indent (col 89)
+    pylint: bad-continuation / Wrong continued indentation (add 20 spaces).
+                                                                                        random_state=seed)
+                                                                                        ^                   |
+    pylint: line-too-long / Line too long (106/100)
+  Line: 243
+    pylint: unused-variable / Unused variable 'filtered_results' (col 8)
+  Line: 248
+    pylint: line-too-long / Line too long (123/100)
+  Line: 250
+    pylint: line-too-long / Line too long (113/100)
+  Line: 252
+    pylint: line-too-long / Line too long (104/100)
+  Line: 254
+    pep8: W391 / blank line at end of file (col 1)
+    pylint: trailing-newlines / Trailing newlines
+
+
+
+Check Information
+=================
+         Started: 2018-12-21 10:35:34.536369
+        Finished: 2018-12-21 10:35:39.037846
+      Time Taken: 4.50 seconds
+       Formatter: grouped
+        Profiles: default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings
+      Strictness: None
+  Libraries Used: 
+       Tools Run: dodgy, mccabe, pep8, profile-validator, pyflakes, pylint
+  Messages Found: 104
+ External Config: pep8: Configuration found at /Users/rohan/Documents/Grad School/Coursework/Software Re-Engineering/Project/Source_code/statikos/setup.cfg, pylint: /Users/rohan/Documents/Grad School/Coursework/Software Re-Engineering/Project/Source_code/statikos/pylintrc
+

@@ -1,0 +1,129 @@
+Messages
+========
+
+Test_Files/13.py
+  Line: 1
+    pylint: import-error / Unable to import 'ClinicalDataSet'
+    pylint: invalid-name / Module name "13" doesn't conform to snake_case naming style
+    pylint: missing-docstring / Missing module docstring
+  Line: 2
+    pylint: import-error / Unable to import 'GaitDataset'
+  Line: 4
+    pylint: wrong-import-order / third party import "import numpy as np" should be placed before "from ClinicalDataSet import ClinicalDataSet"
+  Line: 5
+    pylint: wrong-import-order / third party import "import pandas as pd" should be placed before "from ClinicalDataSet import ClinicalDataSet"
+  Line: 6
+    pylint: wrong-import-order / third party import "from sklearn import preprocessing as prepro" should be placed before "from ClinicalDataSet import ClinicalDataSet"
+  Line: 7
+    pylint: wrong-import-order / third party import "from sklearn.decomposition import PCA" should be placed before "from ClinicalDataSet import ClinicalDataSet"
+    pylint: unused-import / Unused PCA imported from sklearn.decomposition
+  Line: 8
+    pylint: no-name-in-module / No name 'scatter_matrix' in module 'pandas.tools.plotting'
+    pylint: ungrouped-imports / Imports from package pandas are not grouped
+    pylint: wrong-import-order / third party import "from pandas.tools.plotting import scatter_matrix" should be placed before "from ClinicalDataSet import ClinicalDataSet"
+    pylint: unused-import / Unused scatter_matrix imported from pandas.tools.plotting
+  Line: 9
+    pylint: wrong-import-order / third party import "import matplotlib.pyplot as plt" should be placed before "from ClinicalDataSet import ClinicalDataSet"
+  Line: 10
+    pylint: ungrouped-imports / Imports from package sklearn are not grouped
+    pylint: wrong-import-order / third party import "from sklearn import model_selection" should be placed before "from ClinicalDataSet import ClinicalDataSet"
+  Line: 11
+    pylint: import-error / Unable to import 'tsfresh'
+    pylint: unused-import / Unused extract_relevant_features imported from tsfresh
+  Line: 12
+    pylint: import-error / Unable to import 'tsfresh.feature_extraction.settings'
+    pylint: unused-import / Unused ComprehensiveFCParameters imported from tsfresh.feature_extraction.settings
+    pylint: line-too-long / Line too long (117/100)
+  Line: 13
+    pylint: reimported / Reimport 'model_selection' (imported line 10)
+    pylint: ungrouped-imports / Imports from package sklearn are not grouped
+    pylint: wrong-import-order / third party import "from sklearn import model_selection" should be placed before "from ClinicalDataSet import ClinicalDataSet"
+    pyflakes: F811 / redefinition of unused 'model_selection' from line 10 (col 1)
+  Line: 15
+    pylint: wrong-import-order / third party import "from sklearn.metrics import classification_report" should be placed before "from ClinicalDataSet import ClinicalDataSet"
+  Line: 16
+    pylint: wrong-import-order / third party import "from sklearn.metrics import confusion_matrix" should be placed before "from ClinicalDataSet import ClinicalDataSet"
+  Line: 17
+    pylint: wrong-import-order / third party import "from sklearn.metrics import accuracy_score" should be placed before "from ClinicalDataSet import ClinicalDataSet"
+  Line: 18
+    pylint: wrong-import-order / third party import "from sklearn.metrics import roc_curve, auc" should be placed before "from ClinicalDataSet import ClinicalDataSet"
+  Line: 20
+    pylint: wrong-import-order / third party import "from sklearn.linear_model import LogisticRegression" should be placed before "from ClinicalDataSet import ClinicalDataSet"
+  Line: 21
+    pylint: wrong-import-order / third party import "from sklearn.tree import DecisionTreeClassifier" should be placed before "from ClinicalDataSet import ClinicalDataSet"
+  Line: 22
+    pylint: wrong-import-order / third party import "from sklearn.neighbors import KNeighborsClassifier" should be placed before "from ClinicalDataSet import ClinicalDataSet"
+  Line: 23
+    pylint: wrong-import-order / third party import "from sklearn.discriminant_analysis import LinearDiscriminantAnalysis" should be placed before "from ClinicalDataSet import ClinicalDataSet"
+    pylint: unused-import / Unused LinearDiscriminantAnalysis imported from sklearn.discriminant_analysis
+  Line: 24
+    pylint: wrong-import-order / third party import "from sklearn.naive_bayes import GaussianNB" should be placed before "from ClinicalDataSet import ClinicalDataSet"
+  Line: 25
+    pylint: wrong-import-order / third party import "from sklearn.svm import SVC" should be placed before "from ClinicalDataSet import ClinicalDataSet"
+  Line: 28
+    pylint: invalid-name / Constant name "dataController" doesn't conform to UPPER_CASE naming style (col 4)
+  Line: 43
+    pylint: invalid-name / Constant name "Xdata" doesn't conform to UPPER_CASE naming style (col 4)
+  Line: 49
+    pylint: invalid-name / Constant name "dm" doesn't conform to UPPER_CASE naming style (col 4)
+  Line: 59
+    pylint: invalid-name / Constant name "extract_settings" doesn't conform to UPPER_CASE naming style (col 4)
+  Line: 60
+    pylint: line-too-long / Line too long (117/100)
+  Line: 62
+    pylint: invalid-name / Constant name "y" doesn't conform to UPPER_CASE naming style (col 4)
+  Line: 86
+    pylint: invalid-name / Constant name "validation_size" doesn't conform to UPPER_CASE naming style (col 4)
+  Line: 87
+    pylint: invalid-name / Constant name "seed" doesn't conform to UPPER_CASE naming style (col 4)
+  Line: 88
+    pylint: line-too-long / Line too long (116/100)
+    pylint: invalid-name / Constant name "X_train" doesn't conform to UPPER_CASE naming style (col 4)
+  Line: 89
+    pylint: line-too-long / Line too long (102/100)
+  Line: 96
+    pylint: invalid-name / Constant name "models" doesn't conform to UPPER_CASE naming style (col 4)
+  Line: 103
+    pylint: invalid-name / Constant name "results" doesn't conform to UPPER_CASE naming style (col 4)
+  Line: 108
+    pylint: line-too-long / Line too long (113/100)
+  Line: 109
+    pylint: line-too-long / Line too long (107/100)
+  Line: 110
+    pylint: line-too-long / Line too long (109/100)
+  Line: 111
+    pylint: line-too-long / Line too long (120/100)
+  Line: 115
+    pylint: line-too-long / Line too long (104/100)
+  Line: 118
+    pylint: invalid-name / Constant name "nb" doesn't conform to UPPER_CASE naming style (col 4)
+  Line: 120
+    pylint: invalid-name / Constant name "predictions" doesn't conform to UPPER_CASE naming style (col 4)
+  Line: 125
+    pylint: invalid-name / Constant name "y_score" doesn't conform to UPPER_CASE naming style (col 4)
+  Line: 127
+    pylint: invalid-name / Constant name "fpr" doesn't conform to UPPER_CASE naming style (col 4)
+  Line: 128
+    pylint: invalid-name / Constant name "tpr" doesn't conform to UPPER_CASE naming style (col 4)
+  Line: 129
+    pylint: invalid-name / Constant name "roc_auc" doesn't conform to UPPER_CASE naming style (col 4)
+  Line: 130
+    pylint: invalid-name / Constant name "thresholds" doesn't conform to UPPER_CASE naming style (col 20)
+  Line: 139
+    pylint: invalid-name / Constant name "lw" doesn't conform to UPPER_CASE naming style (col 4)
+
+
+
+Check Information
+=================
+         Started: 2018-12-21 10:35:20.652594
+        Finished: 2018-12-21 10:35:26.145402
+      Time Taken: 5.49 seconds
+       Formatter: grouped
+        Profiles: default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings
+      Strictness: None
+  Libraries Used: 
+       Tools Run: dodgy, mccabe, pep8, profile-validator, pyflakes, pylint
+  Messages Found: 62
+ External Config: pep8: Configuration found at /Users/rohan/Documents/Grad School/Coursework/Software Re-Engineering/Project/Source_code/statikos/setup.cfg, pylint: /Users/rohan/Documents/Grad School/Coursework/Software Re-Engineering/Project/Source_code/statikos/pylintrc
+

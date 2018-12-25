@@ -1,0 +1,270 @@
+Messages
+========
+
+Test_Files/2.py
+  Line: 1
+    pylint: invalid-name / Module name "2" doesn't conform to snake_case naming style
+    pylint: missing-docstring / Missing module docstring
+  Line: 2
+    pylint: wrong-import-order / standard import "import os" should be placed before "import matplotlib.pyplot as plt"
+  Line: 5
+    pylint: wrong-import-order / standard import "from statistics import mean" should be placed before "import matplotlib.pyplot as plt"
+  Line: 6
+    pylint: wrong-import-order / standard import "from statistics import median" should be placed before "import matplotlib.pyplot as plt"
+  Line: 7
+    pylint: wrong-import-order / standard import "from statistics import stdev" should be placed before "import matplotlib.pyplot as plt"
+  Line: 10
+    pylint: unused-import / Unused precision_recall_fscore_support imported from sklearn.metrics as score
+  Line: 18
+    pylint: unused-import / Unused load_digits imported from sklearn.datasets
+  Line: 22
+    pep8: N802 / function name should be lowercase (col 5)
+    pep8: N803 / argument name should be lowercase (col 5)
+    pep8: E302 / expected 2 blank lines, found 1 (col 1)
+    pep8: E231 / missing whitespace after ',' (col 33)
+    pylint: invalid-name / Function name "combineDataframes" doesn't conform to snake_case naming style
+    pylint: missing-docstring / Missing function docstring
+  Line: 24
+    pep8: E231 / missing whitespace after ',' (col 25)
+  Line: 28
+    pep8: N802 / function name should be lowercase (col 5)
+    pep8: N803 / argument name should be lowercase (col 5)
+    pep8: E302 / expected 2 blank lines, found 1 (col 1)
+    pylint: invalid-name / Function name "naiveBayes" doesn't conform to snake_case naming style
+    pylint: missing-docstring / Missing function docstring
+  Line: 29
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: line-too-long / Line too long (135/100)
+    pylint: invalid-name / Variable name "X" doesn't conform to snake_case naming style (col 4)
+  Line: 30
+    pep8: E128 / continuation line under-indented for visual indent (col 10)
+    pylint: bad-continuation / Wrong continued indentation (add 10 spaces).
+         'Ch4 mean', 'Ch4 median', 'Ch4 stdev', 'Ch5 mean', 'Ch5 median', 'Ch5 stdev', 'Ch6 mean', 'Ch6 median', 'Ch6 stdev',
+         ^         |
+    pylint: line-too-long / Line too long (125/100)
+  Line: 31
+    pep8: E128 / continuation line under-indented for visual indent (col 10)
+    pylint: bad-continuation / Wrong continued indentation (add 10 spaces).
+         'Ch7 mean', 'Ch7 median', 'Ch7 stdev', 'Ch8 mean', 'Ch8 median', 'Ch8 stdev']]
+         ^         |
+  Line: 32
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "Y" doesn't conform to snake_case naming style (col 4)
+  Line: 33
+    pylint: invalid-name / Variable name "X_train" doesn't conform to snake_case naming style (col 4)
+  Line: 38
+    pylint: unused-variable / Unused variable 'thresholds' (col 14)
+  Line: 52
+    pep8: N803 / argument name should be lowercase (col 5)
+    pep8: E302 / expected 2 blank lines, found 1 (col 1)
+    pylint: invalid-name / Argument name "dataFrame" doesn't conform to snake_case naming style
+    pylint: missing-docstring / Missing function docstring
+  Line: 53
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: line-too-long / Line too long (135/100)
+    pylint: invalid-name / Variable name "X" doesn't conform to snake_case naming style (col 4)
+  Line: 54
+    pep8: E128 / continuation line under-indented for visual indent (col 10)
+    pylint: bad-continuation / Wrong continued indentation (add 10 spaces).
+         'Ch4 mean', 'Ch4 median', 'Ch4 stdev', 'Ch5 mean', 'Ch5 median', 'Ch5 stdev', 'Ch6 mean', 'Ch6 median', 'Ch6 stdev',
+         ^         |
+    pylint: line-too-long / Line too long (125/100)
+  Line: 55
+    pep8: E128 / continuation line under-indented for visual indent (col 10)
+    pylint: bad-continuation / Wrong continued indentation (add 10 spaces).
+         'Ch7 mean', 'Ch7 median', 'Ch7 stdev', 'Ch8 mean', 'Ch8 median', 'Ch8 stdev']]
+         ^         |
+  Line: 56
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "Y" doesn't conform to snake_case naming style (col 4)
+  Line: 57
+    pylint: invalid-name / Variable name "X_train" doesn't conform to snake_case naming style (col 4)
+  Line: 63
+    pep8: N803 / argument name should be lowercase (col 5)
+    pep8: E302 / expected 2 blank lines, found 1 (col 1)
+    pylint: invalid-name / Argument name "dataFrame" doesn't conform to snake_case naming style
+    pylint: missing-docstring / Missing function docstring
+  Line: 64
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: line-too-long / Line too long (135/100)
+    pylint: invalid-name / Variable name "X" doesn't conform to snake_case naming style (col 4)
+  Line: 65
+    pep8: E128 / continuation line under-indented for visual indent (col 10)
+    pylint: bad-continuation / Wrong continued indentation (add 10 spaces).
+         'Ch4 mean', 'Ch4 median', 'Ch4 stdev', 'Ch5 mean', 'Ch5 median', 'Ch5 stdev', 'Ch6 mean', 'Ch6 median', 'Ch6 stdev',
+         ^         |
+    pylint: line-too-long / Line too long (125/100)
+  Line: 66
+    pep8: E128 / continuation line under-indented for visual indent (col 10)
+    pylint: bad-continuation / Wrong continued indentation (add 10 spaces).
+         'Ch7 mean', 'Ch7 median', 'Ch7 stdev', 'Ch8 mean', 'Ch8 median', 'Ch8 stdev']]
+         ^         |
+  Line: 67
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "Y" doesn't conform to snake_case naming style (col 4)
+  Line: 68
+    pylint: invalid-name / Variable name "X_train" doesn't conform to snake_case naming style (col 4)
+  Line: 69
+    pep8: E201 / whitespace after '(' (col 15)
+    pep8: E251 / unexpected spaces around keyword / parameter equals (col 23)
+  Line: 73
+    pylint: unused-variable / Unused variable 'thresholds' (col 14)
+  Line: 86
+    pep8: N803 / argument name should be lowercase (col 5)
+    pep8: E302 / expected 2 blank lines, found 0 (col 1)
+    pylint: invalid-name / Argument name "dataFrame" doesn't conform to snake_case naming style
+    pylint: missing-docstring / Missing function docstring
+  Line: 87
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: line-too-long / Line too long (135/100)
+    pylint: invalid-name / Variable name "X" doesn't conform to snake_case naming style (col 4)
+  Line: 88
+    pep8: E128 / continuation line under-indented for visual indent (col 10)
+    pylint: bad-continuation / Wrong continued indentation (add 10 spaces).
+         'Ch4 mean', 'Ch4 median', 'Ch4 stdev', 'Ch5 mean', 'Ch5 median', 'Ch5 stdev', 'Ch6 mean', 'Ch6 median', 'Ch6 stdev',
+         ^         |
+    pylint: line-too-long / Line too long (125/100)
+  Line: 89
+    pep8: E128 / continuation line under-indented for visual indent (col 10)
+    pylint: bad-continuation / Wrong continued indentation (add 10 spaces).
+         'Ch7 mean', 'Ch7 median', 'Ch7 stdev', 'Ch8 mean', 'Ch8 median', 'Ch8 stdev']]
+         ^         |
+  Line: 90
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "Y" doesn't conform to snake_case naming style (col 4)
+  Line: 91
+    pylint: invalid-name / Variable name "X_train" doesn't conform to snake_case naming style (col 4)
+  Line: 96
+    pylint: unused-variable / Unused variable 'thresholds' (col 14)
+  Line: 109
+    pep8: N802 / function name should be lowercase (col 5)
+    pep8: N803 / argument name should be lowercase (col 5)
+    pep8: E302 / expected 2 blank lines, found 0 (col 1)
+    pylint: too-many-locals / Too many local variables (30/15)
+    pylint: too-many-statements / Too many statements (55/50)
+    pep8: E231 / missing whitespace after ',' (col 45)
+    pylint: invalid-name / Function name "rollingWindowFeatureExtraction" doesn't conform to snake_case naming style
+    pylint: missing-docstring / Missing function docstring
+  Line: 112
+    pep8: E225 / missing whitespace around operator (col 16)
+  Line: 115
+    pep8: E225 / missing whitespace around operator (col 16)
+  Line: 118
+    pep8: E225 / missing whitespace around operator (col 16)
+  Line: 121
+    pep8: E225 / missing whitespace around operator (col 16)
+  Line: 124
+    pep8: E225 / missing whitespace around operator (col 16)
+  Line: 127
+    pep8: E225 / missing whitespace around operator (col 16)
+  Line: 130
+    pep8: E225 / missing whitespace around operator (col 16)
+  Line: 133
+    pep8: E225 / missing whitespace around operator (col 16)
+  Line: 136
+    pylint: invalid-name / Variable name "d" doesn't conform to snake_case naming style (col 4)
+  Line: 137
+    pep8: E226 / missing whitespace around arithmetic operator (col 24)
+  Line: 138
+    pep8: E231 / missing whitespace after ',' (col 21)
+  Line: 139
+    pep8: E226 / missing whitespace around arithmetic operator (col 42)
+  Line: 141
+    pep8: E225 / missing whitespace around operator (col 46)
+  Line: 143
+    pep8: E226 / missing whitespace around arithmetic operator (col 42)
+  Line: 147
+    pep8: E226 / missing whitespace around arithmetic operator (col 42)
+  Line: 151
+    pep8: E226 / missing whitespace around arithmetic operator (col 42)
+  Line: 155
+    pep8: E226 / missing whitespace around arithmetic operator (col 42)
+  Line: 159
+    pep8: E226 / missing whitespace around arithmetic operator (col 42)
+  Line: 163
+    pep8: E226 / missing whitespace around arithmetic operator (col 42)
+  Line: 167
+    pep8: E226 / missing whitespace around arithmetic operator (col 42)
+  Line: 171
+    pylint: line-too-long / Line too long (214/100)
+    pep8: E231 / missing whitespace after ',' (col 54)
+    pylint: invalid-name / Variable name "d" doesn't conform to snake_case naming style (col 4)
+  Line: 172
+    pylint: line-too-long / Line too long (215/100)
+  Line: 173
+    pylint: line-too-long / Line too long (168/100)
+  Line: 174
+    pep8: N806 / variable in function should be lowercase (col 5)
+  Line: 177
+    pep8: N803 / argument name should be lowercase (col 5)
+    pep8: E302 / expected 2 blank lines, found 1 (col 1)
+    pylint: invalid-name / Argument name "DataFrame" doesn't conform to snake_case naming style
+    pylint: missing-docstring / Missing function docstring
+  Line: 179
+    pylint: invalid-name / Variable name "x" doesn't conform to snake_case naming style (col 4)
+  Line: 182
+    pep8: N803 / argument name should be lowercase (col 5)
+    pep8: E302 / expected 2 blank lines, found 1 (col 1)
+    pylint: invalid-name / Argument name "DataFrame" doesn't conform to snake_case naming style
+    pylint: missing-docstring / Missing function docstring
+  Line: 184
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "X_test_maxabs" doesn't conform to snake_case naming style (col 4)
+  Line: 185
+    pylint: superfluous-parens / Unnecessary parens after 'return' keyword
+  Line: 187
+    pep8: N803 / argument name should be lowercase (col 5)
+    pep8: E302 / expected 2 blank lines, found 1 (col 1)
+    pylint: invalid-name / Argument name "DataFrame" doesn't conform to snake_case naming style
+    pylint: missing-docstring / Missing function docstring
+  Line: 189
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "X_test_z" doesn't conform to snake_case naming style (col 4)
+  Line: 190
+    pylint: superfluous-parens / Unnecessary parens after 'return' keyword
+  Line: 192
+    pep8: N803 / argument name should be lowercase (col 5)
+    pep8: E302 / expected 2 blank lines, found 1 (col 1)
+    pylint: invalid-name / Argument name "DataFrame" doesn't conform to snake_case naming style
+    pylint: missing-docstring / Missing function docstring
+  Line: 199
+    pep8: E302 / expected 2 blank lines, found 1 (col 1)
+    pylint: missing-docstring / Missing function docstring
+  Line: 203
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pep8: E231 / missing whitespace after ',' (col 53)
+    pylint: invalid-name / Variable name "dataFrame_agg0" doesn't conform to snake_case naming style (col 4)
+  Line: 204
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "dataFrame_norm0" doesn't conform to snake_case naming style (col 4)
+  Line: 209
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pep8: E231 / missing whitespace after ',' (col 67)
+    pylint: invalid-name / Variable name "dataFrame_agg1" doesn't conform to snake_case naming style (col 4)
+  Line: 214
+    pep8: E225 / missing whitespace around operator (col 18)
+  Line: 215
+    pep8: E114 / indentation is not a multiple of four (comment) (col 2)
+  Line: 216
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "dataFrame_norm1" doesn't conform to snake_case naming style (col 4)
+  Line: 218
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pep8: E231 / missing whitespace after ',' (col 51)
+    pylint: invalid-name / Variable name "Combined_df" doesn't conform to snake_case naming style (col 4)
+
+
+
+Check Information
+=================
+         Started: 2018-12-21 10:32:05.915860
+        Finished: 2018-12-21 10:32:11.537920
+      Time Taken: 5.62 seconds
+       Formatter: grouped
+        Profiles: default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings
+      Strictness: None
+  Libraries Used: 
+       Tools Run: dodgy, mccabe, pep8, profile-validator, pyflakes, pylint
+  Messages Found: 155
+ External Config: pep8: Configuration found at /Users/rohan/Documents/Grad School/Coursework/Software Re-Engineering/Project/Source_code/statikos/setup.cfg, pylint: /Users/rohan/Documents/Grad School/Coursework/Software Re-Engineering/Project/Source_code/statikos/pylintrc
+

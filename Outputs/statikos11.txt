@@ -1,0 +1,89 @@
+Running pep8...
+Test_Files/11.py:10:1: E265 block comment should start with '# '
+Test_Files/11.py:12:1: E265 block comment should start with '# '
+Test_Files/11.py:14:1: E265 block comment should start with '# '
+Test_Files/11.py:15:28: E231 missing whitespace after ','
+Test_Files/11.py:15:36: E231 missing whitespace after ','
+Test_Files/11.py:15:44: E231 missing whitespace after ','
+Test_Files/11.py:17:18: E231 missing whitespace after ','
+Test_Files/11.py:18:18: E231 missing whitespace after ','
+Test_Files/11.py:19:18: E231 missing whitespace after ','
+Test_Files/11.py:21:8: E225 missing whitespace around operator
+Test_Files/11.py:22:1: E265 block comment should start with '# '
+Test_Files/11.py:23:12: E231 missing whitespace after ','
+Test_Files/11.py:24:12: E231 missing whitespace after ','
+Test_Files/11.py:25:1: E265 block comment should start with '# '
+Test_Files/11.py:26:39: E231 missing whitespace after ','
+Test_Files/11.py:28:1: E265 block comment should start with '# '
+Test_Files/11.py:30:1: E265 block comment should start with '# '
+Test_Files/11.py:31:28: E231 missing whitespace after ','
+Test_Files/11.py:31:45: E231 missing whitespace after ','
+Test_Files/11.py:31:53: E231 missing whitespace after ','
+Test_Files/11.py:32:11: E225 missing whitespace around operator
+Test_Files/11.py:32:80: E501 line too long (97 > 79 characters)
+Test_Files/11.py:49:1: W391 blank line at end of file
+Running pylinter...
+************* Module Grad School.Coursework.Software Re-Engineering.Project.Source_code.statikos.Test_Files.11
+C: 15, 0: Exactly one space required after comma
+dataFrame.columns = ["time","acc-x","acc-y","acc-z"]
+                           ^ (bad-whitespace)
+C: 15, 0: Exactly one space required after comma
+dataFrame.columns = ["time","acc-x","acc-y","acc-z"]
+                                   ^ (bad-whitespace)
+C: 15, 0: Exactly one space required after comma
+dataFrame.columns = ["time","acc-x","acc-y","acc-z"]
+                                           ^ (bad-whitespace)
+C: 17, 0: Exactly one space required after comma
+plt.plot(x='time',y='acc-x')
+                 ^ (bad-whitespace)
+C: 18, 0: Exactly one space required after comma
+plt.plot(x='time',y='acc-y')
+                 ^ (bad-whitespace)
+C: 19, 0: Exactly one space required after comma
+plt.plot(x='time',y='acc-z')
+                 ^ (bad-whitespace)
+C: 21, 0: Exactly one space required after assignment
+array =dataFrame.values
+      ^ (bad-whitespace)
+C: 23, 0: Exactly one space required after comma
+X = array[:,1:4]
+           ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+Y = array[:,3]
+           ^ (bad-whitespace)
+C: 26, 0: Exactly one space required after comma
+scaler = MinMaxScaler(feature_range=(0,1))
+                                      ^ (bad-whitespace)
+C: 31, 0: Exactly one space required after comma
+df = pd.DataFrame(rescaledX,columns=['acc-x','acc-y','acc-z'])
+                           ^ (bad-whitespace)
+C: 31, 0: Exactly one space required after comma
+df = pd.DataFrame(rescaledX,columns=['acc-x','acc-y','acc-z'])
+                                            ^ (bad-whitespace)
+C: 31, 0: Exactly one space required after comma
+df = pd.DataFrame(rescaledX,columns=['acc-x','acc-y','acc-z'])
+                                                    ^ (bad-whitespace)
+C: 32, 0: Exactly one space required around assignment
+export_csv=df.to_csv("/Users/zhoumanqing/Documents/pycharm/identification/normal61.csv", sep=',')
+          ^ (bad-whitespace)
+C: 49, 0: Trailing newlines (trailing-newlines)
+C:  1, 0: Module name "11" doesn't conform to snake_case naming style (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 11, 0: Constant name "cwd" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 13, 0: Constant name "dataFrame" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 21, 0: Constant name "array" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 26, 0: Constant name "scaler" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 27, 0: Constant name "rescaledX" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 31, 0: Constant name "df" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 32, 0: Constant name "export_csv" doesn't conform to UPPER_CASE naming style (invalid-name)
+W:  4, 0: Unused import csv (unused-import)
+W:  5, 0: Unused import scipy (unused-import)
+W:  6, 0: Unused Series imported from pandas (unused-import)
+W:  8, 0: Unused matplotlib.lines imported as mlines (unused-import)
+C:  4, 0: standard import "import csv" should be placed before "import numpy as np" (wrong-import-order)
+C:  6, 0: Imports from package pandas are not grouped (ungrouped-imports)
+C:  8, 0: Imports from package matplotlib are not grouped (ungrouped-imports)
+
+------------------------------------
+Your code has been rated at -2.40/10
+

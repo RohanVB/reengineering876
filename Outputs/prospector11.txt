@@ -1,0 +1,81 @@
+Messages
+========
+
+Test_Files/11.py
+  Line: 1
+    pylint: invalid-name / Module name "11" doesn't conform to snake_case naming style
+    pylint: missing-docstring / Missing module docstring
+  Line: 4
+    pylint: wrong-import-order / standard import "import csv" should be placed before "import numpy as np"
+    pylint: unused-import / Unused import csv
+  Line: 5
+    pylint: unused-import / Unused import scipy
+  Line: 6
+    pylint: ungrouped-imports / Imports from package pandas are not grouped
+    pylint: unused-import / Unused Series imported from pandas
+  Line: 8
+    pylint: ungrouped-imports / Imports from package matplotlib are not grouped
+    pylint: unused-import / Unused matplotlib.lines imported as mlines
+  Line: 10
+    pep8: E265 / block comment should start with '# ' (col 1)
+  Line: 11
+    pylint: invalid-name / Constant name "cwd" doesn't conform to UPPER_CASE naming style
+  Line: 12
+    pep8: E265 / block comment should start with '# ' (col 1)
+  Line: 13
+    pylint: invalid-name / Constant name "dataFrame" doesn't conform to UPPER_CASE naming style
+  Line: 14
+    pep8: E265 / block comment should start with '# ' (col 1)
+  Line: 15
+    pep8: E231 / missing whitespace after ',' (col 28)
+  Line: 17
+    pep8: E231 / missing whitespace after ',' (col 18)
+  Line: 18
+    pep8: E231 / missing whitespace after ',' (col 18)
+  Line: 19
+    pep8: E231 / missing whitespace after ',' (col 18)
+  Line: 21
+    pep8: E225 / missing whitespace around operator (col 8)
+    pylint: invalid-name / Constant name "array" doesn't conform to UPPER_CASE naming style
+  Line: 22
+    pep8: E265 / block comment should start with '# ' (col 1)
+  Line: 23
+    pep8: E231 / missing whitespace after ',' (col 12)
+  Line: 24
+    pep8: E231 / missing whitespace after ',' (col 12)
+  Line: 25
+    pep8: E265 / block comment should start with '# ' (col 1)
+  Line: 26
+    pep8: E231 / missing whitespace after ',' (col 39)
+    pylint: invalid-name / Constant name "scaler" doesn't conform to UPPER_CASE naming style
+  Line: 27
+    pylint: invalid-name / Constant name "rescaledX" doesn't conform to UPPER_CASE naming style
+  Line: 28
+    pep8: E265 / block comment should start with '# ' (col 1)
+  Line: 30
+    pep8: E265 / block comment should start with '# ' (col 1)
+  Line: 31
+    pep8: E231 / missing whitespace after ',' (col 28)
+    pylint: invalid-name / Constant name "df" doesn't conform to UPPER_CASE naming style
+  Line: 32
+    pep8: E225 / missing whitespace around operator (col 11)
+    pylint: invalid-name / Constant name "export_csv" doesn't conform to UPPER_CASE naming style
+  Line: 49
+    pep8: W391 / blank line at end of file (col 1)
+    pylint: trailing-newlines / Trailing newlines
+
+
+
+Check Information
+=================
+         Started: 2018-12-21 10:34:52.385755
+        Finished: 2018-12-21 10:34:57.696970
+      Time Taken: 5.31 seconds
+       Formatter: grouped
+        Profiles: default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings
+      Strictness: None
+  Libraries Used: 
+       Tools Run: dodgy, mccabe, pep8, profile-validator, pyflakes, pylint
+  Messages Found: 35
+ External Config: pep8: Configuration found at /Users/rohan/Documents/Grad School/Coursework/Software Re-Engineering/Project/Source_code/statikos/setup.cfg, pylint: /Users/rohan/Documents/Grad School/Coursework/Software Re-Engineering/Project/Source_code/statikos/pylintrc
+

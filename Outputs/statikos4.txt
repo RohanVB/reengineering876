@@ -1,0 +1,263 @@
+Running pep8...
+Test_Files/4.py:1:7: E271 multiple spaces after keyword
+Test_Files/4.py:43:80: E501 line too long (106 > 79 characters)
+Test_Files/4.py:44:63: E261 at least two spaces before inline comment
+Test_Files/4.py:54:80: E501 line too long (108 > 79 characters)
+Test_Files/4.py:57:1: E302 expected 2 blank lines, found 1
+Test_Files/4.py:105:34: E261 at least two spaces before inline comment
+Test_Files/4.py:110:80: E501 line too long (102 > 79 characters)
+Test_Files/4.py:131:20: E261 at least two spaces before inline comment
+Test_Files/4.py:131:80: E501 line too long (102 > 79 characters)
+Test_Files/4.py:158:80: E501 line too long (122 > 79 characters)
+Test_Files/4.py:161:80: E501 line too long (125 > 79 characters)
+Test_Files/4.py:166:80: E501 line too long (103 > 79 characters)
+Test_Files/4.py:173:80: E501 line too long (80 > 79 characters)
+Test_Files/4.py:195:16: E261 at least two spaces before inline comment
+Test_Files/4.py:211:80: E501 line too long (109 > 79 characters)
+Test_Files/4.py:226:46: E261 at least two spaces before inline comment
+Test_Files/4.py:226:80: E501 line too long (91 > 79 characters)
+Test_Files/4.py:227:80: E501 line too long (112 > 79 characters)
+Test_Files/4.py:233:1: E302 expected 2 blank lines, found 1
+Test_Files/4.py:259:31: E261 at least two spaces before inline comment
+Test_Files/4.py:259:80: E501 line too long (113 > 79 characters)
+Test_Files/4.py:271:80: E501 line too long (92 > 79 characters)
+Test_Files/4.py:293:80: E501 line too long (82 > 79 characters)
+Test_Files/4.py:296:80: E501 line too long (111 > 79 characters)
+Test_Files/4.py:315:80: E501 line too long (93 > 79 characters)
+Test_Files/4.py:338:1: E302 expected 2 blank lines, found 1
+Test_Files/4.py:347:80: E501 line too long (104 > 79 characters)
+Test_Files/4.py:352:80: E501 line too long (97 > 79 characters)
+Test_Files/4.py:353:80: E501 line too long (97 > 79 characters)
+Test_Files/4.py:354:80: E501 line too long (86 > 79 characters)
+Test_Files/4.py:358:80: E501 line too long (112 > 79 characters)
+Test_Files/4.py:358:86: E251 unexpected spaces around keyword / parameter equals
+Test_Files/4.py:358:88: E251 unexpected spaces around keyword / parameter equals
+Test_Files/4.py:358:107: E251 unexpected spaces around keyword / parameter equals
+Test_Files/4.py:358:109: E251 unexpected spaces around keyword / parameter equals
+Test_Files/4.py:363:80: E501 line too long (104 > 79 characters)
+Test_Files/4.py:365:80: E501 line too long (112 > 79 characters)
+Test_Files/4.py:365:86: E251 unexpected spaces around keyword / parameter equals
+Test_Files/4.py:365:88: E251 unexpected spaces around keyword / parameter equals
+Test_Files/4.py:365:107: E251 unexpected spaces around keyword / parameter equals
+Test_Files/4.py:365:109: E251 unexpected spaces around keyword / parameter equals
+Test_Files/4.py:367:80: E501 line too long (82 > 79 characters)
+Test_Files/4.py:377:80: E501 line too long (85 > 79 characters)
+Test_Files/4.py:380:80: E501 line too long (112 > 79 characters)
+Test_Files/4.py:380:86: E251 unexpected spaces around keyword / parameter equals
+Test_Files/4.py:380:88: E251 unexpected spaces around keyword / parameter equals
+Test_Files/4.py:380:107: E251 unexpected spaces around keyword / parameter equals
+Test_Files/4.py:380:109: E251 unexpected spaces around keyword / parameter equals
+Test_Files/4.py:389:80: E501 line too long (104 > 79 characters)
+Test_Files/4.py:394:80: E501 line too long (89 > 79 characters)
+Test_Files/4.py:399:76: E251 unexpected spaces around keyword / parameter equals
+Test_Files/4.py:399:78: E251 unexpected spaces around keyword / parameter equals
+Test_Files/4.py:399:80: E501 line too long (102 > 79 characters)
+Test_Files/4.py:399:97: E251 unexpected spaces around keyword / parameter equals
+Test_Files/4.py:399:99: E251 unexpected spaces around keyword / parameter equals
+Test_Files/4.py:408:80: E501 line too long (104 > 79 characters)
+Test_Files/4.py:413:80: E501 line too long (96 > 79 characters)
+Test_Files/4.py:414:57: E251 unexpected spaces around keyword / parameter equals
+Test_Files/4.py:414:59: E251 unexpected spaces around keyword / parameter equals
+Test_Files/4.py:414:80: E501 line too long (110 > 79 characters)
+Test_Files/4.py:418:76: E251 unexpected spaces around keyword / parameter equals
+Test_Files/4.py:418:78: E251 unexpected spaces around keyword / parameter equals
+Test_Files/4.py:418:80: E501 line too long (102 > 79 characters)
+Test_Files/4.py:418:97: E251 unexpected spaces around keyword / parameter equals
+Test_Files/4.py:418:99: E251 unexpected spaces around keyword / parameter equals
+Test_Files/4.py:427:80: E501 line too long (104 > 79 characters)
+Test_Files/4.py:434:80: E501 line too long (88 > 79 characters)
+Test_Files/4.py:436:80: E501 line too long (82 > 79 characters)
+Test_Files/4.py:437:30: E231 missing whitespace after ','
+Test_Files/4.py:440:80: E501 line too long (91 > 79 characters)
+Test_Files/4.py:449:32: W292 no newline at end of file
+Running pylinter...
+************* Module Grad School.Coursework.Software Re-Engineering.Project.Source_code.statikos.Test_Files.4
+W:158, 0: TODO https://stackoverflow.com/questions/47519626/using-numpy-scipy-to-identify-slope-changes-in-digital-signals (fixme)
+W:161, 0: TODO Find difference between consecutive elements of a list and then do the sum of all of these elements (300 sums) (fixme)
+W:162, 0: TODO To give an output of (1650,) (fixme)
+W:166, 0: TODO Find difference, if they are greater than a threshold, "X" then return 1, else return 0. (fixme)
+W:211, 0: TODO: Generate features again using this and hilbert huang (fixme)
+W:227, 0: TODO Process them together for the first 8 features, then for the "special features" just do IMFs and just (fixme)
+W:228, 0: TODO return feat_val_imf_array for the final features (fixme)
+W:367, 0: TODO: Mention in paper that we used KFold to see how good our model was. (fixme)
+C: 43, 0: Line too long (106/100) (line-too-long)
+C: 54, 0: Line too long (108/100) (line-too-long)
+C:110, 0: Line too long (102/100) (line-too-long)
+C:131, 0: Line too long (102/100) (line-too-long)
+C:158, 0: Line too long (122/100) (line-too-long)
+C:161, 0: Line too long (125/100) (line-too-long)
+C:166, 0: Line too long (103/100) (line-too-long)
+C:211, 0: Line too long (109/100) (line-too-long)
+C:227, 0: Line too long (112/100) (line-too-long)
+C:259, 0: Line too long (113/100) (line-too-long)
+C:296, 0: Line too long (111/100) (line-too-long)
+C:347, 0: Line too long (104/100) (line-too-long)
+C:358, 0: Line too long (112/100) (line-too-long)
+C:358, 0: No space allowed around keyword argument assignment
+        X_train, X_test, y_train, y_test = train_test_split(self.X, self.y, test_size = 0.30, random_state = 42)
+                                                                                      ^ (bad-whitespace)
+C:358, 0: No space allowed around keyword argument assignment
+        X_train, X_test, y_train, y_test = train_test_split(self.X, self.y, test_size = 0.30, random_state = 42)
+                                                                                                           ^ (bad-whitespace)
+C:363, 0: Line too long (104/100) (line-too-long)
+C:365, 0: Line too long (112/100) (line-too-long)
+C:365, 0: No space allowed around keyword argument assignment
+        X_train, X_test, y_train, y_test = train_test_split(self.X, self.y, test_size = 0.30, random_state = 42)
+                                                                                      ^ (bad-whitespace)
+C:365, 0: No space allowed around keyword argument assignment
+        X_train, X_test, y_train, y_test = train_test_split(self.X, self.y, test_size = 0.30, random_state = 42)
+                                                                                                           ^ (bad-whitespace)
+C:380, 0: Line too long (112/100) (line-too-long)
+C:380, 0: No space allowed around keyword argument assignment
+        X_train, X_test, y_train, y_test = train_test_split(self.X, self.y, test_size = 0.30, random_state = 42)
+                                                                                      ^ (bad-whitespace)
+C:380, 0: No space allowed around keyword argument assignment
+        X_train, X_test, y_train, y_test = train_test_split(self.X, self.y, test_size = 0.30, random_state = 42)
+                                                                                                           ^ (bad-whitespace)
+C:389, 0: Line too long (104/100) (line-too-long)
+C:399, 0: Line too long (102/100) (line-too-long)
+C:399, 0: No space allowed around keyword argument assignment
+        X_train, X_test, y_train, y_test = train_test_split(a, b, test_size = 0.30, random_state = 42)
+                                                                            ^ (bad-whitespace)
+C:399, 0: No space allowed around keyword argument assignment
+        X_train, X_test, y_train, y_test = train_test_split(a, b, test_size = 0.30, random_state = 42)
+                                                                                                 ^ (bad-whitespace)
+C:408, 0: Line too long (104/100) (line-too-long)
+C:414, 0: Line too long (110/100) (line-too-long)
+C:414, 0: No space allowed around keyword argument assignment
+        clf = neighbors.KNeighborsClassifier(n_neighbors = 1)  # see bias-variance tradeoff because n=1; acc=1
+                                                         ^ (bad-whitespace)
+C:418, 0: Line too long (102/100) (line-too-long)
+C:418, 0: No space allowed around keyword argument assignment
+        X_train, X_test, y_train, y_test = train_test_split(a, b, test_size = 0.30, random_state = 42)
+                                                                            ^ (bad-whitespace)
+C:418, 0: No space allowed around keyword argument assignment
+        X_train, X_test, y_train, y_test = train_test_split(a, b, test_size = 0.30, random_state = 42)
+                                                                                                 ^ (bad-whitespace)
+C:427, 0: Line too long (104/100) (line-too-long)
+C:437, 0: Exactly one space required after comma
+    print('The accuracy is: ',skm.accuracy_score(y_true, y_pred))
+                             ^ (bad-whitespace)
+C:449, 0: Final newline missing (missing-final-newline)
+C:  1, 0: Module name "4" doesn't conform to snake_case naming style (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 35, 0: Constant name "data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 36, 0: Constant name "data2" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 37, 0: Constant name "data3" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 38, 0: Constant name "data4" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 39, 0: Constant name "data5" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 41, 0: Constant name "data_set" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 43, 0: Constant name "hand_grasps" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 47, 0: Constant name "subject_list" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 54, 0: Constant name "x" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 55, 0: Constant name "x_emd" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 57, 0: Missing class docstring (missing-docstring)
+C: 62, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C: 67, 8: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+C: 71,12: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+W: 69,12: Unused variable 'i' (unused-variable)
+R: 62, 4: Method could be a function (no-self-use)
+C: 91, 8: Variable name "IMFs" doesn't conform to snake_case naming style (invalid-name)
+C:126, 0: Missing class docstring (missing-docstring)
+C:131, 4: Missing method docstring (missing-docstring)
+C:135, 4: Missing method docstring (missing-docstring)
+C:138, 4: Missing method docstring (missing-docstring)
+C:141, 4: Missing method docstring (missing-docstring)
+C:144, 4: Missing method docstring (missing-docstring)
+C:147, 4: Missing method docstring (missing-docstring)
+C:150, 4: Missing method docstring (missing-docstring)
+C:156, 4: Missing method docstring (missing-docstring)
+C:160, 4: Missing method docstring (missing-docstring)
+C:165, 4: Missing method docstring (missing-docstring)
+R:189, 0: Too many local variables (20/15) (too-many-locals)
+C:198, 4: Variable name "x_" doesn't conform to snake_case naming style (invalid-name)
+C:216, 8: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+C:231, 0: Constant name "feature_list" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:233, 0: Missing function docstring (missing-docstring)
+C:242,57: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:245,53: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:248,57: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:251,57: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:254,63: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+W:233,28: Unused argument 'list_of_features' (unused-argument)
+W:258, 8: Unused variable 'i' (unused-variable)
+W:271, 4: Unused variable 'array_headings' (unused-variable)
+C:286, 0: Constant name "feature_list" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:287, 0: Constant name "pass_value" doesn't conform to UPPER_CASE naming style (invalid-name)
+W:317, 8: Unused variable 'i' (unused-variable)
+W:318,12: Unused variable 'j' (unused-variable)
+W:324, 4: Redefining name 'VarianceThreshold' from outer scope (line 28) (redefined-outer-name)
+C:323, 0: Missing function docstring (missing-docstring)
+W:324, 4: Reimport 'VarianceThreshold' (imported line 28) (reimported)
+W:325, 4: Unnecessary pass statement (unnecessary-pass)
+W:324, 4: Unused variable 'VarianceThreshold' (unused-variable)
+C:328, 0: Missing function docstring (missing-docstring)
+C:330, 4: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+C:331, 4: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:336, 0: Constant name "the_x_and_y" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:341, 8: Attribute name "X" doesn't conform to snake_case naming style (invalid-name)
+C:341,16: Attribute name "y" doesn't conform to snake_case naming style (invalid-name)
+C:338, 0: Missing class docstring (missing-docstring)
+C:349, 4: Missing method docstring (missing-docstring)
+C:358, 8: Variable name "X_train" doesn't conform to snake_case naming style (invalid-name)
+C:358,17: Variable name "X_test" doesn't conform to snake_case naming style (invalid-name)
+W:358, 8: Unused variable 'X_train' (unused-variable)
+W:358,25: Unused variable 'y_train' (unused-variable)
+C:362, 4: Missing method docstring (missing-docstring)
+C:365, 8: Variable name "X_train" doesn't conform to snake_case naming style (invalid-name)
+C:365,17: Variable name "X_test" doesn't conform to snake_case naming style (invalid-name)
+W:365, 8: Unused variable 'X_train' (unused-variable)
+W:365,25: Unused variable 'y_train' (unused-variable)
+C:376, 4: Missing method docstring (missing-docstring)
+C:380, 8: Variable name "X_train" doesn't conform to snake_case naming style (invalid-name)
+C:380,17: Variable name "X_test" doesn't conform to snake_case naming style (invalid-name)
+W:380, 8: Unused variable 'X_train' (unused-variable)
+W:380,25: Unused variable 'y_train' (unused-variable)
+C:393, 4: Missing method docstring (missing-docstring)
+C:396, 8: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+C:397, 8: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:399, 8: Variable name "X_train" doesn't conform to snake_case naming style (invalid-name)
+C:399,17: Variable name "X_test" doesn't conform to snake_case naming style (invalid-name)
+W:399, 8: Unused variable 'X_train' (unused-variable)
+W:399,25: Unused variable 'y_train' (unused-variable)
+C:412, 4: Missing method docstring (missing-docstring)
+C:415, 8: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+C:416, 8: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:418, 8: Variable name "X_train" doesn't conform to snake_case naming style (invalid-name)
+C:418,17: Variable name "X_test" doesn't conform to snake_case naming style (invalid-name)
+W:418, 8: Unused variable 'X_train' (unused-variable)
+W:418,25: Unused variable 'y_train' (unused-variable)
+W:432,20: Redefining name 'x' from outer scope (line 54) (redefined-outer-name)
+C:432, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:432, 0: Missing function docstring (missing-docstring)
+C:447, 0: Constant name "my_obj" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:448, 0: Constant name "metric_predict" doesn't conform to UPPER_CASE naming style (invalid-name)
+W:  4, 0: Unused itertools imported as it (unused-import)
+W: 13, 0: Unused plot_imfs imported from pyhht.visualization (unused-import)
+W: 19, 0: Unused NearestCentroid imported from sklearn.neighbors.nearest_centroid (unused-import)
+W: 20, 0: Unused linear_model imported from sklearn (unused-import)
+W: 23, 0: Unused StratifiedKFold imported from sklearn.model_selection (unused-import)
+W: 26, 0: Unused normalize imported from sklearn.preprocessing (unused-import)
+W: 28, 0: Unused VarianceThreshold imported from sklearn.feature_selection (unused-import)
+W: 30, 0: Unused pandas imported as pd (unused-import)
+C:  4, 0: standard import "import itertools as it" should be placed before "import numpy as np" (wrong-import-order)
+C: 15, 0: third party import "from sklearn.model_selection import train_test_split" should be placed before "from PyEMD import EMD as Pyemd" (wrong-import-order)
+C: 16, 0: third party import "from sklearn import svm" should be placed before "from PyEMD import EMD as Pyemd" (wrong-import-order)
+C: 17, 0: third party import "from sklearn import ensemble" should be placed before "from PyEMD import EMD as Pyemd" (wrong-import-order)
+C: 18, 0: third party import "from sklearn import naive_bayes" should be placed before "from PyEMD import EMD as Pyemd" (wrong-import-order)
+C: 19, 0: third party import "from sklearn.neighbors.nearest_centroid import NearestCentroid" should be placed before "from PyEMD import EMD as Pyemd" (wrong-import-order)
+C: 20, 0: third party import "from sklearn import linear_model" should be placed before "from PyEMD import EMD as Pyemd" (wrong-import-order)
+C: 21, 0: third party import "from sklearn import neighbors" should be placed before "from PyEMD import EMD as Pyemd" (wrong-import-order)
+C: 22, 0: third party import "from sklearn.decomposition import PCA" should be placed before "from PyEMD import EMD as Pyemd" (wrong-import-order)
+C: 23, 0: third party import "from sklearn.model_selection import StratifiedKFold" should be placed before "from PyEMD import EMD as Pyemd" (wrong-import-order)
+C: 24, 0: third party import "from sklearn.metrics import classification_report" should be placed before "from PyEMD import EMD as Pyemd" (wrong-import-order)
+C: 26, 0: third party import "from sklearn.preprocessing import normalize" should be placed before "from PyEMD import EMD as Pyemd" (wrong-import-order)
+C: 27, 0: third party import "from sklearn.preprocessing import scale" should be placed before "from PyEMD import EMD as Pyemd" (wrong-import-order)
+C: 28, 0: third party import "from sklearn.feature_selection import VarianceThreshold" should be placed before "from PyEMD import EMD as Pyemd" (wrong-import-order)
+C: 30, 0: third party import "import pandas as pd" should be placed before "from PyEMD import EMD as Pyemd" (wrong-import-order)
+C: 32, 0: third party import "from sklearn import metrics as skm" should be placed before "from PyEMD import EMD as Pyemd" (wrong-import-order)
+C: 32, 0: Imports from package sklearn are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 2.84/10
+

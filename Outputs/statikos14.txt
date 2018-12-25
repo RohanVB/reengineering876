@@ -1,0 +1,210 @@
+Running pep8...
+Test_Files/14.py:5:80: E501 line too long (80 > 79 characters)
+Test_Files/14.py:6:80: E501 line too long (116 > 79 characters)
+Test_Files/14.py:6:95: E231 missing whitespace after ','
+Test_Files/14.py:23:1: E303 too many blank lines (3)
+Test_Files/14.py:29:5: E303 too many blank lines (2)
+Test_Files/14.py:33:5: E265 block comment should start with '# '
+Test_Files/14.py:50:5: E303 too many blank lines (2)
+Test_Files/14.py:99:18: E261 at least two spaces before inline comment
+Test_Files/14.py:99:19: E262 inline comment should start with '# '
+Test_Files/14.py:106:50: E261 at least two spaces before inline comment
+Test_Files/14.py:106:51: E262 inline comment should start with '# '
+Test_Files/14.py:109:67: E261 at least two spaces before inline comment
+Test_Files/14.py:109:68: E262 inline comment should start with '# '
+Test_Files/14.py:109:80: E501 line too long (88 > 79 characters)
+Test_Files/14.py:110:74: E261 at least two spaces before inline comment
+Test_Files/14.py:110:75: E262 inline comment should start with '# '
+Test_Files/14.py:110:80: E501 line too long (85 > 79 characters)
+Test_Files/14.py:112:78: E261 at least two spaces before inline comment
+Test_Files/14.py:112:79: E262 inline comment should start with '# '
+Test_Files/14.py:112:80: E501 line too long (85 > 79 characters)
+Test_Files/14.py:115:80: E501 line too long (91 > 79 characters)
+Test_Files/14.py:116:80: E501 line too long (89 > 79 characters)
+Test_Files/14.py:118:80: E501 line too long (91 > 79 characters)
+Test_Files/14.py:121:80: E501 line too long (92 > 79 characters)
+Test_Files/14.py:122:80: E501 line too long (91 > 79 characters)
+Test_Files/14.py:124:80: E501 line too long (94 > 79 characters)
+Test_Files/14.py:127:80: E501 line too long (90 > 79 characters)
+Test_Files/14.py:128:80: E501 line too long (87 > 79 characters)
+Test_Files/14.py:130:80: E501 line too long (92 > 79 characters)
+Test_Files/14.py:133:80: E501 line too long (92 > 79 characters)
+Test_Files/14.py:134:80: E501 line too long (91 > 79 characters)
+Test_Files/14.py:136:80: E501 line too long (98 > 79 characters)
+Test_Files/14.py:139:80: E501 line too long (91 > 79 characters)
+Test_Files/14.py:140:80: E501 line too long (89 > 79 characters)
+Test_Files/14.py:142:80: E501 line too long (95 > 79 characters)
+Test_Files/14.py:143:45: E231 missing whitespace after ':'
+Test_Files/14.py:143:61: E231 missing whitespace after ':'
+Test_Files/14.py:143:80: E501 line too long (123 > 79 characters)
+Test_Files/14.py:143:96: E231 missing whitespace after ':'
+Test_Files/14.py:144:45: E127 continuation line over-indented for visual indent
+Test_Files/14.py:144:80: E501 line too long (118 > 79 characters)
+Test_Files/14.py:144:93: E231 missing whitespace after ':'
+Test_Files/14.py:145:54: E231 missing whitespace after ':'
+Test_Files/14.py:145:68: E231 missing whitespace after ','
+Test_Files/14.py:145:80: E501 line too long (119 > 79 characters)
+Test_Files/14.py:145:106: E231 missing whitespace after ','
+Test_Files/14.py:150:39: E231 missing whitespace after ','
+Test_Files/14.py:158:80: E501 line too long (101 > 79 characters)
+Test_Files/14.py:158:83: E261 at least two spaces before inline comment
+Test_Files/14.py:158:84: E262 inline comment should start with '# '
+Test_Files/14.py:159:38: E225 missing whitespace around operator
+Test_Files/14.py:159:80: E501 line too long (84 > 79 characters)
+Test_Files/14.py:160:80: E501 line too long (86 > 79 characters)
+Test_Files/14.py:161:80: E501 line too long (82 > 79 characters)
+Test_Files/14.py:162:80: E501 line too long (88 > 79 characters)
+Test_Files/14.py:163:38: E225 missing whitespace around operator
+Test_Files/14.py:163:65: E225 missing whitespace around operator
+Test_Files/14.py:163:80: E501 line too long (83 > 79 characters)
+Test_Files/14.py:165:80: E501 line too long (97 > 79 characters)
+Test_Files/14.py:166:80: E501 line too long (85 > 79 characters)
+Test_Files/14.py:167:80: E501 line too long (86 > 79 characters)
+Test_Files/14.py:168:80: E501 line too long (82 > 79 characters)
+Test_Files/14.py:169:80: E501 line too long (88 > 79 characters)
+Test_Files/14.py:170:80: E501 line too long (85 > 79 characters)
+Test_Files/14.py:174:20: E221 multiple spaces before operator
+Test_Files/14.py:176:49: E231 missing whitespace after ','
+Test_Files/14.py:185:9: E303 too many blank lines (2)
+Test_Files/14.py:187:80: E501 line too long (80 > 79 characters)
+Test_Files/14.py:189:80: E501 line too long (109 > 79 characters)
+Test_Files/14.py:190:80: E501 line too long (91 > 79 characters)
+Test_Files/14.py:191:80: E501 line too long (92 > 79 characters)
+Test_Files/14.py:192:80: E501 line too long (88 > 79 characters)
+Test_Files/14.py:193:80: E501 line too long (94 > 79 characters)
+Test_Files/14.py:194:80: E501 line too long (91 > 79 characters)
+Test_Files/14.py:196:80: E501 line too long (103 > 79 characters)
+Test_Files/14.py:197:80: E501 line too long (91 > 79 characters)
+Test_Files/14.py:198:80: E501 line too long (92 > 79 characters)
+Test_Files/14.py:199:80: E501 line too long (88 > 79 characters)
+Test_Files/14.py:200:80: E501 line too long (94 > 79 characters)
+Test_Files/14.py:201:80: E501 line too long (91 > 79 characters)
+Test_Files/14.py:214:80: E501 line too long (80 > 79 characters)
+Test_Files/14.py:220:20: E231 missing whitespace after ':'
+Test_Files/14.py:220:36: E231 missing whitespace after ':'
+Test_Files/14.py:220:77: E231 missing whitespace after ':'
+Test_Files/14.py:220:80: E501 line too long (178 > 79 characters)
+Test_Files/14.py:220:121: E231 missing whitespace after ':'
+Test_Files/14.py:220:143: E231 missing whitespace after ':'
+Test_Files/14.py:220:166: E231 missing whitespace after ':'
+Test_Files/14.py:221:23: E221 multiple spaces before operator
+Test_Files/14.py:226:80: E501 line too long (85 > 79 characters)
+Test_Files/14.py:231:22: E231 missing whitespace after ','
+Test_Files/14.py:232:80: E501 line too long (150 > 79 characters)
+Test_Files/14.py:233:80: E501 line too long (106 > 79 characters)
+Test_Files/14.py:233:89: E128 continuation line under-indented for visual indent
+Test_Files/14.py:248:80: E501 line too long (123 > 79 characters)
+Test_Files/14.py:250:80: E501 line too long (113 > 79 characters)
+Test_Files/14.py:252:80: E501 line too long (104 > 79 characters)
+Test_Files/14.py:254:1: W391 blank line at end of file
+Running pylinter...
+************* Module Grad School.Coursework.Software Re-Engineering.Project.Source_code.statikos.Test_Files.14
+C:  6, 0: Line too long (116/100) (line-too-long)
+C:  6, 0: Exactly one space required after comma
+from tsfresh.feature_extraction.settings import ComprehensiveFCParameters, MinimalFCParameters,EfficientFCParameters
+                                                                                              ^ (bad-whitespace)
+C:143, 0: Line too long (123/100) (line-too-long)
+C:144, 0: Wrong continued indentation (remove 17 spaces).
+                                            'app_acc': [app_acc_gain, app_acc_base], 'yaw_v':[yaw_v_gain, yaw_v_base],
+                           |                ^ (bad-continuation)
+C:144, 0: Line too long (118/100) (line-too-long)
+C:145, 0: Wrong continued indentation (remove 17 spaces).
+                                            'pitch_v':[pitch_v_gain,pitch_v_base], 'roll_v': [roll_v_gain,roll_v_base]}
+                           |                ^ (bad-continuation)
+C:145, 0: Line too long (119/100) (line-too-long)
+C:145, 0: Exactly one space required after comma
+                                            'pitch_v':[pitch_v_gain,pitch_v_base], 'roll_v': [roll_v_gain,roll_v_base]}
+                                                                   ^ (bad-whitespace)
+C:145, 0: Exactly one space required after comma
+                                            'pitch_v':[pitch_v_gain,pitch_v_base], 'roll_v': [roll_v_gain,roll_v_base]}
+                                                                                                         ^ (bad-whitespace)
+C:150, 0: Exactly one space required after comma
+        print('len(self.fallerParams)',len(self.fallerParams))
+                                      ^ (bad-whitespace)
+C:158, 0: Line too long (101/100) (line-too-long)
+C:159, 0: Exactly one space required before assignment
+            self.faller_ml_acc[index]= self.faller_ml_acc[index] - head['ml_acc'][1]
+                                     ^ (bad-whitespace)
+C:163, 0: Exactly one space required before assignment
+            self.faller_roll_v[index]= self.faller_roll_v[index]- head['roll_v'][1]
+                                     ^ (bad-whitespace)
+C:174, 0: Exactly one space required before assignment
+            self.id  = self.id + np.array([index+1]*length).tolist()
+                     ^ (bad-whitespace)
+C:176, 0: Exactly one space required after comma
+            self.time = self.time + list(range(0,length))
+                                                ^ (bad-whitespace)
+C:189, 0: Line too long (109/100) (line-too-long)
+C:196, 0: Line too long (103/100) (line-too-long)
+C:220, 0: Line too long (178/100) (line-too-long)
+C:221, 0: Exactly one space required before assignment
+        self.dataFrame  = pd.DataFrame(dic)
+                        ^ (bad-whitespace)
+C:231, 0: Exactly one space required after comma
+        print('Y----',self.Y)
+                     ^ (bad-whitespace)
+C:232, 0: Line too long (150/100) (line-too-long)
+C:233, 0: Wrong continued indentation (add 20 spaces).
+                                                                                        random_state=seed)
+                                                                                        ^                   | (bad-continuation)
+C:233, 0: Line too long (106/100) (line-too-long)
+C:248, 0: Line too long (123/100) (line-too-long)
+C:250, 0: Line too long (113/100) (line-too-long)
+C:252, 0: Line too long (104/100) (line-too-long)
+C:254, 0: Trailing newlines (trailing-newlines)
+C:  1, 0: Module name "14" doesn't conform to snake_case naming style (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  5, 0: Unable to import 'tsfresh' (import-error)
+E:  6, 0: Unable to import 'tsfresh.feature_extraction.settings' (import-error)
+C:174,12: Attribute name "id" doesn't conform to snake_case naming style (invalid-name)
+C:221, 8: Attribute name "dataFrame" doesn't conform to snake_case naming style (invalid-name)
+C:225, 8: Attribute name "X" doesn't conform to snake_case naming style (invalid-name)
+C:226, 8: Attribute name "X_filtered" doesn't conform to snake_case naming style (invalid-name)
+C:232, 8: Attribute name "X_train" doesn't conform to snake_case naming style (invalid-name)
+C:232,22: Attribute name "X_validation" doesn't conform to snake_case naming style (invalid-name)
+C:232,41: Attribute name "Y_train" doesn't conform to snake_case naming style (invalid-name)
+C:232,55: Attribute name "Y_validation" doesn't conform to snake_case naming style (invalid-name)
+C: 23, 0: Missing class docstring (missing-docstring)
+R: 23, 0: Too many instance attributes (15/7) (too-many-instance-attributes)
+C: 67, 4: Method name "initVars" doesn't conform to snake_case naming style (invalid-name)
+C: 67, 4: Missing method docstring (missing-docstring)
+R: 67, 4: Too many local variables (36/15) (too-many-locals)
+C:100,36: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W: 73,12: Unused variable 'index' (unused-variable)
+R: 67, 4: Too many statements (62/50) (too-many-statements)
+C:156, 4: Method name "rearrageVars" doesn't conform to snake_case naming style (invalid-name)
+C:156, 4: Missing method docstring (missing-docstring)
+C:204,12: Variable name "newI" doesn't conform to snake_case naming style (invalid-name)
+C:219, 4: Method name "generateDataFrame" doesn't conform to snake_case naming style (invalid-name)
+C:219, 4: Missing method docstring (missing-docstring)
+C:224, 4: Missing method docstring (missing-docstring)
+C:228, 4: Missing method docstring (missing-docstring)
+W:243, 8: Unused variable 'filtered_results' (unused-variable)
+W:  5, 0: Unused extract_features imported from tsfresh (unused-import)
+W:  5, 0: Unused extract_relevant_features imported from tsfresh (unused-import)
+W:  5, 0: Unused select_features imported from tsfresh (unused-import)
+W:  6, 0: Unused ComprehensiveFCParameters imported from tsfresh.feature_extraction.settings (unused-import)
+W:  6, 0: Unused MinimalFCParameters imported from tsfresh.feature_extraction.settings (unused-import)
+W:  6, 0: Unused EfficientFCParameters imported from tsfresh.feature_extraction.settings (unused-import)
+W:  8, 0: Unused PCA imported from sklearn.decomposition (unused-import)
+W: 11, 0: Unused classification_report imported from sklearn.metrics (unused-import)
+W: 12, 0: Unused confusion_matrix imported from sklearn.metrics (unused-import)
+W: 13, 0: Unused accuracy_score imported from sklearn.metrics (unused-import)
+W: 15, 0: Unused DecisionTreeClassifier imported from sklearn.tree (unused-import)
+W: 17, 0: Unused LinearDiscriminantAnalysis imported from sklearn.discriminant_analysis (unused-import)
+C:  7, 0: third party import "from sklearn import model_selection" should be placed before "from tsfresh import extract_features, extract_relevant_features, select_features" (wrong-import-order)
+C:  8, 0: third party import "from sklearn.decomposition import PCA" should be placed before "from tsfresh import extract_features, extract_relevant_features, select_features" (wrong-import-order)
+C: 11, 0: third party import "from sklearn.metrics import classification_report" should be placed before "from tsfresh import extract_features, extract_relevant_features, select_features" (wrong-import-order)
+C: 12, 0: third party import "from sklearn.metrics import confusion_matrix" should be placed before "from tsfresh import extract_features, extract_relevant_features, select_features" (wrong-import-order)
+C: 13, 0: third party import "from sklearn.metrics import accuracy_score" should be placed before "from tsfresh import extract_features, extract_relevant_features, select_features" (wrong-import-order)
+C: 14, 0: third party import "from sklearn.linear_model import LogisticRegression" should be placed before "from tsfresh import extract_features, extract_relevant_features, select_features" (wrong-import-order)
+C: 15, 0: third party import "from sklearn.tree import DecisionTreeClassifier" should be placed before "from tsfresh import extract_features, extract_relevant_features, select_features" (wrong-import-order)
+C: 16, 0: third party import "from sklearn.neighbors import KNeighborsClassifier" should be placed before "from tsfresh import extract_features, extract_relevant_features, select_features" (wrong-import-order)
+C: 17, 0: third party import "from sklearn.discriminant_analysis import LinearDiscriminantAnalysis" should be placed before "from tsfresh import extract_features, extract_relevant_features, select_features" (wrong-import-order)
+C: 18, 0: third party import "from sklearn.naive_bayes import GaussianNB" should be placed before "from tsfresh import extract_features, extract_relevant_features, select_features" (wrong-import-order)
+C: 19, 0: third party import "from sklearn.svm import SVC" should be placed before "from tsfresh import extract_features, extract_relevant_features, select_features" (wrong-import-order)
+C:  7, 0: Imports from package sklearn are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 5.32/10
+

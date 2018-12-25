@@ -1,0 +1,302 @@
+Messages
+========
+
+Test_Files/4.py
+  Line: 1
+    pep8: E271 / multiple spaces after keyword (col 7)
+    pylint: invalid-name / Module name "4" doesn't conform to snake_case naming style
+    pylint: missing-docstring / Missing module docstring
+  Line: 4
+    pylint: wrong-import-order / standard import "import itertools as it" should be placed before "import numpy as np"
+    pylint: unused-import / Unused itertools imported as it
+  Line: 10
+    pep8: N811 / constant imported as non constant (col 1)
+  Line: 12
+    pylint: import-error / Unable to import 'pyhht.emd'
+  Line: 13
+    pylint: import-error / Unable to import 'pyhht.visualization'
+    pylint: unused-import / Unused plot_imfs imported from pyhht.visualization
+  Line: 15
+    pylint: wrong-import-order / third party import "from sklearn.model_selection import train_test_split" should be placed before "from pyhht.emd import EMD"
+  Line: 16
+    pylint: wrong-import-order / third party import "from sklearn import svm" should be placed before "from pyhht.emd import EMD"
+  Line: 17
+    pylint: wrong-import-order / third party import "from sklearn import ensemble" should be placed before "from pyhht.emd import EMD"
+  Line: 18
+    pylint: wrong-import-order / third party import "from sklearn import naive_bayes" should be placed before "from pyhht.emd import EMD"
+  Line: 19
+    pylint: wrong-import-order / third party import "from sklearn.neighbors.nearest_centroid import NearestCentroid" should be placed before "from pyhht.emd import EMD"
+    pylint: unused-import / Unused NearestCentroid imported from sklearn.neighbors.nearest_centroid
+  Line: 20
+    pylint: wrong-import-order / third party import "from sklearn import linear_model" should be placed before "from pyhht.emd import EMD"
+    pylint: unused-import / Unused linear_model imported from sklearn
+  Line: 21
+    pylint: wrong-import-order / third party import "from sklearn import neighbors" should be placed before "from pyhht.emd import EMD"
+  Line: 22
+    pylint: wrong-import-order / third party import "from sklearn.decomposition import PCA" should be placed before "from pyhht.emd import EMD"
+  Line: 23
+    pylint: wrong-import-order / third party import "from sklearn.model_selection import StratifiedKFold" should be placed before "from pyhht.emd import EMD"
+    pylint: unused-import / Unused StratifiedKFold imported from sklearn.model_selection
+  Line: 24
+    pylint: wrong-import-order / third party import "from sklearn.metrics import classification_report" should be placed before "from pyhht.emd import EMD"
+  Line: 26
+    pylint: wrong-import-order / third party import "from sklearn.preprocessing import normalize" should be placed before "from pyhht.emd import EMD"
+    pylint: unused-import / Unused normalize imported from sklearn.preprocessing
+  Line: 27
+    pylint: wrong-import-order / third party import "from sklearn.preprocessing import scale" should be placed before "from pyhht.emd import EMD"
+  Line: 28
+    pylint: wrong-import-order / third party import "from sklearn.feature_selection import VarianceThreshold" should be placed before "from pyhht.emd import EMD"
+    pylint: unused-import / Unused VarianceThreshold imported from sklearn.feature_selection
+  Line: 30
+    pylint: wrong-import-order / third party import "import pandas as pd" should be placed before "from pyhht.emd import EMD"
+    pylint: unused-import / Unused pandas imported as pd
+  Line: 32
+    pylint: ungrouped-imports / Imports from package sklearn are not grouped
+    pylint: wrong-import-order / third party import "from sklearn import metrics as skm" should be placed before "from pyhht.emd import EMD"
+  Line: 35
+    pylint: invalid-name / Constant name "data" doesn't conform to UPPER_CASE naming style
+  Line: 36
+    pylint: invalid-name / Constant name "data2" doesn't conform to UPPER_CASE naming style
+  Line: 37
+    pylint: invalid-name / Constant name "data3" doesn't conform to UPPER_CASE naming style
+  Line: 38
+    pylint: invalid-name / Constant name "data4" doesn't conform to UPPER_CASE naming style
+  Line: 39
+    pylint: invalid-name / Constant name "data5" doesn't conform to UPPER_CASE naming style
+  Line: 41
+    pylint: invalid-name / Constant name "data_set" doesn't conform to UPPER_CASE naming style
+  Line: 43
+    pylint: line-too-long / Line too long (106/100)
+    pylint: invalid-name / Constant name "hand_grasps" doesn't conform to UPPER_CASE naming style
+  Line: 44
+    pep8: E261 / at least two spaces before inline comment (col 63)
+  Line: 47
+    pylint: invalid-name / Constant name "subject_list" doesn't conform to UPPER_CASE naming style
+  Line: 54
+    pylint: line-too-long / Line too long (108/100)
+    pylint: invalid-name / Constant name "x" doesn't conform to UPPER_CASE naming style
+  Line: 55
+    pylint: invalid-name / Constant name "x_emd" doesn't conform to UPPER_CASE naming style
+  Line: 57
+    pep8: E302 / expected 2 blank lines, found 1 (col 1)
+    pylint: useless-object-inheritance / Class 'PreProcess' inherits from object, can be safely removed from bases in python3
+    pylint: missing-docstring / Missing class docstring
+  Line: 62
+    pylint: no-self-use / Method could be a function (col 4)
+    pylint: invalid-name / Argument name "y" doesn't conform to snake_case naming style (col 4)
+  Line: 67
+    pylint: invalid-name / Variable name "a" doesn't conform to snake_case naming style (col 8)
+  Line: 69
+    pylint: unused-variable / Unused variable 'i' (col 12)
+  Line: 71
+    pylint: invalid-name / Variable name "a" doesn't conform to snake_case naming style (col 12)
+  Line: 91
+    pep8: N806 / variable in function should be lowercase (col 9)
+    pylint: invalid-name / Variable name "IMFs" doesn't conform to snake_case naming style (col 8)
+  Line: 105
+    pep8: E261 / at least two spaces before inline comment (col 34)
+  Line: 110
+    pylint: line-too-long / Line too long (102/100)
+  Line: 126
+    pylint: useless-object-inheritance / Class 'FeatExtract' inherits from object, can be safely removed from bases in python3
+    pylint: missing-docstring / Missing class docstring
+  Line: 131
+    pep8: E261 / at least two spaces before inline comment (col 20)
+    pylint: line-too-long / Line too long (102/100)
+    pylint: missing-docstring / Missing method docstring (col 4)
+  Line: 135
+    pylint: missing-docstring / Missing method docstring (col 4)
+  Line: 138
+    pylint: missing-docstring / Missing method docstring (col 4)
+  Line: 141
+    pylint: missing-docstring / Missing method docstring (col 4)
+  Line: 144
+    pylint: missing-docstring / Missing method docstring (col 4)
+  Line: 147
+    pylint: missing-docstring / Missing method docstring (col 4)
+  Line: 150
+    pylint: missing-docstring / Missing method docstring (col 4)
+  Line: 156
+    pylint: missing-docstring / Missing method docstring (col 4)
+  Line: 158
+    pylint: fixme / TODO https://stackoverflow.com/questions/47519626/using-numpy-scipy-to-identify-slope-changes-in-digital-signals (col 10)
+    pylint: line-too-long / Line too long (122/100)
+  Line: 160
+    pylint: missing-docstring / Missing method docstring (col 4)
+  Line: 161
+    pylint: fixme / TODO Find difference between consecutive elements of a list and then do the sum of all of these elements (300 sums) (col 10)
+    pylint: line-too-long / Line too long (125/100)
+  Line: 162
+    pylint: fixme / TODO To give an output of (1650,) (col 10)
+  Line: 165
+    pylint: missing-docstring / Missing method docstring (col 4)
+  Line: 166
+    pylint: fixme / TODO Find difference, if they are greater than a threshold, "X" then return 1, else return 0. (col 10)
+    pylint: line-too-long / Line too long (103/100)
+  Line: 180
+    pep8: W504 / line break after binary operator (col 20)
+  Line: 189
+    pylint: too-many-locals / Too many local variables (20/15)
+  Line: 195
+    pep8: E261 / at least two spaces before inline comment (col 16)
+  Line: 198
+    pylint: invalid-name / Variable name "x_" doesn't conform to snake_case naming style (col 4)
+  Line: 211
+    pylint: fixme / TODO: Generate features again using this and hilbert huang (col 51)
+    pylint: line-too-long / Line too long (109/100)
+  Line: 216
+    pylint: invalid-name / Variable name "m" doesn't conform to snake_case naming style (col 8)
+  Line: 226
+    pep8: E261 / at least two spaces before inline comment (col 46)
+  Line: 227
+    pylint: fixme / TODO Process them together for the first 8 features, then for the "special features" just do IMFs and just (col 6)
+    pylint: line-too-long / Line too long (112/100)
+  Line: 228
+    pylint: fixme / TODO return feat_val_imf_array for the final features (col 6)
+  Line: 231
+    pylint: invalid-name / Constant name "feature_list" doesn't conform to UPPER_CASE naming style
+  Line: 233
+    pep8: E302 / expected 2 blank lines, found 1 (col 1)
+    pylint: unused-argument / Unused argument 'list_of_features' (col 28)
+    pylint: missing-docstring / Missing function docstring
+  Line: 242
+    pylint: invalid-name / Variable name "r" doesn't conform to snake_case naming style (col 57)
+  Line: 245
+    pylint: invalid-name / Variable name "r" doesn't conform to snake_case naming style (col 53)
+  Line: 248
+    pylint: invalid-name / Variable name "r" doesn't conform to snake_case naming style (col 57)
+  Line: 251
+    pylint: invalid-name / Variable name "r" doesn't conform to snake_case naming style (col 57)
+  Line: 254
+    pylint: invalid-name / Variable name "r" doesn't conform to snake_case naming style (col 63)
+  Line: 258
+    pylint: unused-variable / Unused variable 'i' (col 8)
+  Line: 259
+    pep8: E261 / at least two spaces before inline comment (col 31)
+    pylint: line-too-long / Line too long (113/100)
+  Line: 271
+    pylint: unused-variable / Unused variable 'array_headings' (col 4)
+  Line: 286
+    pylint: invalid-name / Constant name "feature_list" doesn't conform to UPPER_CASE naming style
+  Line: 287
+    pylint: invalid-name / Constant name "pass_value" doesn't conform to UPPER_CASE naming style
+  Line: 296
+    pylint: line-too-long / Line too long (111/100)
+  Line: 317
+    pylint: unused-variable / Unused variable 'i' (col 8)
+  Line: 318
+    pylint: unused-variable / Unused variable 'j' (col 12)
+  Line: 323
+    pylint: missing-docstring / Missing function docstring
+  Line: 324
+    pylint: reimported / Reimport 'VarianceThreshold' (imported line 28) (col 4)
+    pyflakes: F401 / 'sklearn.feature_selection.VarianceThreshold' imported but unused (col 5)
+    pylint: unused-variable / Unused variable 'VarianceThreshold' (col 4)
+    pyflakes: F811 / redefinition of unused 'VarianceThreshold' from line 28 (col 5)
+    pylint: redefined-outer-name / Redefining name 'VarianceThreshold' from outer scope (line 28) (col 4)
+  Line: 325
+    pylint: unnecessary-pass / Unnecessary pass statement (col 4)
+  Line: 328
+    pylint: missing-docstring / Missing function docstring
+  Line: 330
+    pep8: N806 / variable in function should be lowercase (col 5)
+    pylint: invalid-name / Variable name "X" doesn't conform to snake_case naming style (col 4)
+  Line: 331
+    pylint: invalid-name / Variable name "y" doesn't conform to snake_case naming style (col 4)
+  Line: 336
+    pylint: invalid-name / Constant name "the_x_and_y" doesn't conform to UPPER_CASE naming style
+  Line: 338
+    pep8: E302 / expected 2 blank lines, found 1 (col 1)
+    pylint: useless-object-inheritance / Class 'UseClassifier' inherits from object, can be safely removed from bases in python3
+    pylint: missing-docstring / Missing class docstring
+  Line: 340
+    pep8: N803 / argument name should be lowercase (col 9)
+  Line: 341
+    pylint: invalid-name / Attribute name "X" doesn't conform to snake_case naming style (col 8)
+  Line: 347
+    pylint: line-too-long / Line too long (104/100)
+  Line: 349
+    pylint: missing-docstring / Missing method docstring (col 4)
+  Line: 358
+    pylint: unused-variable / Unused variable 'X_train' (col 8)
+    pylint: line-too-long / Line too long (112/100)
+    pep8: E251 / unexpected spaces around keyword / parameter equals (col 86)
+    pylint: invalid-name / Variable name "X_train" doesn't conform to snake_case naming style (col 8)
+  Line: 362
+    pylint: missing-docstring / Missing method docstring (col 4)
+  Line: 363
+    pylint: line-too-long / Line too long (104/100)
+  Line: 365
+    pylint: unused-variable / Unused variable 'X_train' (col 8)
+    pylint: line-too-long / Line too long (112/100)
+    pep8: E251 / unexpected spaces around keyword / parameter equals (col 86)
+    pylint: invalid-name / Variable name "X_train" doesn't conform to snake_case naming style (col 8)
+  Line: 367
+    pylint: fixme / TODO: Mention in paper that we used KFold to see how good our model was. (col 10)
+  Line: 376
+    pylint: missing-docstring / Missing method docstring (col 4)
+  Line: 380
+    pylint: unused-variable / Unused variable 'X_train' (col 8)
+    pylint: line-too-long / Line too long (112/100)
+    pep8: E251 / unexpected spaces around keyword / parameter equals (col 86)
+    pylint: invalid-name / Variable name "X_train" doesn't conform to snake_case naming style (col 8)
+  Line: 389
+    pylint: line-too-long / Line too long (104/100)
+  Line: 393
+    pylint: missing-docstring / Missing method docstring (col 4)
+  Line: 396
+    pylint: invalid-name / Variable name "a" doesn't conform to snake_case naming style (col 8)
+  Line: 397
+    pylint: invalid-name / Variable name "b" doesn't conform to snake_case naming style (col 8)
+  Line: 399
+    pylint: unused-variable / Unused variable 'X_train' (col 8)
+    pylint: line-too-long / Line too long (102/100)
+    pep8: E251 / unexpected spaces around keyword / parameter equals (col 76)
+    pylint: invalid-name / Variable name "X_train" doesn't conform to snake_case naming style (col 8)
+  Line: 408
+    pylint: line-too-long / Line too long (104/100)
+  Line: 412
+    pylint: missing-docstring / Missing method docstring (col 4)
+  Line: 414
+    pylint: line-too-long / Line too long (110/100)
+    pep8: E251 / unexpected spaces around keyword / parameter equals (col 57)
+  Line: 415
+    pylint: invalid-name / Variable name "a" doesn't conform to snake_case naming style (col 8)
+  Line: 416
+    pylint: invalid-name / Variable name "b" doesn't conform to snake_case naming style (col 8)
+  Line: 418
+    pylint: unused-variable / Unused variable 'X_train' (col 8)
+    pylint: line-too-long / Line too long (102/100)
+    pep8: E251 / unexpected spaces around keyword / parameter equals (col 76)
+    pylint: invalid-name / Variable name "X_train" doesn't conform to snake_case naming style (col 8)
+  Line: 427
+    pylint: line-too-long / Line too long (104/100)
+  Line: 432
+    pylint: redefined-outer-name / Redefining name 'x' from outer scope (line 54) (col 20)
+    pylint: invalid-name / Argument name "x" doesn't conform to snake_case naming style
+    pylint: missing-docstring / Missing function docstring
+  Line: 437
+    pep8: E231 / missing whitespace after ',' (col 30)
+  Line: 447
+    pep8: E305 / expected 2 blank lines after class or function definition, found 1 (col 1)
+    pylint: invalid-name / Constant name "my_obj" doesn't conform to UPPER_CASE naming style
+  Line: 448
+    pylint: invalid-name / Constant name "metric_predict" doesn't conform to UPPER_CASE naming style
+  Line: 449
+    pep8: W292 / no newline at end of file (col 32)
+
+
+
+Check Information
+=================
+         Started: 2018-12-21 10:32:44.887382
+        Finished: 2018-12-21 10:32:51.424814
+      Time Taken: 6.54 seconds
+       Formatter: grouped
+        Profiles: default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings
+      Strictness: None
+  Libraries Used: 
+       Tools Run: dodgy, mccabe, pep8, profile-validator, pyflakes, pylint
+  Messages Found: 168
+ External Config: pep8: Configuration found at /Users/rohan/Documents/Grad School/Coursework/Software Re-Engineering/Project/Source_code/statikos/setup.cfg, pylint: /Users/rohan/Documents/Grad School/Coursework/Software Re-Engineering/Project/Source_code/statikos/pylintrc
+

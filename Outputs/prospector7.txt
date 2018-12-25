@@ -1,0 +1,69 @@
+Messages
+========
+
+Test_Files/7.py
+  Line: 1
+    pep8: E265 / block comment should start with '# ' (col 1)
+    pylint: invalid-name / Module name "7" doesn't conform to snake_case naming style
+    pylint: missing-docstring / Missing module docstring
+  Line: 2
+    pylint: unused-import / Unused numpy imported as np
+  Line: 4
+    pylint: wrong-import-order / standard import "import itertools" should be placed before "import numpy as np"
+    pylint: unused-import / Unused import itertools
+  Line: 9
+    pylint: line-too-long / Line too long (101/100)
+    pep8: E231 / missing whitespace after ',' (col 93)
+    pylint: invalid-name / Constant name "dataset" doesn't conform to UPPER_CASE naming style
+  Line: 10
+    pep8: E265 / block comment should start with '# ' (col 1)
+  Line: 12
+    pep8: E231 / missing whitespace after ',' (col 25)
+  Line: 13
+    pep8: E211 / whitespace before '[' (col 12)
+    pylint: bad-whitespace / No space allowed before bracket
+y = dataset ['label']
+            ^ (col 12)
+    pylint: invalid-name / Constant name "y" doesn't conform to UPPER_CASE naming style
+  Line: 14
+    pep8: E262 / inline comment should start with '# ' (col 71)
+    pep8: E231 / missing whitespace after ',' (col 8)
+    pylint: invalid-name / Constant name "X_train" doesn't conform to UPPER_CASE naming style
+  Line: 15
+    pylint: invalid-name / Constant name "scaler" doesn't conform to UPPER_CASE naming style
+  Line: 17
+    pep8: E225 / missing whitespace around operator (col 8)
+    pylint: invalid-name / Constant name "X_train" doesn't conform to UPPER_CASE naming style
+  Line: 18
+    pep8: E225 / missing whitespace around operator (col 7)
+    pylint: invalid-name / Constant name "X_test" doesn't conform to UPPER_CASE naming style
+  Line: 20
+    pylint: invalid-name / Constant name "classifer" doesn't conform to UPPER_CASE naming style
+  Line: 21
+    pep8: E231 / missing whitespace after ',' (col 22)
+  Line: 23
+    pep8: E265 / block comment should start with '# ' (col 1)
+  Line: 24
+    pylint: invalid-name / Constant name "y_pred" doesn't conform to UPPER_CASE naming style
+  Line: 25
+    pep8: E231 / missing whitespace after ',' (col 30)
+  Line: 26
+    pep8: E231 / missing whitespace after ',' (col 35)
+  Line: 27
+    pep8: E231 / missing whitespace after ',' (col 28)
+
+
+
+Check Information
+=================
+         Started: 2018-12-21 10:33:51.234201
+        Finished: 2018-12-21 10:33:54.591942
+      Time Taken: 3.36 seconds
+       Formatter: grouped
+        Profiles: default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings
+      Strictness: None
+  Libraries Used: 
+       Tools Run: dodgy, mccabe, pep8, profile-validator, pyflakes, pylint
+  Messages Found: 29
+ External Config: pep8: Configuration found at /Users/rohan/Documents/Grad School/Coursework/Software Re-Engineering/Project/Source_code/statikos/setup.cfg, pylint: /Users/rohan/Documents/Grad School/Coursework/Software Re-Engineering/Project/Source_code/statikos/pylintrc
+

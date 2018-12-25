@@ -1,0 +1,445 @@
+Running pep8...
+Test_Files/1.py:6:80: E501 line too long (82 > 79 characters)
+Test_Files/1.py:7:80: E501 line too long (82 > 79 characters)
+Test_Files/1.py:13:19: W291 trailing whitespace
+Test_Files/1.py:15:10: W291 trailing whitespace
+Test_Files/1.py:17:1: E302 expected 2 blank lines, found 1
+Test_Files/1.py:19:80: E501 line too long (88 > 79 characters)
+Test_Files/1.py:19:89: W291 trailing whitespace
+Test_Files/1.py:20:80: E501 line too long (85 > 79 characters)
+Test_Files/1.py:23:1: W293 blank line contains whitespace
+Test_Files/1.py:24:80: E501 line too long (81 > 79 characters)
+Test_Files/1.py:26:1: W293 blank line contains whitespace
+Test_Files/1.py:28:1: W293 blank line contains whitespace
+Test_Files/1.py:32:1: W293 blank line contains whitespace
+Test_Files/1.py:33:1: W293 blank line contains whitespace
+Test_Files/1.py:34:5: E303 too many blank lines (2)
+Test_Files/1.py:34:80: E501 line too long (104 > 79 characters)
+Test_Files/1.py:35:1: W293 blank line contains whitespace
+Test_Files/1.py:38:56: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:38:58: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:38:74: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:38:76: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:38:80: E501 line too long (83 > 79 characters)
+Test_Files/1.py:39:1: W293 blank line contains whitespace
+Test_Files/1.py:41:1: W293 blank line contains whitespace
+Test_Files/1.py:43:1: W293 blank line contains whitespace
+Test_Files/1.py:46:1: W293 blank line contains whitespace
+Test_Files/1.py:48:1: W293 blank line contains whitespace
+Test_Files/1.py:49:52: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:49:54: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:49:70: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:49:72: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:49:79: E202 whitespace before ')'
+Test_Files/1.py:49:80: E501 line too long (80 > 79 characters)
+Test_Files/1.py:50:68: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:50:70: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:50:80: E501 line too long (96 > 79 characters)
+Test_Files/1.py:50:86: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:50:88: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:50:95: E202 whitespace before ')'
+Test_Files/1.py:51:1: W293 blank line contains whitespace
+Test_Files/1.py:52:9: E265 block comment should start with '# '
+Test_Files/1.py:54:1: E302 expected 2 blank lines, found 1
+Test_Files/1.py:60:80: E501 line too long (89 > 79 characters)
+Test_Files/1.py:62:1: W293 blank line contains whitespace
+Test_Files/1.py:64:52: E261 at least two spaces before inline comment
+Test_Files/1.py:64:53: E262 inline comment should start with '# '
+Test_Files/1.py:64:80: E501 line too long (83 > 79 characters)
+Test_Files/1.py:68:1: W293 blank line contains whitespace
+Test_Files/1.py:71:1: W293 blank line contains whitespace
+Test_Files/1.py:74:1: W293 blank line contains whitespace
+Test_Files/1.py:76:23: E225 missing whitespace around operator
+Test_Files/1.py:77:51: E225 missing whitespace around operator
+Test_Files/1.py:81:1: W293 blank line contains whitespace
+Test_Files/1.py:83:1: W293 blank line contains whitespace
+Test_Files/1.py:90:1: W293 blank line contains whitespace
+Test_Files/1.py:92:1: W293 blank line contains whitespace
+Test_Files/1.py:94:1: W293 blank line contains whitespace
+Test_Files/1.py:95:80: E501 line too long (108 > 79 characters)
+Test_Files/1.py:97:1: W293 blank line contains whitespace
+Test_Files/1.py:99:1: W293 blank line contains whitespace
+Test_Files/1.py:101:42: W291 trailing whitespace
+Test_Files/1.py:102:116: W291 trailing whitespace
+Test_Files/1.py:104:1: W293 blank line contains whitespace
+Test_Files/1.py:105:1: E302 expected 2 blank lines, found 1
+Test_Files/1.py:107:77: W291 trailing whitespace
+Test_Files/1.py:115:1: W293 blank line contains whitespace
+Test_Files/1.py:118:1: E302 expected 2 blank lines, found 1
+Test_Files/1.py:120:80: E501 line too long (81 > 79 characters)
+Test_Files/1.py:123:1: W293 blank line contains whitespace
+Test_Files/1.py:124:44: E231 missing whitespace after ','
+Test_Files/1.py:124:59: E231 missing whitespace after ','
+Test_Files/1.py:125:1: W293 blank line contains whitespace
+Test_Files/1.py:127:1: W293 blank line contains whitespace
+Test_Files/1.py:129:1: W293 blank line contains whitespace
+Test_Files/1.py:133:1: W293 blank line contains whitespace
+Test_Files/1.py:134:80: E501 line too long (144 > 79 characters)
+Test_Files/1.py:135:1: W293 blank line contains whitespace
+Test_Files/1.py:137:1: W293 blank line contains whitespace
+Test_Files/1.py:141:31: E225 missing whitespace around operator
+Test_Files/1.py:142:31: E225 missing whitespace around operator
+Test_Files/1.py:143:1: W293 blank line contains whitespace
+Test_Files/1.py:146:1: E302 expected 2 blank lines, found 1
+Test_Files/1.py:146:41: W291 trailing whitespace
+Test_Files/1.py:148:80: E501 line too long (82 > 79 characters)
+Test_Files/1.py:150:1: W293 blank line contains whitespace
+Test_Files/1.py:153:1: W293 blank line contains whitespace
+Test_Files/1.py:154:44: W291 trailing whitespace
+Test_Files/1.py:156:1: W293 blank line contains whitespace
+Test_Files/1.py:161:1: W293 blank line contains whitespace
+Test_Files/1.py:164:1: W293 blank line contains whitespace
+Test_Files/1.py:167:1: W293 blank line contains whitespace
+Test_Files/1.py:169:1: W293 blank line contains whitespace
+Test_Files/1.py:170:80: E501 line too long (89 > 79 characters)
+Test_Files/1.py:170:85: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:170:87: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:171:1: W293 blank line contains whitespace
+Test_Files/1.py:174:1: W293 blank line contains whitespace
+Test_Files/1.py:177:1: W293 blank line contains whitespace
+Test_Files/1.py:179:67: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:179:69: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:179:77: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:179:79: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:179:80: E501 line too long (85 > 79 characters)
+Test_Files/1.py:179:82: E231 missing whitespace after ','
+Test_Files/1.py:180:80: E501 line too long (86 > 79 characters)
+Test_Files/1.py:180:82: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:180:84: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:182:1: W293 blank line contains whitespace
+Test_Files/1.py:183:68: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:183:70: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:183:78: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:183:80: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:183:80: E501 line too long (86 > 79 characters)
+Test_Files/1.py:183:83: E231 missing whitespace after ','
+Test_Files/1.py:184:80: E501 line too long (87 > 79 characters)
+Test_Files/1.py:184:83: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:184:85: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:186:1: W293 blank line contains whitespace
+Test_Files/1.py:187:68: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:187:70: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:187:78: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:187:80: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:187:80: E501 line too long (86 > 79 characters)
+Test_Files/1.py:187:83: E231 missing whitespace after ','
+Test_Files/1.py:188:80: E501 line too long (87 > 79 characters)
+Test_Files/1.py:188:83: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:188:85: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:190:1: W293 blank line contains whitespace
+Test_Files/1.py:192:80: E501 line too long (87 > 79 characters)
+Test_Files/1.py:192:83: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:192:85: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:194:1: W293 blank line contains whitespace
+Test_Files/1.py:196:80: E501 line too long (87 > 79 characters)
+Test_Files/1.py:196:83: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:196:85: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:198:1: W293 blank line contains whitespace
+Test_Files/1.py:200:67: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:200:69: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:200:77: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:200:79: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:200:80: E501 line too long (85 > 79 characters)
+Test_Files/1.py:200:82: E231 missing whitespace after ','
+Test_Files/1.py:201:80: E501 line too long (86 > 79 characters)
+Test_Files/1.py:201:82: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:201:84: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:203:1: W293 blank line contains whitespace
+Test_Files/1.py:204:68: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:204:70: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:204:78: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:204:80: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:204:80: E501 line too long (86 > 79 characters)
+Test_Files/1.py:204:83: E231 missing whitespace after ','
+Test_Files/1.py:205:80: E501 line too long (87 > 79 characters)
+Test_Files/1.py:205:83: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:205:85: E251 unexpected spaces around keyword / parameter equals
+Test_Files/1.py:207:1: W293 blank line contains whitespace
+Test_Files/1.py:208:47: E261 at least two spaces before inline comment
+Test_Files/1.py:208:48: E262 inline comment should start with '# '
+Test_Files/1.py:208:80: E501 line too long (90 > 79 characters)
+Test_Files/1.py:210:1: W293 blank line contains whitespace
+Test_Files/1.py:213:1: E302 expected 2 blank lines, found 1
+Test_Files/1.py:215:80: E501 line too long (81 > 79 characters)
+Test_Files/1.py:218:1: W293 blank line contains whitespace
+Test_Files/1.py:221:1: E302 expected 2 blank lines, found 1
+Test_Files/1.py:223:80: E501 line too long (80 > 79 characters)
+Test_Files/1.py:223:81: W291 trailing whitespace
+Test_Files/1.py:229:1: W293 blank line contains whitespace
+Test_Files/1.py:230:79: E261 at least two spaces before inline comment
+Test_Files/1.py:230:80: E262 inline comment should start with '# '
+Test_Files/1.py:230:80: E501 line too long (102 > 79 characters)
+Test_Files/1.py:231:80: E261 at least two spaces before inline comment
+Test_Files/1.py:231:80: E501 line too long (105 > 79 characters)
+Test_Files/1.py:231:81: E262 inline comment should start with '# '
+Test_Files/1.py:232:1: W293 blank line contains whitespace
+Test_Files/1.py:235:1: W293 blank line contains whitespace
+Test_Files/1.py:236:69: E261 at least two spaces before inline comment
+Test_Files/1.py:236:70: E262 inline comment should start with '# '
+Test_Files/1.py:236:80: E501 line too long (90 > 79 characters)
+Test_Files/1.py:237:1: W293 blank line contains whitespace
+Test_Files/1.py:238:47: E261 at least two spaces before inline comment
+Test_Files/1.py:238:48: E262 inline comment should start with '# '
+Test_Files/1.py:239:80: E501 line too long (102 > 79 characters)
+Test_Files/1.py:239:81: E261 at least two spaces before inline comment
+Test_Files/1.py:239:82: E262 inline comment should start with '# '
+Test_Files/1.py:240:1: W293 blank line contains whitespace
+Test_Files/1.py:241:1: W293 blank line contains whitespace
+Test_Files/1.py:242:1: W293 blank line contains whitespace
+Test_Files/1.py:243:1: W293 blank line contains whitespace
+Test_Files/1.py:244:1: W293 blank line contains whitespace
+Test_Files/1.py:245:1: W293 blank line contains whitespace
+Test_Files/1.py:246:1: W293 blank line contains whitespace
+Test_Files/1.py:247:1: W293 blank line contains whitespace
+Test_Files/1.py:248:1: E303 too many blank lines (8)
+Test_Files/1.py:248:1: W293 blank line contains whitespace
+Test_Files/1.py:248:1: W391 blank line at end of file
+Running pylinter...
+************* Module Grad School.Coursework.Software Re-Engineering.Project.Source_code.statikos.Test_Files.1
+C: 13, 0: Trailing whitespace (trailing-whitespace)
+C: 15, 0: Trailing whitespace (trailing-whitespace)
+C: 19, 0: Trailing whitespace (trailing-whitespace)
+C: 23, 0: Trailing whitespace (trailing-whitespace)
+C: 26, 0: Trailing whitespace (trailing-whitespace)
+C: 28, 0: Trailing whitespace (trailing-whitespace)
+C: 32, 0: Trailing whitespace (trailing-whitespace)
+C: 33, 0: Trailing whitespace (trailing-whitespace)
+C: 34, 0: Line too long (104/100) (line-too-long)
+C: 35, 0: Trailing whitespace (trailing-whitespace)
+C: 38, 0: No space allowed around keyword argument assignment
+        cleansed_data.to_csv("cleansed_data.csv", index = False, encoding = "utf8")
+                                                        ^ (bad-whitespace)
+C: 38, 0: No space allowed around keyword argument assignment
+        cleansed_data.to_csv("cleansed_data.csv", index = False, encoding = "utf8")
+                                                                          ^ (bad-whitespace)
+C: 39, 0: Trailing whitespace (trailing-whitespace)
+C: 41, 0: Trailing whitespace (trailing-whitespace)
+C: 43, 0: Trailing whitespace (trailing-whitespace)
+C: 46, 0: Trailing whitespace (trailing-whitespace)
+C: 48, 0: Trailing whitespace (trailing-whitespace)
+C: 49, 0: No space allowed around keyword argument assignment
+        nodule_data.to_csv("nodule_data.csv", index = False, encoding = "utf8" )
+                                                    ^ (bad-whitespace)
+C: 49, 0: No space allowed around keyword argument assignment
+        nodule_data.to_csv("nodule_data.csv", index = False, encoding = "utf8" )
+                                                                      ^ (bad-whitespace)
+C: 49, 0: No space allowed before bracket
+        nodule_data.to_csv("nodule_data.csv", index = False, encoding = "utf8" )
+                                                                               ^ (bad-whitespace)
+C: 50, 0: No space allowed around keyword argument assignment
+        small_non_subset.to_csv("subset_non_nodule_data.csv", index = False, encoding = "utf8" )
+                                                                    ^ (bad-whitespace)
+C: 50, 0: No space allowed around keyword argument assignment
+        small_non_subset.to_csv("subset_non_nodule_data.csv", index = False, encoding = "utf8" )
+                                                                                      ^ (bad-whitespace)
+C: 50, 0: No space allowed before bracket
+        small_non_subset.to_csv("subset_non_nodule_data.csv", index = False, encoding = "utf8" )
+                                                                                               ^ (bad-whitespace)
+C: 51, 0: Trailing whitespace (trailing-whitespace)
+C: 62, 0: Trailing whitespace (trailing-whitespace)
+C: 68, 0: Trailing whitespace (trailing-whitespace)
+C: 71, 0: Trailing whitespace (trailing-whitespace)
+C: 74, 0: Trailing whitespace (trailing-whitespace)
+C: 76, 0: Exactly one space required before assignment
+            oldSpacing= inputImage.GetSpacing()
+                      ^ (bad-whitespace)
+C: 81, 0: Trailing whitespace (trailing-whitespace)
+C: 83, 0: Trailing whitespace (trailing-whitespace)
+C: 90, 0: Trailing whitespace (trailing-whitespace)
+C: 92, 0: Trailing whitespace (trailing-whitespace)
+C: 94, 0: Trailing whitespace (trailing-whitespace)
+C: 95, 0: Line too long (108/100) (line-too-long)
+C: 97, 0: Trailing whitespace (trailing-whitespace)
+C: 99, 0: Trailing whitespace (trailing-whitespace)
+C:101, 0: Trailing whitespace (trailing-whitespace)
+C:102, 0: Trailing whitespace (trailing-whitespace)
+C:104, 0: Trailing whitespace (trailing-whitespace)
+C:107, 0: Trailing whitespace (trailing-whitespace)
+C:115, 0: Trailing whitespace (trailing-whitespace)
+C:123, 0: Trailing whitespace (trailing-whitespace)
+C:124, 0: Exactly one space required after comma
+    worldCoord = np.asarray([float(cand[1]),float(cand[2]),float(cand[3])])
+                                           ^ (bad-whitespace)
+C:124, 0: Exactly one space required after comma
+    worldCoord = np.asarray([float(cand[1]),float(cand[2]),float(cand[3])])
+                                                          ^ (bad-whitespace)
+C:125, 0: Trailing whitespace (trailing-whitespace)
+C:127, 0: Trailing whitespace (trailing-whitespace)
+C:129, 0: Trailing whitespace (trailing-whitespace)
+C:133, 0: Trailing whitespace (trailing-whitespace)
+C:134, 0: Line too long (144/100) (line-too-long)
+C:135, 0: Trailing whitespace (trailing-whitespace)
+C:137, 0: Trailing whitespace (trailing-whitespace)
+C:141, 0: Exactly one space required around comparison
+    normalizedImage[numpyImage>1] = 1.
+                              ^ (bad-whitespace)
+C:142, 0: Exactly one space required around comparison
+    normalizedImage[numpyImage<0] = 0.
+                              ^ (bad-whitespace)
+C:143, 0: Trailing whitespace (trailing-whitespace)
+C:146, 0: Trailing whitespace (trailing-whitespace)
+C:150, 0: Trailing whitespace (trailing-whitespace)
+C:153, 0: Trailing whitespace (trailing-whitespace)
+C:154, 0: Trailing whitespace (trailing-whitespace)
+C:156, 0: Trailing whitespace (trailing-whitespace)
+C:161, 0: Trailing whitespace (trailing-whitespace)
+C:164, 0: Trailing whitespace (trailing-whitespace)
+C:167, 0: Trailing whitespace (trailing-whitespace)
+C:169, 0: Trailing whitespace (trailing-whitespace)
+C:170, 0: No space allowed around keyword argument assignment
+                        large_array = np.append(large_array, [normalizedImage], axis = 0)
+                                                                                     ^ (bad-whitespace)
+C:171, 0: Trailing whitespace (trailing-whitespace)
+C:174, 0: Trailing whitespace (trailing-whitespace)
+C:177, 0: Trailing whitespace (trailing-whitespace)
+C:179, 0: No space allowed around keyword argument assignment
+                            rotation = np.rot90(normalizedImage, k = 1, axes = (0,1))
+                                                                   ^ (bad-whitespace)
+C:179, 0: No space allowed around keyword argument assignment
+                            rotation = np.rot90(normalizedImage, k = 1, axes = (0,1))
+                                                                             ^ (bad-whitespace)
+C:179, 0: Exactly one space required after comma
+                            rotation = np.rot90(normalizedImage, k = 1, axes = (0,1))
+                                                                                 ^ (bad-whitespace)
+C:180, 0: No space allowed around keyword argument assignment
+                            large_array = np.append(large_array, [rotation], axis = 0)
+                                                                                  ^ (bad-whitespace)
+C:182, 0: Trailing whitespace (trailing-whitespace)
+C:183, 0: No space allowed around keyword argument assignment
+                            rotation2 = np.rot90(normalizedImage, k = 2, axes = (0,1))
+                                                                    ^ (bad-whitespace)
+C:183, 0: No space allowed around keyword argument assignment
+                            rotation2 = np.rot90(normalizedImage, k = 2, axes = (0,1))
+                                                                              ^ (bad-whitespace)
+C:183, 0: Exactly one space required after comma
+                            rotation2 = np.rot90(normalizedImage, k = 2, axes = (0,1))
+                                                                                  ^ (bad-whitespace)
+C:184, 0: No space allowed around keyword argument assignment
+                            large_array = np.append(large_array, [rotation2], axis = 0)
+                                                                                   ^ (bad-whitespace)
+C:186, 0: Trailing whitespace (trailing-whitespace)
+C:187, 0: No space allowed around keyword argument assignment
+                            rotation3 = np.rot90(normalizedImage, k = 3, axes = (0,1))
+                                                                    ^ (bad-whitespace)
+C:187, 0: No space allowed around keyword argument assignment
+                            rotation3 = np.rot90(normalizedImage, k = 3, axes = (0,1))
+                                                                              ^ (bad-whitespace)
+C:187, 0: Exactly one space required after comma
+                            rotation3 = np.rot90(normalizedImage, k = 3, axes = (0,1))
+                                                                                  ^ (bad-whitespace)
+C:188, 0: No space allowed around keyword argument assignment
+                            large_array = np.append(large_array, [rotation3], axis = 0)
+                                                                                   ^ (bad-whitespace)
+C:190, 0: Trailing whitespace (trailing-whitespace)
+C:192, 0: No space allowed around keyword argument assignment
+                            large_array = np.append(large_array, [rotation4], axis = 0)
+                                                                                   ^ (bad-whitespace)
+C:194, 0: Trailing whitespace (trailing-whitespace)
+C:196, 0: No space allowed around keyword argument assignment
+                            large_array = np.append(large_array, [rotation5], axis = 0)
+                                                                                   ^ (bad-whitespace)
+C:198, 0: Trailing whitespace (trailing-whitespace)
+C:200, 0: No space allowed around keyword argument assignment
+                            rotation = np.rot90(normalizedImage, k = 1, axes = (0,1))
+                                                                   ^ (bad-whitespace)
+C:200, 0: No space allowed around keyword argument assignment
+                            rotation = np.rot90(normalizedImage, k = 1, axes = (0,1))
+                                                                             ^ (bad-whitespace)
+C:200, 0: Exactly one space required after comma
+                            rotation = np.rot90(normalizedImage, k = 1, axes = (0,1))
+                                                                                 ^ (bad-whitespace)
+C:201, 0: No space allowed around keyword argument assignment
+                            large_array = np.append(large_array, [rotation], axis = 0)
+                                                                                  ^ (bad-whitespace)
+C:203, 0: Trailing whitespace (trailing-whitespace)
+C:204, 0: No space allowed around keyword argument assignment
+                            rotation2 = np.rot90(normalizedImage, k = 2, axes = (0,1))
+                                                                    ^ (bad-whitespace)
+C:204, 0: No space allowed around keyword argument assignment
+                            rotation2 = np.rot90(normalizedImage, k = 2, axes = (0,1))
+                                                                              ^ (bad-whitespace)
+C:204, 0: Exactly one space required after comma
+                            rotation2 = np.rot90(normalizedImage, k = 2, axes = (0,1))
+                                                                                  ^ (bad-whitespace)
+C:205, 0: No space allowed around keyword argument assignment
+                            large_array = np.append(large_array, [rotation2], axis = 0)
+                                                                                   ^ (bad-whitespace)
+C:207, 0: Trailing whitespace (trailing-whitespace)
+C:210, 0: Trailing whitespace (trailing-whitespace)
+C:218, 0: Trailing whitespace (trailing-whitespace)
+C:223, 0: Trailing whitespace (trailing-whitespace)
+C:229, 0: Trailing whitespace (trailing-whitespace)
+C:230, 0: Line too long (102/100) (line-too-long)
+C:231, 0: Line too long (105/100) (line-too-long)
+C:232, 0: Trailing whitespace (trailing-whitespace)
+C:235, 0: Trailing whitespace (trailing-whitespace)
+C:237, 0: Trailing whitespace (trailing-whitespace)
+C:239, 0: Line too long (102/100) (line-too-long)
+C:240, 0: Trailing whitespace (trailing-whitespace)
+C:241, 0: Trailing whitespace (trailing-whitespace)
+C:242, 0: Trailing whitespace (trailing-whitespace)
+C:243, 0: Trailing whitespace (trailing-whitespace)
+C:244, 0: Trailing whitespace (trailing-whitespace)
+C:245, 0: Trailing whitespace (trailing-whitespace)
+C:246, 0: Trailing whitespace (trailing-whitespace)
+C:247, 0: Trailing whitespace (trailing-whitespace)
+C:  1, 0: Module name "1" doesn't conform to snake_case naming style (invalid-name)
+E: 11, 0: Unable to import 'SimpleITK' (import-error)
+W: 82,12: Redefining built-in 'filter' (redefined-builtin)
+C: 54, 0: Argument name "newSpacing" doesn't conform to snake_case naming style (invalid-name)
+R: 54, 0: Too many local variables (17/15) (too-many-locals)
+C: 60, 4: Variable name "originalDirectory" doesn't conform to snake_case naming style (invalid-name)
+C: 66,12: Variable name "filePath" doesn't conform to snake_case naming style (invalid-name)
+C: 67,12: Variable name "fileName" doesn't conform to snake_case naming style (invalid-name)
+C: 69,12: Variable name "inputImage" doesn't conform to snake_case naming style (invalid-name)
+C: 70,12: Variable name "oldSpacing" doesn't conform to snake_case naming style (invalid-name)
+C: 72,12: Variable name "castImageFilter" doesn't conform to snake_case naming style (invalid-name)
+C: 73,12: Variable name "inputImage" doesn't conform to snake_case naming style (invalid-name)
+C: 75,12: Variable name "oldSize" doesn't conform to snake_case naming style (invalid-name)
+C: 76,12: Variable name "oldSpacing" doesn't conform to snake_case naming style (invalid-name)
+C: 77,12: Variable name "newWidth" doesn't conform to snake_case naming style (invalid-name)
+C: 78,12: Variable name "newHeight" doesn't conform to snake_case naming style (invalid-name)
+C: 79,12: Variable name "newDepth" doesn't conform to snake_case naming style (invalid-name)
+C: 80,12: Variable name "newSize" doesn't conform to snake_case naming style (invalid-name)
+C: 91,12: Variable name "outImage" doesn't conform to snake_case naming style (invalid-name)
+C: 95,12: Variable name "outDirectory" doesn't conform to snake_case naming style (invalid-name)
+C: 96,12: Variable name "outDirectory" doesn't conform to snake_case naming style (invalid-name)
+W:103,-1: String statement has no effect (pointless-string-statement)
+C:105, 0: Function name "readCSV" doesn't conform to snake_case naming style (invalid-name)
+C:105, 0: Argument name "filePath" doesn't conform to snake_case naming style (invalid-name)
+C:111,32: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:112, 8: Variable name "csvReader" doesn't conform to snake_case naming style (invalid-name)
+C:118, 0: Function name "cropImage" doesn't conform to snake_case naming style (invalid-name)
+C:118, 0: Argument name "sitkImage" doesn't conform to snake_case naming style (invalid-name)
+C:124, 4: Variable name "worldCoord" doesn't conform to snake_case naming style (invalid-name)
+C:126, 4: Variable name "voxelWidth" doesn't conform to snake_case naming style (invalid-name)
+C:128, 4: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:128, 7: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:128,10: Variable name "z" doesn't conform to snake_case naming style (invalid-name)
+C:130, 4: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:131, 4: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:132, 4: Variable name "z" doesn't conform to snake_case naming style (invalid-name)
+C:136, 4: Variable name "numpyImage" doesn't conform to snake_case naming style (invalid-name)
+C:138, 4: Variable name "maxHU" doesn't conform to snake_case naming style (invalid-name)
+C:139, 4: Variable name "minHU" doesn't conform to snake_case naming style (invalid-name)
+C:140, 4: Variable name "normalizedImage" doesn't conform to snake_case naming style (invalid-name)
+C:146, 0: Function name "createArray" doesn't conform to snake_case naming style (invalid-name)
+C:146, 0: Argument name "candidateLines" doesn't conform to snake_case naming style (invalid-name)
+R:146, 0: Too many local variables (17/15) (too-many-locals)
+C:151, 4: Variable name "originalDirectory" doesn't conform to snake_case naming style (invalid-name)
+C:159,12: Variable name "filePath" doesn't conform to snake_case naming style (invalid-name)
+C:160,12: Variable name "fileName" doesn't conform to snake_case naming style (invalid-name)
+C:163,16: Variable name "sitkImage" doesn't conform to snake_case naming style (invalid-name)
+C:168,24: Variable name "normalizedImage" doesn't conform to snake_case naming style (invalid-name)
+R:157, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+C:227, 4: Variable name "newSpacing" doesn't conform to snake_case naming style (invalid-name)
+C:230, 4: Variable name "csvPath" doesn't conform to snake_case naming style (invalid-name)
+C:233, 4: Variable name "candidateLines" doesn't conform to snake_case naming style (invalid-name)
+C: 12, 0: third party import "import skimage as sk" should be placed before "import SimpleITK as sitk" (wrong-import-order)
+C: 13, 0: third party import "import numpy as np" should be placed before "import SimpleITK as sitk" (wrong-import-order)
+C: 14, 0: standard import "import csv" should be placed before "import pandas as pd" (wrong-import-order)
+C: 15, 0: standard import "import os" should be placed before "import pandas as pd" (wrong-import-order)
+
+------------------------------------
+Your code has been rated at -3.06/10
+
