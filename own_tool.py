@@ -14,12 +14,20 @@ class MyLinters(object):
         self.passfile = passfile
 
     def my_pylinter(self):
+        """
+        Pylint is a source-code, bug and quality checker for the
+        Python programming language. It follows the style recommended by PEP 8,
+        the Python style guide.
+        """
         print('Running pylinter...')
         results = pylinter([self.passfile])
         # print(results.linter.stats(['']))
         print(results.linter.stats['global_note'])
 
     def my_pep8(self):
+        """
+        pycodestyle is a tool to check your Python code against some of the style conventions in PEP 8.
+        """
         print('Running pep8...')
         check_file = Checker(self.passfile).check_all()
         reports = BaseReport(check_file)
@@ -28,6 +36,9 @@ class MyLinters(object):
         print(a)
 
     def dead_code(self):
+        """
+         Function used to identify dead/unused code
+        """
         print('checking for dead code...')
         file_names = []
         file_names.append(file_name)
@@ -39,7 +50,6 @@ class MyLinters(object):
     def last_runtime_error(self):
         """
         Can be used to invoke a runtime error without directly running the script
-        :return:
         """
         print('checking for runtime errors...')
         try:
@@ -50,6 +60,9 @@ class MyLinters(object):
             print("Exception {} is on line {}".format(exc_type, trace_back[1]))
 
     def sort_imports(self):
+        """
+        Function used to sort imports
+        """
         print('Sorting imports...')
         SortImports(self.passfile)
 
